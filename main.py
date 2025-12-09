@@ -156,7 +156,7 @@ Perform a comprehensive web search to find the official clinical trial pipeline 
 
 ### EXTRACTION RULES (STRICT)
 * **Completeness:** List EVERYTHING found. Do not summarize. Do not filter for "top" assets only.
-* **URL Accuracy:** **Do not construct or guess URLs** (e.g., do not invent `company.com/pipeline/drug-name`). Use the *actual* URL returned by your search tool. If a specific deep-link is not available, use the main Pipeline page URL where the data was verified.
+* **URL Accuracy:** **Do not construct or guess URLs** (e.g., do not invent `company.com/pipeline/drug-name`). Use the *groundingChunks.web.uri* URL returned by your search tool. 
 * **Formatting:** Return the data ONLY as a valid JSON list. Do not include markdown formatting (like ```json) or conversational filler text.
 * **Context Management:** Prioritize accuracy. If the list is long, finish the current object cleanly and stop rather than outputting broken JSON.
 
@@ -176,7 +176,7 @@ For each drug candidate, use this exact structure:
     "moa": "string or null (Mechanism of Action, e.g., 'NaV1.8 Inhibitor')", 
     "route_of_admin": "string or null (e.g., 'Oral', 'IV')",
     "status": "string (Default to 'Active' unless 'Discontinued' is explicitly stated)",
-    "source_url": "string (The EXACT URL found in your search results. Do not hallucinate links.)"
+    "source_url": "list of strings (The urls which you got from the search tool starting for a particular candidate starts with https://vertexaisearch.cloud.google.com/grounding-api-redirect/)",
   }}
 ]
 
@@ -188,7 +188,7 @@ Do not provide an intro or outro. Output **only** the raw JSON list. Begin the s
 
     # Generate content and preserve the full response for grounding extraction
     response = client.models.generate_content(
-        model="gemini-3-pro-preview",
+        model="gemini-2.5-flash",
         contents=agent_prompt,
         config=types.GenerateContentConfig(
             tools=[types.Tool(google_search=types.GoogleSearchRetrieval)],

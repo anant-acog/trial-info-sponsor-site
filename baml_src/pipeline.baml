@@ -14,7 +14,7 @@ class PipelineEntry {
   
   status string? @description("Current status of the program (e.g. 'Active', 'Discontinued', 'Hold'). Default to 'Active' if implied.")
   
-  source_url string? @description("The specific URL where this data point was found.")
+  source_url string[]? @description("The specific URLs where this data point was found.")
 }
 
 
