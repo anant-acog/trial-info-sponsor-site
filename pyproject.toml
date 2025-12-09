@@ -1,0 +1,14 @@
+[project]
+name = "trial-info-sponsor-site"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "baml-py>=0.214.0",
+    "beautifulsoup4>=4.14.3",
+    "cloudscraper>=1.2.71",
+    "google-genai>=1.53.0",
+    "playwright>=1.56.0",
+    "python-dotenv>=1.2.1",
+]
