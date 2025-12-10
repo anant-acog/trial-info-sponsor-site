@@ -1,0 +1,255 @@
+[
+  {
+    "organization_name": "Bayer AG",
+    "assets": [
+      {
+        "intervention_name": "Runcaciguat",
+        "trial_ids": [
+          "NCT04507061"
+        ],
+        "disease_indication": [
+          "Chronic Kidney Disease",
+          "Albuminuria"
+        ],
+        "development_phase": "Phase II",
+        "status": "Completed",
+        "source_url": [
+          "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG4464UdXyaQeiHTLFNCv9jIkBdw4l0FnDJZtPigX8R5ZHLIKmUX8j6ewZixvZUuPnYuaOtAdTtDFuvK4xl-TDpF3t5nWfm5ybNH7JwkhEgjCjswenHS1YXbIqn4GBYXNPklQsyX1HDsA302yuizEx51g=="
+        ]
+      },
+      {
+        "intervention_name": "Riociguat (Adempas)",
+        "trial_ids": [],
+        "disease_indication": [
+          "Pulmonary Arterial Hypertension",
+          "Chronic Thromboembolic Pulmonary Hypertension"
+        ],
+        "development_phase": "Approved",
+        "status": "Approved",
+        "source_url": [
+          "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGBtGYX3x0Vb5y8jyivfvN5mFe3YBHNsUIWjB2wgFfZYcxEJCJtjIiAf35eaEstcqtc3tgKJHEZIZl6TkQP32uveFNbomUk4hvl1mWavHbncrDakaGI7fyxmuTOlLE-oLbVwnYDA8kBGVMvVB0="
+        ]
+      },
+      {
+        "intervention_name": "Cinaciguat (BAY 58-2667)",
+        "trial_ids": [],
+        "disease_indication": [
+          "Acute Decompensated Heart Failure"
+        ],
+        "development_phase": "Phase II",
+        "status": "Provisional",
+        "source_url": [
+          "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGBtGYX3x0Vb5y8jyivfvN5mFe3YBHNsUIWjB2wgFfZYcxEJCJtjIiAf35eaEstcqtc3tgKJHEZIZl6TkQP32uveFNbomUk4hvl1mWavHbncrDakaGI7fyxmuTOlLE-oLbVwnYDA8kBGVMvVB0="
+        ]
+      },
+      {
+        "intervention_name": "Ataciguat (HMR 1766)",
+        "trial_ids": [],
+        "disease_indication": [
+          "Intermittent Claudication",
+          "Neuropathic Pain"
+        ],
+        "development_phase": "Phase I",
+        "status": "Discontinued",
+        "source_url": [
+          "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH6G7dFxqi5dBIyIyvWY6OzVfqK5AQE-Y247N_phqK2VA7kFAEItOWo430mfqcrd0sqir1ccLXL1dlpTI2BB0EZGZcUWCq0qzMS_8nt5KIzpI-haPK8Y8ARYIr6cmwnVYF7Em7qJeOVM9Fvzb0="
+        ]
+      },
+      {
+        "intervention_name": "BAY 41-8543",
+        "trial_ids": [],
+        "disease_indication": [
+          "Hypertension",
+          "Pulmonary Hypertension"
+        ],
+        "development_phase": "Phase I",
+        "status": "Discontinued",
+        "source_url": [
+          "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGSxbe3yfq_j3aNAT87f_Jevr4gnGdKf644kp9BFE1aBtyqPYzEcpKQkIB_zzYCNXnNN-9oeGR_DfG9Z3BnIdBDFMTqE0-53ju3E2ozG4FqmDF0ZippBOAuf91lqYdUkgOWgtPr5S-EeRnbOR8="
+        ]
+      },
+      {
+        "intervention_name": "BAY 41-2272",
+        "trial_ids": [],
+        "disease_indication": [
+          "Pulmonary Arterial Hypertension",
+          "Hypertension",
+          "Cardiac Fibrosis"
+        ],
+        "development_phase": "Preclinical",
+        "status": "Discontinued",
+        "source_url": [
+          "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGBtGYX3x0Vb5y8jyivfvN5mFe3YBHNsUIWjB2wgFfZYcxEJCJtjIiAf35eaEstcqtc3tgKJHEZIZl6TkQP32uveFNbomUk4hvl1mWavHbncrDakaGI7fyxmuTOlLE-oLbVwnYDA8kBGVMvVB0="
+        ]
+      },
+      {
+        "intervention_name": "BAY 60-4552",
+        "trial_ids": [],
+        "disease_indication": [
+          "Pulmonary Hypertension associated with biventricular heart failure"
+        ],
+        "development_phase": "Phase II",
+        "status": "Provisional",
+        "source_url": [
+          "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH6G7dFxqi5dBIyIyvWY6OzVfqK5AQE-Y247N_phqK2VA7kFAEItOWo430mfqcrd0sqir1ccLXL1dlpTI2BB0EZGZcUWCq0qzMS_8nt5KIzpI-haPK8Y8ARYIr6cmwnVYF7Em7qJeOVM9Fvzb0="
+        ]
+      }
+    ]
+  },
+  {
+    "organization_name": "Akebia Therapeutics Inc.",
+    "assets": [
+      {
+        "intervention_name": "Praliciguat",
+        "trial_ids": [],
+        "disease_indication": [
+          "Focal Segmental Glomerulosclerosis"
+        ],
+        "development_phase": "Phase II",
+        "status": "Active",
+        "source_url": [
+          "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHrTz5M8kjVSudIlPQsXk31DhfyM-AN3JHzWtX2KLpzjlM6FKiC2hKP-DHCU8c5i7ELoG2DWC65oPCuhSUpVxYGZAbKvWZbYTGdA0UykPo_1Fo7hz4kepR_Uy6szZC6u9lPcGiaL6gaBIdaBzdVjeneX5vbaM68_7XgyFHArIYWAn8xoZggfRqk2lKJrmdbN1PUejpxAsrmOi9Oj55X1Vl8V3cXO-GhH4gURBG7"
+        ]
+      }
+    ]
+  },
+  {
+    "organization_name": "Cyclerion Therapeutics Inc.",
+    "assets": [
+      {
+        "intervention_name": "Praliciguat",
+        "trial_ids": [],
+        "disease_indication": [
+          "Heart Failure with Preserved Ejection Fraction"
+        ],
+        "development_phase": "Phase II",
+        "status": "Completed",
+        "source_url": [
+          "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEL8ZvWvbo2bBI8QAdQtYuk87uQBgV51B8BSPwx11__-KG5rbWpQpxrl-otn1aXrgqxnuYKNXQGrkYVYYpSvZt-c1zIybancyCMDid5exm2IgghFC_2hzTw6JeuJ_eMIQ7lRw=="
+        ]
+      }
+    ]
+  },
+  {
+    "organization_name": "Merck & Co Inc.",
+    "assets": [
+      {
+        "intervention_name": "Vericiguat",
+        "trial_ids": [],
+        "disease_indication": [
+          "Heart Failure"
+        ],
+        "development_phase": "Approved",
+        "status": "Approved",
+        "source_url": [
+          "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFY1xzlpUNdMeH_IzwTF3SmU2kJdfEWI0ehUVXzknseQ7sRZU7RxUqYPx9b_8ZKtd20E2XE2ZdGr3wHPzhzjnaGS8Ffbf0MMFMtiSPUT60sOt0zmo7FiXI_J0so7c1RGZsj-xn66uKsLQENZDJoxtdSOzdAlp1ld7sYifrw1w=="
+        ]
+      }
+    ]
+  },
+  {
+    "organization_name": "LipExoGen",
+    "assets": [
+      {
+        "intervention_name": "Liposomal YC-1 (Lificiguat)",
+        "trial_ids": [],
+        "disease_indication": [],
+        "development_phase": "Preclinical",
+        "status": "Provisional",
+        "source_url": [
+          "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFSkeG5U9HMBQlc9Pnd0hodMPO3ryz1InZCt0PBpKyVhg4V4yfBOacj8LC1SbQgEoiKyApZgo8iQWEFeV5j7y0aBC3c-2lsTAIusie4j7SxZkcIYrWqKgs1ZU0="
+        ]
+      }
+    ]
+  },
+  {
+    "organization_name": "AntiRadical Therapeutics LLC",
+    "assets": [
+      {
+        "intervention_name": "Unknown sGC/GUCY1A1 Modulator",
+        "trial_ids": [],
+        "disease_indication": [],
+        "development_phase": "Unknown",
+        "status": "Provisional",
+        "source_url": [
+          "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFlAtfIk9GbnXxhYifNwv6EWNy13z2FMb6p47YElI6jDyMMjMah7TefiNG0SPaPGkaODreDXzvUYKdUiJjkN8P31SrwiNyCdfHVhKKSfwEJ3Rd-CZovBj9ci-MyQIlcs_BkvSQsQ4gy2UidCaLhXGYi_RkXDoT4s4jeaDLRTv9VFexXLVA_8YOJUWnGvktRLPsB8GkS9y1HUWJx5w=="
+        ]
+      }
+    ]
+  },
+  {
+    "organization_name": "Gurus BioPharm",
+    "assets": [
+      {
+        "intervention_name": "Unknown sGC/GUCY1A1 Modulator",
+        "trial_ids": [],
+        "disease_indication": [],
+        "development_phase": "Unknown",
+        "status": "Provisional",
+        "source_url": [
+          "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFlAtfIk9GbnXxhYifNwv6EWNy13z2FMb6p47YElI6jDyMMjMah7TefiNG0SPaPGkaODreDXzvUYKdUiJjkN8P31SrwiNyCdfHVhKKSfwEJ3Rd-CZovBj9ci-MyQIlcs_BkvSQsQ4gy2UidCaLhXGYi_RkXDoT4s4jeaDLRTv9VFexXLVA_8YOJUWnGvktRLPsB8GkS9y1HUWJx5w=="
+        ]
+      }
+    ]
+  },
+  {
+    "organization_name": "Innovative Pharmacological Research (IPHAR) Co Ltd",
+    "assets": [
+      {
+        "intervention_name": "Unknown sGC/GUCY1A1 Modulator",
+        "trial_ids": [],
+        "disease_indication": [],
+        "development_phase": "Unknown",
+        "status": "Provisional",
+        "source_url": [
+          "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFlAtfIk9GbnXxhYifNwv6EWNy13z2FMb6p47YElI6jDyMMjMah7TefiNG0SPaPGkaODreDXzvUYKdUiJjkN8P31SrwiNyCdfHVhKKSfwEJ3Rd-CZovBj9ci-MyQIlcs_BkvSQsQ4gy2UidCaLhXGYi_RkXDoT4s4jeaDLRTv9VFexXLVA_8YOJUWnGvktRLPsB8GkS9y1HUWJx5w=="
+        ]
+      }
+    ]
+  },
+  {
+    "organization_name": "NicOx SA",
+    "assets": [
+      {
+        "intervention_name": "Unknown sGC/GUCY1A1 Modulator",
+        "trial_ids": [],
+        "disease_indication": [],
+        "development_phase": "Unknown",
+        "status": "Provisional",
+        "source_url": [
+          "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFlAtfIk9GbnXxhYifNwv6EWNy13z2FMb6p47YElI6jDyMMjMah7TefiNG0SPaPGkaODreDXzvUYKdUiJjkN8P31SrwiNyCdfHVhKKSfwEJ3Rd-CZovBj9ci-MyQIlcs_BkvSQsQ4gy2UidCaLhXGYi_RkXDoT4s4jeaDLRTv9VFexXLVA_8YOJUWnGvktRLPsB8GkS9y1HUWJx5w=="
+        ]
+      }
+    ]
+  },
+  {
+    "organization_name": "Nitric Oxide Innovations LLC",
+    "assets": [
+      {
+        "intervention_name": "Unknown sGC/GUCY1A1 Modulator",
+        "trial_ids": [],
+        "disease_indication": [],
+        "development_phase": "Unknown",
+        "status": "Provisional",
+        "source_url": [
+          "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFlAtfIk9GbnXxhYifNwv6EWNy13z2FMb6p47YElI6jDyMMjMah7TefiNG0SPaPGkaODreDXzvUYKdUiJjkN8P31SrwiNyCdfHVhKKSfwEJ3Rd-CZovBj9ci-MyQIlcs_BkvSQsQ4gy2UidCaLhXGYi_RkXDoT4s4jeaDLRTv9VFexXLVA_8YOJUWnGvktRLPsB8GkS9y1HUWJx5w=="
+        ]
+      }
+    ]
+  },
+  {
+    "organization_name": "Novan Inc.",
+    "assets": [
+      {
+        "intervention_name": "Unknown sGC/GUCY1A1 Modulator",
+        "trial_ids": [],
+        "disease_indication": [],
+        "development_phase": "Unknown",
+        "status": "Provisional",
+        "source_url": [
+          "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFlAtfIk9GbnXxhYifNwv6EWNy13z2FMb6p47YElI6jDyMMjMah7TefiNG0SPaPGkaODreDXzvUYKdUiJjkN8P31SrwiNyCdfHVhKKSfwEJ3Rd-CZovBj9ci-MyQIlcs_BkvSQsQ4gy2UidCaLhXGYi_RkXDoT4s4jeaDLRTv9VFexXLVA_8YOJUWnGvktRLPsB8GkS9y1HUWJx5w=="
+        ]
+      }
+    ]
+  }
+]

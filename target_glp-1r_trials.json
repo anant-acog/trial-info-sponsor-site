@@ -1,0 +1,972 @@
+[
+  {
+    "organization_name": "Novo Nordisk A/S",
+    "assets": [
+      {
+        "intervention_name": "Ozempic (semaglutide)",
+        "trial_ids": [],
+        "disease_indication": [
+          "Type 2 Diabetes Mellitus",
+          "Diabetic Nephropathy"
+        ],
+        "development_phase": "Approved",
+        "status": "Approved",
+        "source_url": [
+          "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG4HGeRbNZfaijwYi7VepnW0-VXirzND2RCJp-TW8UpoVm-14inM5ZDkEcPTAW4rr1o9tAJVxxPhyWYe4qLgbg1iDKaCkvN6BDJ8OEGJU2WBWWXO-uwmXuHKyO0l0mhMSKzgwomrG--yGo8IT3AiINkNk7SG8AOlEB9gSAB2Iu8ZNzaCUwXqnoBGDIu4fviWroIlzTRJOiseuY"
+        ]
+      },
+      {
+        "intervention_name": "Ozempic (semaglutide)",
+        "trial_ids": [],
+        "disease_indication": [
+          "Type 2 Diabetes Mellitus",
+          "Peripheral Artery Disease"
+        ],
+        "development_phase": "Filed",
+        "status": "Provisional",
+        "source_url": [
+          "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGPDfuMdNcyynGrr3O8VvuY4NcH7TtY2Zs70jDOXDISH4ZFVc6IKsDvPBJQlnFCV14_Ju4utDhYalKa0wAobrnZkVTU_gOZGNcDkbfD7JFlVrXUtyLKBrPiM_eu68v65Ngcoq2-MSEh-7NdY7xrIKdCF2KN1gaWrDb-38I"
+        ]
+      },
+      {
+        "intervention_name": "Wegovy (semaglutide)",
+        "trial_ids": [],
+        "disease_indication": [
+          "Obesity",
+          "Weight Management"
+        ],
+        "development_phase": "Approved",
+        "status": "Approved",
+        "source_url": [
+          "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG4HGeRbNZfaijwYi7VepnW0-VXirzND2RCJp-TW8UpoVm-14inM5ZDkEcPTAW4rr1o9tAJVxxPhyWYe4qLgbg1iDKaCkvN6BDJ8OEGJU2WBWWXO-uwmXuHKyO0l0mhMSKzgwomrG--yGo8IT3AiINkNk7SG8AOlEB9gSAB2Iu8ZNzaCUwXqnoBGDIu4fviWroIlzTRJOiseuY"
+        ]
+      },
+      {
+        "intervention_name": "Wegovy (semaglutide)",
+        "trial_ids": [],
+        "disease_indication": [
+          "Metabolic Dysfunction-Associated Steatohepatitis (MASH)"
+        ],
+        "development_phase": "Filed",
+        "status": "Provisional",
+        "source_url": [
+          "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGPDfuMdNcyynGrr3O8VvuY4NcH7TtY2Zs70jDOXDISH4ZFVc6IKsDvPBJQlnFCV14_Ju4utDhYalKa0wAobrnZkVTU_gOZGNcDkbfD7JFlVrXUtyLKBrPiM_eu68v65Ngcoq2-MSEh-7NdY7xrIKdCF2KN1gaWrDb-38I"
+        ]
+      },
+      {
+        "intervention_name": "Wegovy (semaglutide)",
+        "trial_ids": [],
+        "disease_indication": [
+          "Heart Failure with Preserved Ejection Fraction",
+          "Obesity"
+        ],
+        "development_phase": "Filed",
+        "status": "Provisional",
+        "source_url": [
+          "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGPDfuMdNcyynGrr3O8VvuY4NcH7TtY2Zs70jDOXDISH4ZFVc6IKsDvPBJQlnFCV14_Ju4utDhYalKa0wAobrnZkVTU_gOZGNcDkbfD7JFlVrXUtyLKBrPiM_eu68v65Ngcoq2-MSEh-7NdY7xrIKdCF2KN1gaWrDb-38I"
+        ]
+      },
+      {
+        "intervention_name": "Rybelsus (semaglutide)",
+        "trial_ids": [],
+        "disease_indication": [
+          "Type 2 Diabetes Mellitus"
+        ],
+        "development_phase": "Approved",
+        "status": "Approved",
+        "source_url": [
+          "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGkRf08Umrd2-5DxZO8Klaej5rSCV6Tsz7BAiZJHG-uskOXtbohiY4wzkyb9o10w9GElb_Rq5sxqD1BSjya_7S4_8dN0lMBnG2rX04CvzyyjWR36SsawgukiLjY5uIesQtmGH4iJM8qlvxXND1JGMOnSBCCGpXdgZu_8Q917WvMU5TAEx9sPROGD3Yz_jiDKp4"
+        ]
+      },
+      {
+        "intervention_name": "Rybelsus (semaglutide)",
+        "trial_ids": [],
+        "disease_indication": [
+          "Secondary Cardiovascular Risk Reduction"
+        ],
+        "development_phase": "Filed",
+        "status": "Provisional",
+        "source_url": [
+          "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGPDfuMdNcyynGrr3O8VvuY4NcH7TtY2Zs70jDOXDISH4ZFVc6IKsDvPBJQlnFCV14_Ju4utDhYalKa0wAobrnZkVTU_gOZGNcDkbfD7JFlVrXUtyLKBrPiM_eu68v65Ngcoq2-MSEh-7NdY7xrIKdCF2KN1gaWrDb-38I"
+        ]
+      },
+      {
+        "intervention_name": "Victoza (liraglutide)",
+        "trial_ids": [],
+        "disease_indication": [
+          "Type 2 Diabetes Mellitus"
+        ],
+        "development_phase": "Approved",
+        "status": "Approved",
+        "source_url": [
+          "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGPDfuMdNcyynGrr3O8VvuY4NcH7TtY2Zs70jDOXDISH4ZFVc6IKsDvPBJQlnFCV14_Ju4utDhYalKa0wAobrnZkVTU_gOZGNcDkbfD7JFlVrXUtyLKBrPiM_eu68v65Ngcoq2-MSEh-7NdY7xrIKdCF2KN1gaWrDb-38I"
+        ]
+      },
+      {
+        "intervention_name": "Saxenda (liraglutide)",
+        "trial_ids": [],
+        "disease_indication": [
+          "Weight Management",
+          "Obesity"
+        ],
+        "development_phase": "Approved",
+        "status": "Approved",
+        "source_url": [
+          "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEgLykki49F01yr_8o7wk1joVrw2uWs2uuEJD6jhnpV9f2lLz5A-mxaqb0WPS53NXsqvktQQ5lYW1Bn213YTivqlMBNnrawjsf4Z1fwv85-v1Ca8bAjPlO2UtOwaAa4ASGmVIb9VfIbF-Q4wP8STxI"
+        ]
+      },
+      {
+        "intervention_name": "Xultophy (liraglutide/insulin degludec)",
+        "trial_ids": [],
+        "disease_indication": [
+          "Type 2 Diabetes Mellitus"
+        ],
+        "development_phase": "Approved",
+        "status": "Approved",
+        "source_url": [
+          "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGPDfuMdNcyynGrr3O8VvuY4NcH7TtY2Zs70jDOXDISH4ZFVc6IKsDvPBJQlnFCV14_Ju4utDhYalKa0wAobrnZkVTU_gOZGNcDkbfD7JFlVrXUtyLKBrPiM_eu68v65Ngcoq2-MSEh-7NdY7xrIKdCF2KN1gaWrDb-38I"
+        ]
+      },
+      {
+        "intervention_name": "CagriSema",
+        "trial_ids": [],
+        "disease_indication": [
+          "Metabolic Diseases (general)"
+        ],
+        "development_phase": "Phase III",
+        "status": "Active",
+        "source_url": [
+          "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGNZ9FRa5KupNKmVPienqpTFVUbxr0RB4AiXBsRYj15U1fr3yF1T03Wg8DZFYB8ENSGynczvFlUgHV_ioC1eeE5gW8puH3f-WReaF2QZ1aSgkEo7KI9iNF_eHHdBndibFrjJL__DIk5eSJNqgICjXpaNjMLVnVqUhZLSwJTJuOcnA3yrLSW47crjTiTvVHHlxmDl6TEtCdeVpXNf7rI_I2GyXz9HlO7JFydI3oKHyJBr7dkeVLRxD1cwuumoI3qmFLrq8bPAkRJFOQBZ9rNXGWYoPk"
+        ]
+      },
+      {
+        "intervention_name": "Oral Wegovy 25 mg (semaglutide)",
+        "trial_ids": [],
+        "disease_indication": [
+          "Weight Loss",
+          "Weight Loss plus Secondary CV Risk Reduction"
+        ],
+        "development_phase": "Filed",
+        "status": "Provisional",
+        "source_url": [
+          "https://vertexaisearch.google.com/grounding-api-redirect/AUZIYQGPDfuMdNcyynGrr3O8VvuY4NcH7TtY2Zs70jDOXDISH4ZFVc6IKsDvPBJQlnFCV14_Ju4utDhYalKa0wAobrnZkVTU_gOZGNcDkbfD7JFlVrXUtyLKBrPiM_eu68v65Ngcoq2-MSEh-7NdY7xrIKdCF2KN1gaWrDb-38I"
+        ]
+      }
+    ]
+  },
+  {
+    "organization_name": "Eli Lilly and Company",
+    "assets": [
+      {
+        "intervention_name": "Trulicity (dulaglutide)",
+        "trial_ids": [],
+        "disease_indication": [
+          "Type 2 Diabetes Mellitus"
+        ],
+        "development_phase": "Approved",
+        "status": "Approved",
+        "source_url": [
+          "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG4HGeRbNZfaijwYi7VepnW0-VXirzND2RCJp-TW8UpoVm-14inM5ZDkEcPTAW4rr1o9tAJVxxPhyWYe4qLgbg1iDKaCkvN6BDJ8OEGJU2WBWWXO-uwmXuHKyO0l0mhMSKzgwomrG--yGo8IT3AiINkNk7SG8AOlEB9gSAB2Iu8ZNzaCUwXqnoBGDIu4fviWroIlzTRJOiseuY"
+        ]
+      },
+      {
+        "intervention_name": "Zepbound (tirzepatide)",
+        "trial_ids": [],
+        "disease_indication": [
+          "Obesity",
+          "Weight Management"
+        ],
+        "development_phase": "Approved",
+        "status": "Approved",
+        "source_url": [
+          "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG4HGeRbNZfaijwYi7VepnW0-VXirzND2RCJp-TW8UpoVm-14inM5ZDkEcPTAW4rr1o9tAJVxxPhyWYe4qLgbg1iDKaCkvN6BDJ8OEGJU2WBWWXO-uwmXuHKyO0l0mhMSKzgwomrG--yGo8IT3AiINkNk7SG8AOlEB9gSAB2Iu8ZNzaCUwXqnoBGDIu4fviWroIlzTRJOiseuY"
+        ]
+      },
+      {
+        "intervention_name": "Mounjaro (tirzepatide)",
+        "trial_ids": [],
+        "disease_indication": [
+          "Type 2 Diabetes Mellitus",
+          "Obesity"
+        ],
+        "development_phase": "Approved",
+        "status": "Approved",
+        "source_url": [
+          "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGNZ9FRa5KupNKmVPienqpTFVUbxr0RB4AiXBsRYj15U1fr3yF1T03Wg8DZFYB8ENSGynczvFlUgHV_ioC1eeE5gW8puH3f-WReaF2QZ1aSgkEo7KI9iNF_eHHdBndibFrjJL__DIk5eSJNqgICjXpaNjMLVnVqUhZLSwJTJuOcnA3yrLSW47crjTiTvVHHlxmDl6TEtCdeVpXNf7rI_I2GyXz9HlO7JFydI3oKHyJBr7dkeVLRxD1cwuumoI3qmFLrq8bPAkRJFOQBZ9rNXGWYoPk"
+        ]
+      },
+      {
+        "intervention_name": "Tirzepatide",
+        "trial_ids": [],
+        "disease_indication": [
+          "Sleep Apnea"
+        ],
+        "development_phase": "Filed",
+        "status": "Provisional",
+        "source_url": [
+          "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFItjrEdgnLFLT1WsSfnaKVx2rLSVtPoPeXIl6s_n4SisVFRxg0Xw0-E2E_LLxSrF9X6nlz-1uB-NwFgZsamu_YkTILp8rX9bp1wWNrhVqHKQ1XfMsdy3Xp1Ala8Stbw-uGDENbYervK7x9gEQgEhoOKYR3hSnWWeBQGpoo8xaUAfileWeRYMusUvZTZEppHIHifo1pBg9zbGTWJyLRTUkolPv6RDsuhyGUlE"
+        ]
+      },
+      {
+        "intervention_name": "Tirzepatide",
+        "trial_ids": [],
+        "disease_indication": [
+          "MASH"
+        ],
+        "development_phase": "Phase II",
+        "status": "Completed",
+        "source_url": [
+          "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFItjrEdgnLFLT1WsSfnaKVx2rLSVtPoPeXIl6s_n4SisVFRxg0Xw0-E2E_LLxSrF9X6nlz-1uB-NwFgZsamu_YkTILp8rX9bp1wWNrhVqHKQ1XfMsdy3Xp1Ala8Stbw-uGDENbYervK7x9gEQgEhoOKYR3hSnWWeBQGpoo8xaUAfileWeRYMusUvZTZEppHIHifo1pBg9zbGTWJyLRTUkolPv6RDsuhyGUlE"
+        ]
+      },
+      {
+        "intervention_name": "Orforglipron",
+        "trial_ids": [],
+        "disease_indication": [
+          "Metabolic Diseases (general)"
+        ],
+        "development_phase": "Phase III",
+        "status": "Active",
+        "source_url": [
+          "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGNZ9FRa5KupNKmVPienqpTFVUbxr0RB4AiXBsRYj15U1fr3yF1T03Wg8DZFYB8ENSGynczvFlUgHV_ioC1eeE5gW8puH3f-WReaF2QZ1aSgkEo7KI9iNF_eHHdBndibFrjJL__DIk5eSJNqgICjXpaNjMLVnVqUhZLSwJTJuOcnA3yrLSW47crjTiTvVHHlxmDl6TEtCdeVpXNf7rI_I2GyXz9HlO7JFydI3oKHyJBr7dkeVLRxD1cwuumoI3qmFLrq8bPAkRJFOQBZ9rNXGWYoPk"
+        ]
+      },
+      {
+        "intervention_name": "Retatrutide",
+        "trial_ids": [],
+        "disease_indication": [
+          "Sleep Apnea",
+          "Knee Osteoarthritis",
+          "Obesity",
+          "Type 2 Diabetes Mellitus"
+        ],
+        "development_phase": "Phase III",
+        "status": "Active",
+        "source_url": [
+          "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFItjrEdgnLFLT1WsSfnaKVx2rLSVtPoPeXIl6s_n4SisVFRxg0Xw0-E2E_LLxSrF9X6nlz-1uB-NwFgZsamu_YkTILp8rX9bp1wWNrhVqHKQ1XfMsdy3Xp1Ala8Stbw-uGDENbYervK7x9gEQgEhoOKYR3hSnWWeBQGpoo8xaUAfileWeRYMusUvZTZEppHIHifo1pBg9zbGTWJyLRTUkolPv6RDsuhyGUlE"
+        ]
+      }
+    ]
+  },
+  {
+    "organization_name": "AstraZeneca",
+    "assets": [
+      {
+        "intervention_name": "Byetta (exenatide)",
+        "trial_ids": [],
+        "disease_indication": [
+          "Type 2 Diabetes Mellitus"
+        ],
+        "development_phase": "Approved",
+        "status": "Approved",
+        "source_url": [
+          "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGPDfuMdNcyynGrr3O8VvuY4NcH7TtY2Zs70jDOXDISH4ZFVc6IKsDvPBJQlnFCV14_Ju4utDhYalKa0wAobrnZkVTU_gOZGNcDkbfD7JFlVrXUtyLKBrPiM_eu68v65Ngcoq2-MSEh-7NdY7xrIKdCF2KN1gaWrDb-38I"
+        ]
+      },
+      {
+        "intervention_name": "Bydureon Bcise (exenatide)",
+        "trial_ids": [],
+        "disease_indication": [
+          "Type 2 Diabetes Mellitus"
+        ],
+        "development_phase": "Approved",
+        "status": "Approved",
+        "source_url": [
+          "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGPDfuMdNcyynGrr3O8VvuY4NcH7TtY2Zs70jDOXDISH4ZFVc6IKsDvPBJQlnFCV14_Ju4utDhYalKa0wAobrnZkVTU_gOZGNcDkbfD7JFlVrXUtyLKBrPiM_eu68v65Ngcoq2-MSEh-7NdY7xrIKdCF2KN1gaWrDb-38I"
+        ]
+      }
+    ]
+  },
+  {
+    "organization_name": "Sanofi",
+    "assets": [
+      {
+        "intervention_name": "Soliqua (lixisenatide/insulin glargine)",
+        "trial_ids": [],
+        "disease_indication": [
+          "Type 2 Diabetes Mellitus"
+        ],
+        "development_phase": "Approved",
+        "status": "Approved",
+        "source_url": [
+          "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGPDfuMdNcyynGrr3O8VvuY4NcH7TtY2Zs70jDOXDISH4ZFVc6IKsDvPBJQlnFCV14_Ju4utDhYalKa0wAobrnZkVTU_gOZGNcDkbfD7JFlVrXUtyLKBrPiM_eu68v65Ngcoq2-MSEh-7NdY7xrIKdCF2KN1gaWrDb-38I"
+        ]
+      }
+    ]
+  },
+  {
+    "organization_name": "Mindrank Ltd.",
+    "assets": [
+      {
+        "intervention_name": "MDR-001",
+        "trial_ids": [],
+        "disease_indication": [
+          "Obesity",
+          "Type 2 Diabetes Mellitus"
+        ],
+        "development_phase": "Phase I",
+        "status": "Active",
+        "source_url": [
+          "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHheEDhOkFJsKgWM0-N1t8JJGUGvEcx6HrOHll7uGE9wUnkQFvBTOvInYrEtuOujaU-8-CxjnfHIHVvg6bpxoOr9ga95ZO4EjT0Edwt7JzePG5nza-bZlluwjYRy9WXDNZ51BS3Sk_m0YTIwPvxACFyA6ca-UAr1urfLtqIS3o-GLVsl_mi0IQo4dCO1Z0f7ok2jUmj0iu0rPokKa1semLkBQ8WvWAI7w"
+        ]
+      }
+    ]
+  },
+  {
+    "organization_name": "Viking Therapeutics",
+    "assets": [
+      {
+        "intervention_name": "VK2735",
+        "trial_ids": [],
+        "disease_indication": [],
+        "development_phase": "Preclinical",
+        "status": "Provisional",
+        "source_url": [
+          "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG4HGeRbNZfaijwYi7VepnW0-VXirzND2RCJp-TW8UpoVm-14inM5ZDkEcPTAW4rr1o9tAJVxxPhyWYe4qLgbg1iDKaCkvN6BDJ8OEGJU2WBWWXO-uwmXuHKyO0l0mhMSKzgwomrG--yGo8IT3AiINkNk7SG8AOlEB9gSAB2Iu8ZNzaCUwXqnoBGDIu4fviWroIlzTRJOiseuY"
+        ]
+      }
+    ]
+  },
+  {
+    "organization_name": "Altimmune",
+    "assets": [
+      {
+        "intervention_name": "Pemvidutide",
+        "trial_ids": [],
+        "disease_indication": [
+          "Obesity",
+          "MASH"
+        ],
+        "development_phase": "Phase II",
+        "status": "Active",
+        "source_url": [
+          "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGtgbn1UHBkAGrjunLyIj-nSIHp6g21fjNGe1ad7_H8RK6-w9d2aHVih1Ux43o8PBOvGcxu8wIAv2KYw54dXbyKDZ7fiSyb-wM4H196e9-djpdU7f_5pg1IrBdijxu2Zf0j53jzS1uzUrqf8q4Z_OCWCWVCM0j-tjhoa9iNyT5JNBurjZS0zVfz5E63sfNx36jqf4bS"
+        ]
+      }
+    ]
+  },
+  {
+    "organization_name": "Structure Therapeutics",
+    "assets": [
+      {
+        "intervention_name": "Aleniglipron (GSBR-1290)",
+        "trial_ids": [],
+        "disease_indication": [
+          "Obesity"
+        ],
+        "development_phase": "Phase II",
+        "status": "Completed",
+        "source_url": [
+          "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFlHsuDTkDXbGWYAV2ipp5eeApUuyOyJhPgx6GTfcb6ghusHrzNTdvT0lp_N8CVHb4wof7jW5G6VXHJ2nQvv_iLsAyJU8pKwpdcSoNAJSORCczGQzoeT4e_Ov91S14DkJoFZcs-FsfMF0F6t_jUmL7OMEsTpaCoZT_va70BAHHKYl2cB0m3m7vdKl7U6nHS--yoa9KR38n6G1nlSZ8SVqWdLMmwYulMPR5-StT9K82AZpIIrg"
+        ]
+      }
+    ]
+  },
+  {
+    "organization_name": "Amgen",
+    "assets": [
+      {
+        "intervention_name": "MariTide",
+        "trial_ids": [],
+        "disease_indication": [
+          "Obesity"
+        ],
+        "development_phase": "Phase II",
+        "status": "Active",
+        "source_url": [
+          "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGtgbn1UHBkAGrjunLyIj-nSIHp6g21fjNGe1ad7_H8RK6-w9d2aHVih1Ux43o8PBOvGcxu8wIAv2KYw54dXbyKDZ7fiSyb-wM4H196e9-djpdU7f_5pg1IrBdijxu2Zf0j53jzS1uzUrqf8q4Z_OCWCWVCM0j-tjhoa9iNyT5JNBurjZS0zVfz5E63sfNx36jqf4bS"
+        ]
+      },
+      {
+        "intervention_name": "GLP-1 receptor agonist and GIP antagonist antibody programs",
+        "trial_ids": [],
+        "disease_indication": [],
+        "development_phase": "Preclinical",
+        "status": "Provisional",
+        "source_url": [
+          "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHcYwW-hcC2OXBFHMgvqPEn1UYHcp2umTm0vSxl-CfZK3DyN1vqE6ioA3eDL1_Zj1j2whWNiwmYppWhlm9tUp8VnO-M0FqngoY3Mq0eOuGyytMS-_mwTpMvumcKRyFyKllTpaJ2MDW-6b6JZtUjxpNrro7YFbE18EDmf78HDcXL-xa11GIeLiuylQfEgaEMMRdZ0VDa5OfsBrD07lQjzCq0qHUg7fmL"
+        ]
+      }
+    ]
+  },
+  {
+    "organization_name": "Pfizer",
+    "assets": [
+      {
+        "intervention_name": "Danuglipron",
+        "trial_ids": [
+          "NCT06153758"
+        ],
+        "disease_indication": [
+          "Type 2 Diabetes Mellitus",
+          "Obesity"
+        ],
+        "development_phase": "Phase I",
+        "status": "Active",
+        "source_url": [
+          "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFra9ywg80DMB_6wl9Q3t87pZy6GDSB1VDGh5hL9CDgezc3dFFgI1-cCqh8qTfN90Q2tYfwCpTm-bJ7q-aTucq8oSxgQbWF0qyj0OGetHha02PIV4HBUwGHi6KvL44zeqpkpiLEyPseu0m-C6DwMOxhXZorZRiJZMYCIWST6hsgmTQWiLmwPV9nomXQToa863GyH0cq5jns7HvbesbEkDbJciuQKqXMG6AJbPhXN_CT5jJSw1ld5SYa7ozxQT8JFbLLj4BKA5vTH4yLKNAUq1_Ov2xBKLhFwGp7BJxUU2sVcC5vTjOw8dNNoVdy7CXHIl5xp7XA7Al2_7VuJhYzEjkOqxA8o9QogS9L69fenA"
+        ]
+      }
+    ]
+  },
+  {
+    "organization_name": "Terns Pharmaceuticals",
+    "assets": [
+      {
+        "intervention_name": "TERN-601",
+        "trial_ids": [],
+        "disease_indication": [],
+        "development_phase": "Phase I",
+        "status": "Active",
+        "source_url": [
+          "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHcYwW-hcC2OXBFHMgvqPEn1UYHcp2umTm0vSxl-CfZK3DyN1vqE6ioA3eDL1_Zj1j2whWNiwmYppWhlm9tUp8VnO-M0FqngoY3Mq0eOuGyytMS-_mwTpMvumcKRyFyKllTpaJ2MDW-6b6JZtUjxpNrro7YFbE18EDmf78HDcXL-xa11GIeLiuylQfEgaEMMRdZ0VDa5OfsBrD07lQjzCq0qHUg7fmL"
+        ]
+      }
+    ]
+  },
+  {
+    "organization_name": "Carmot Therapeutics",
+    "assets": [
+      {
+        "intervention_name": "Injectable GLP-1 drug candidates",
+        "trial_ids": [],
+        "disease_indication": [
+          "Diabetes"
+        ],
+        "development_phase": "Preclinical",
+        "status": "Provisional",
+        "source_url": [
+          "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHcYwW-hcC2OXBFHMgvqPEn1UYHcp2umTm0vSxl-CfZK3DyN1vqE6ioA3eDL1_Zj1j2whWNiwmYppWhlm9tUp8VnO-M0FqngoY3Mq0eOuGyytMS-_mwTpMvumcKRyFyKllTpaJ2MDW-6b6JZtUjxpNrro7YFbE18EDmf78HDcXL-xa11GIeLiuylQfEgaEMMRdZ0VDa5OfsBrD07lQjzCq0qHUg7fmL"
+        ]
+      }
+    ]
+  },
+  {
+    "organization_name": "Gan & Lee Pharmaceuticals",
+    "assets": [
+      {
+        "intervention_name": "GZR18 Injection (Bofanglutide)",
+        "trial_ids": [
+          "NCT06737042"
+        ],
+        "disease_indication": [
+          "Chronic Weight Management",
+          "Obesity",
+          "Overweight",
+          "Type 2 Diabetes Mellitus"
+        ],
+        "development_phase": "Phase II",
+        "status": "Active",
+        "source_url": [
+          "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGUcAEAuksHbY-5_UYYv1abjtFi8wlfLlO5l-jNrwoNALL6GPhsxxtNeiUFTB7mT2A25fM164XiwA_58Ix4XEefRIwRoZZEMGfnpZkWmNQ6QIadR4s-fEExCGaxEAtpd1s78EPE2Dn5tBP0Hl5pTYUbFdvRq3yYAbVZ645M8jfIbf3btlWSDnxltMlc6O667PuaNq5zyHKDjVF_aEis0ykTCFy5b4twnzDzzuTw0Bre"
+        ]
+      }
+    ]
+  },
+  {
+    "organization_name": "Boehringer Ingelheim",
+    "assets": [
+      {
+        "intervention_name": "Survodutide",
+        "trial_ids": [],
+        "disease_indication": [],
+        "development_phase": "Phase III",
+        "status": "Active",
+        "source_url": [
+          "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEQ2lS0lVjitbx01WbTmILcILTA00jio-o_gL3kb3gz_Ib-1gE57XOjidw7nWiPVrwP6KSqxI_G9odfd65D7lY8D6-YFwPQcbCrx6MaoYV88iri-PiyYEWuHffXCVDg-pCWiLz7GUJluvjmno6LKVMjfsPGDH_SYfT0cSG9AHTjnR75os9XbM5hxWVj_DwH359e3xOz8dTIpHqP9rCE-ot7O7ceM0Z5aLk3D9JosiEh523Dd1hINrW5Ss8sBbFZqHgGvBYi8Az9sxkG4g08xFMPv2ZCeGf9Fsk0XF9E-A=="
+        ]
+      }
+    ]
+  },
+  {
+    "organization_name": "Veru Inc.",
+    "assets": [
+      {
+        "intervention_name": "Enobosarm",
+        "trial_ids": [],
+        "disease_indication": [],
+        "development_phase": "Preclinical",
+        "status": "Provisional",
+        "source_url": [
+          "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEQ2lS0lVjitbx01WbTmILcILTA00jio-o_gL3kb3gz_Ib-1gE57XOjidw7nWiPVrwP6KSqxI_G9odfd65D7lY8D6-YFwPQcbCrx6MaoYV88iri-PiyYEWuHffXCVDg-pCWiLz7GUJluvjmno6LKVMjfsPGDH_SYfT0cSG9AHTjnR75os9XbM5hxWVj_DwH359e3xOz8dTIpHqP9rCE-ot7O7ceM0Z5aLk3D9JosiEh523Dd1hINrW5Ss8sBbFZqHgGvBYi8Az9sxkG4g08xFMPv2ZCeGf9Fsk0XF9E-A=="
+        ]
+      }
+    ]
+  },
+  {
+    "organization_name": "Eccogene",
+    "assets": [
+      {
+        "intervention_name": "ECC5004",
+        "trial_ids": [],
+        "disease_indication": [],
+        "development_phase": "Preclinical",
+        "status": "Provisional",
+        "source_url": [
+          "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEQ2lS0lVjitbx01WbTmILcILTA00jio-o_gL3kb3gz_Ib-1gE57XOjidw7nWiPVrwP6KSqxI_G9odfd65D7lY8D6-YFwPQcbCrx6MaoYV88iri-PiyYEWuHffXCVDg-pCWiLz7GUJluvjmno6LKVMjfsPGDH_SYfT0cSG9AHTjnR75os9XbM5hxWVj_DwH359e3xOz8dTIpHqP9rCE-ot7O7ceM0Z5aLk3D9JosiEh523Dd1hINrW5Ss8sBbFZqHgGvBYi8Az9sxkG4g08xFMPv2ZCeGf9Fsk0XF9E-A=="
+        ]
+      }
+    ]
+  },
+  {
+    "organization_name": "Northstrive Biosciences",
+    "assets": [
+      {
+        "intervention_name": "EL-22 program (in combination with GLP-1 receptor agonists)",
+        "trial_ids": [],
+        "disease_indication": [],
+        "development_phase": "Phase II",
+        "status": "Provisional",
+        "source_url": [
+          "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEQ2lS0lVjitbx01WbTmILcILTA00jio-o_gL3kb3gz_Ib-1gE57XOjidw7nWiPVrwP6KSqxI_G9odfd65D7lY8D6-YFwPQcbCrx6MaoYV88iri-PiyYEWuHffXCVDg-pCWiLz7GUJluvjmno6LKVMjfsPGDH_SYfT0cSG9AHTjnR75os9XbM5hxWVj_DwH359e3xOz8dTIpHqP9rCE-ot7O7ceM0Z5aLk3D9JosiEh523Dd1hINrW5Ss8sBbFZqHgGvBYi8Az9sxkG4g08xFMPv2ZCeGf9Fsk0XF9E-A=="
+        ]
+      }
+    ]
+  },
+  {
+    "organization_name": "Roche",
+    "assets": [
+      {
+        "intervention_name": "CT-996",
+        "trial_ids": [],
+        "disease_indication": [
+          "Type 2 Diabetes Mellitus",
+          "Obesity"
+        ],
+        "development_phase": "Phase I",
+        "status": "Completed",
+        "source_url": [
+          "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFra9ywg80DMB_6wl9Q3t87pZy6GDSB1VDGh5hL9CDgezc3dFFgI1-cCqh8qTfN90Q2tYfwCpTm-bJ7q-aTucq8oSxgQbWF0qyj0OGetHha02PIV4HBUwGHi6KvL44zeqpkpiLEyPseu0m-C6DwMOxhXZorZRiJZMYCIWST6hsgmTQWiLmwPV9nomXQToa863GyH0cq5jns7HvbesbEkDbJciuQKqXMG6AJbPhXN_CT5jJSw1ld5SYa7ozxQT8JFbLLj4BKA5vTH4yLKNAUq1_Ov2xBKLhFwGp7BJxUU2sVcC5vTjOw8dNNoVdy7CXHIl5xp7XA7Al2_7VuJhYzEjkOqxA8o9QogS9L69fenA"
+        ]
+      },
+      {
+        "intervention_name": "Once-daily weight loss pill (multiple candidates)",
+        "trial_ids": [],
+        "disease_indication": [
+          "Obesity"
+        ],
+        "development_phase": "Phase II",
+        "status": "Active",
+        "source_url": [
+          "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH_TcGAavzqc5EyTyeSRLMdBV4pvn4JYKz1g9MPubpZgbwb7eWOP5AxLJjegO7TMo96I-umBliPLgMyhYzBqzA6qRH20gl7BhHXY-wZjpQ-bs7C8PD68ohL0TpWvwEy5W1UWv9etpdq6-KCI_UKoYYVb3J4uRVYNLKueA7GBPqHM6jIGffSC6TqrSt5HHNecqfzXEQUSx_BmFIHKQ"
+        ]
+      }
+    ]
+  },
+  {
+    "organization_name": "Zealand Pharma",
+    "assets": [
+      {
+        "intervention_name": "Survodutide",
+        "trial_ids": [],
+        "disease_indication": [
+          "Obesity",
+          "Type 1 Diabetes",
+          "MASH"
+        ],
+        "development_phase": "Phase III",
+        "status": "Active",
+        "source_url": [
+          "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGtgbn1UHBkAGrjunLyIj-nSIHp6g21fjNGe1ad7_H8RK6-w9d2aHVih1Ux43o8PBOvGcxu8wIAv2KYw54dXbyKDZ7fiSyb-wM4H196e9-djpdU7f_5pg1IrBdijxu2Zf0j53jzS1uzUrqf8q4Z_OCWCWVCM0j-tjhoa9iNyT5JNBurjZS0zVfz5E63sfNx36jqf4bS"
+        ]
+      }
+    ]
+  },
+  {
+    "organization_name": "Jiangsu Hengrui Pharmaceuticals",
+    "assets": [
+      {
+        "intervention_name": "GLP-1R targeting drugs",
+        "trial_ids": [],
+        "disease_indication": [
+          "Obesity"
+        ],
+        "development_phase": "Preclinical",
+        "status": "Provisional",
+        "source_url": [
+          "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGtgbn1UHBkAGrjunLyIj-nSIHp6g21fjNGe1ad7_H8RK6-w9d2aHVih1Ux43o8PBOvGcxu8wIAv2KYw54dXbyKDZ7fiSyb-wM4H196e9-djpdU7f_5pg1IrBdijxu2Zf0j53jzS1uzUrqf8q4Z_OCWCWVCM0j-tjhoa9iNyT5JNBurjZS0zVfz5E63sfNx36jqf4bS"
+        ]
+      }
+    ]
+  },
+  {
+    "organization_name": "Antag Therapeutics",
+    "assets": [
+      {
+        "intervention_name": "AT-7687 (combined with liraglutide)",
+        "trial_ids": [],
+        "disease_indication": [
+          "Weight Management"
+        ],
+        "development_phase": "Preclinical",
+        "status": "Provisional",
+        "source_url": [
+          "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGtgbn1UHBkAGrjunLyIj-nSIHp6g21fjNGe1ad7_H8RK6-w9d2aHVih1Ux43o8PBOvGcxu8wIAv2KYw54dXbyKDZ7fiSyb-wM4H196e9-djpdU7f_5pg1IrBdijxu2Zf0j53jzS1uzUrqf8q4Z_OCWCWVCM0j-tjhoa9iNyT5JNBurjZS0zVfz5E63sfNx36jqf4bS"
+        ]
+      }
+    ]
+  },
+  {
+    "organization_name": "Hanmi Pharmaceutical",
+    "assets": [
+      {
+        "intervention_name": "Efpeglenatide",
+        "trial_ids": [],
+        "disease_indication": [],
+        "development_phase": "Phase III",
+        "status": "Active",
+        "source_url": [
+          "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFcqVpzzB-_6_OnP4pLdTOBo8EH3-JalydKfNVz_K_HagARvGMbq797LFRtednhuutHswnGO4RwKn0AOYNxaNqW2N4zzsATb2V7XXYidAwJ04G779fvzsvxL9dI8K6uq98LiWcwlyk5JRdGdfkCFMuRoEgZE_mH_-3Cf4FEZv7ZzPo2b33yLDMQ0GWPaKjDWguFS8UNTQZSZwOsvsxT"
+        ]
+      },
+      {
+        "intervention_name": "Efinopegdutide",
+        "trial_ids": [],
+        "disease_indication": [],
+        "development_phase": "Phase III",
+        "status": "Active",
+        "source_url": [
+          "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFcqVpzzB-_6_OnP4pLdTOBo8EH3-JalydKfNVz_K_HagARvGMbq797LFRtednhuutHswnGO4RwKn0AOYNxaNqW2N4zzsATb2V7XXYidAwJ04G779fvzsvxL9dI8K6uq98LiWcwlyk5JRdGdfkCFMuRoEgZE_mH_-3Cf4FEZv7ZzPo2b33yLDMQ0GWPaKjDWguFS8UNTQZSZwOsvsxT"
+        ]
+      },
+      {
+        "intervention_name": "Efocipegtrutide",
+        "trial_ids": [],
+        "disease_indication": [],
+        "development_phase": "Phase III",
+        "status": "Active",
+        "source_url": [
+          "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFcqVpzzB-_6_OnP4pLdTOBo8EH3-JalydKfNVz_K_HagARvGMbq797LFRtednhuutHswnGO4RwKn0AOYNxaNqW2N4zzsATb2V7XXYidAwJ04G779fvzsvxL9dI8K6uq98LiWcwlyk5JRdGdfkCFMuRoEgZE_mH_-3Cf4FEZv7ZzPo2b33yLDMQ0GWPaKjDWguFS8UNTQZSZwOsvsxT"
+        ]
+      }
+    ]
+  },
+  {
+    "organization_name": "Sciwind",
+    "assets": [
+      {
+        "intervention_name": "XW014",
+        "trial_ids": [],
+        "disease_indication": [],
+        "development_phase": "Preclinical",
+        "status": "Provisional",
+        "source_url": [
+          "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFra9ywg80DMB_6wl9Q3t87pZy6GDSB1VDGh5hL9CDgezc3dFFgI1-cCqh8qTfN90Q2tYfwCpTm-bJ7q-aTucq8oSxgQbWF0qyj0OGetHha02PIV4HBUwGHi6KvL44zeqpkpiLEyPseu0m-C6DwMOxhXZorZRiJZMYCIWST6hsgmTQWiLmwPV9nomXQToa863GyH0cq5jns7HvbesbEkDbJciuQKqXMG6AJbPhXN_CT5jJSw1ld5SYa7ozxQT8JFbLLj4BKA5vTH4yLKNAUq1_Ov2xBKLhFwGp7BJxUU2sVcC5vTjOw8dNNoVdy7CXHIl5xp7XA7Al2_7VuJhYzEjkOqxA8o9QogS9L69fenA"
+        ]
+      }
+    ]
+  },
+  {
+    "organization_name": "Merck",
+    "assets": [
+      {
+        "intervention_name": "MK-6024",
+        "trial_ids": [],
+        "disease_indication": [],
+        "development_phase": "Preclinical",
+        "status": "Provisional",
+        "source_url": [
+          "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFra9ywg80DMB_6wl9Q3t87pZy6GDSB1VDGh5hL9CDgezc3dFFgI1-cCqh8qTfN90Q2tYfwCpTm-bJ7q-aTucq8oSxgQbWF0qyj0OGetHha02PIV4HBUwGHi6KvL44zeqpkpiLEyPseu0m-C6DwMOxhXZorZRiJZMYCIWST6hsgmTQWiLmwPV9nomXQToa863GyH0cq5jns7HvbesbEkDbJciuQKqXMG6AJbPhXN_CT5jJSw1ld5SYa7ozxQT8JFbLLj4BKA5vTH4yLKNAUq1_Ov2xBKLhFwGp7BJxUU2sVcC5vTjOw8dNNoVdy7CXHIl5xp7XA7Al2_7VuJhYzEjkOqxA8o9QogS9L69fenA"
+        ]
+      }
+    ]
+  },
+  {
+    "organization_name": "Suzhou",
+    "assets": [
+      {
+        "intervention_name": "RGT001-075",
+        "trial_ids": [],
+        "disease_indication": [],
+        "development_phase": "Preclinical",
+        "status": "Provisional",
+        "source_url": [
+          "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFra9ywg80DMB_6wl9Q3t87pZy6GDSB1VDGh5hL9CDgezc3dFFgI1-cCqh8qTfN90Q2tYfwCpTm-bJ7q-aTucq8oSxgQbWF0qyj0OGetHha02PIV4HBUwGHi6KvL44zeqpkpiLEyPseu0m-C6DwMOxhXZorZRiJZMYCIWST6hsgmTQWiLmwPV9nomXQToa863GyH0cq5jns7HvbesbEkDbJciuQKqXMG6AJbPhXN_CT5jJSw1ld5SYa7ozxQT8JFbLLj4BKA5vTH4yLKNAUq1_Ov2xBKLhFwGp7BJxUU2sVcC5vTjOw8dNNoVdy7CXHIl5xp7XA7Al2_7VuJhYzEjkOqxA8o9QogS9L69fenA"
+        ]
+      }
+    ]
+  },
+  {
+    "organization_name": "Regor Pharmaceuticals",
+    "assets": [
+      {
+        "intervention_name": "CT 388",
+        "trial_ids": [],
+        "disease_indication": [],
+        "development_phase": "Preclinical",
+        "status": "Provisional",
+        "source_url": [
+          "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFra9ywg80DMB_6wl9Q3t87pZy6GDSB1VDGh5hL9CDgezc3dFFgI1-cCqh8qTfN90Q2tYfwCpTm-bJ7q-aTucq8oSxgQbWF0qyj0OGetHha02PIV4HBUwGHi6KvL44zeqpkpiLEyPseu0m-C6DwMOxhXZorZRiJZMYCIWST6hsgmTQWiLmwPV9nomXQToa863GyH0cq5jns7HvbesbEkDbJciuQKqXMG6AJbPhXN_CT5jJSw1ld5SYa7ozxQT8JFbLLj4BKA5vTH4yLKNAUq1_Ov2xBKLhFwGp7BJxUU2sVcC5vTjOw8dNNoVdy7CXHIl5xp7XA7Al2_7VuJhYzEjkOqxA8o9QogS9L69fenA"
+        ]
+      }
+    ]
+  },
+  {
+    "organization_name": "Neuraly",
+    "assets": [
+      {
+        "intervention_name": "MLX 7000",
+        "trial_ids": [],
+        "disease_indication": [],
+        "development_phase": "Preclinical",
+        "status": "Provisional",
+        "source_url": [
+          "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFra9ywg80DMB_6wl9Q3t87pZy6GDSB1VDGh5hL9CDgezc3dFFgI1-cCqh8qTfN90Q2tYfwCpTm-bJ7q-aTucq8oSxgQbWF0qyj0OGetHha02PIV4HBUwGHi6KvL44zeqpkpiLEyPseu0m-C6DwMOxhXZorZRiJZMYCIWST6hsgmTQWiLmwPV9nomXQToa863GyH0cq5jns7HvbesbEkDbJciuQKqXMG6AJbPhXN_CT5jJSw1ld5SYa7ozxQT8JFbLLj4BKA5vTH4yLKNAUq1_Ov2xBKLhFwGp7BJxUU2sVcC5vTjOw8dNNoVdy7CXHIl5xp7XA7Al2_7VuJhYzEjkOqxA8o9QogS9L69fenA"
+        ]
+      }
+    ]
+  },
+  {
+    "organization_name": "Biolexis Therapeutics",
+    "assets": [
+      {
+        "intervention_name": "GLP-1 agonist",
+        "trial_ids": [],
+        "disease_indication": [],
+        "development_phase": "Preclinical",
+        "status": "Provisional",
+        "source_url": [
+          "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFra9ywg80DMB_6wl9Q3t87pZy6GDSB1VDGh5hL9CDgezc3dFFgI1-cCqh8qTfN90Q2tYfwCpTm-bJ7q-aTucq8oSxgQbWF0qyj0OGetHha02PIV4HBUwGHi6KvL44zeqpkpiLEyPseu0m-C6DwMOxhXZorZRiJZMYCIWST6hsgmTQWiLmwPV9nomXQToa863GyH0cq5jns7HvbesbEkDbJciuQKqXMG6AJbPhXN_CT5jJSw1ld5SYa7ozxQT8JFbLLj4BKA5vTH4yLKNAUq1_Ov2xBKLhFwGp7BJxUU2sVcC5vTjOw8dNNoVdy7CXHIl5xp7XA7Al2_7VuJhYzEjkOqxA8o9QogS9L69fenA"
+        ]
+      }
+    ]
+  },
+  {
+    "organization_name": "Amylyx Pharmaceuticals",
+    "assets": [
+      {
+        "intervention_name": "Avexitide",
+        "trial_ids": [],
+        "disease_indication": [
+          "Hyperinsulinemic Hypoglycemia"
+        ],
+        "development_phase": "Preclinical",
+        "status": "Provisional",
+        "source_url": [
+          "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFra9ywg80DMB_6wl9Q3t87pZy6GDSB1VDGh5hL9CDgezc3dFFgI1-cCqh8qTfN90Q2tYfwCpTm-bJ7q-aTucq8oSxgQbWF0qyj0OGetHha02PIV4HBUwGHi6KvL44zeqpkpiLEyPseu0m-C6DwMOxhXZorZRiJZMYCIWST6hsgmTQWiLmwPV9nomXQToa863GyH0cq5jns7HvbesbEkDbJciuQKqXMG6AJbPhXN_CT5jJSw1ld5SYa7ozxQT8JFbLLj4BKA5vTH4yLKNAUq1_Ov2xBKLhFwGp7BJxUU2sVcC5vTjOw8dNNoVdy7CXHIl5xp7XA7Al2_7VuJhYzEjkOqxA8o9QogS9L69fenA"
+        ]
+      }
+    ]
+  },
+  {
+    "organization_name": "Ascletis Pharma Inc.",
+    "assets": [
+      {
+        "intervention_name": "ASC30",
+        "trial_ids": [
+          "NCT07002905"
+        ],
+        "disease_indication": [
+          "Obesity",
+          "Overweight"
+        ],
+        "development_phase": "Phase II",
+        "status": "Completed",
+        "source_url": [
+          "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGaJInp6i0EJ5cfWgcDBx_xWgFQ3JBSM-6J7nEMw2GmXR1DVXtDfm-5l8PHa3VYxb8tu4Kik1ssAEoidhSWFWmVJycFlKR265Oyyh5FJCgzM5EQZvKO9Tf4Kymh_xxxp-xsr0ZJUxQe8cGamxinDKqEZXt-87AFjQZhi_fDY5JNoaObuxHCqzkiw-snzccUmTZlALy7L4ep6RW6aCSy_MT6QgzkmWv7Tjx13-ZHO6mmZNBFJd6hHMGnRqo77KOqqqRYFIu-UKw8ARVnG867IhdNiA5SC8FQJQjbmeG2DO4Kyjh_clLJvrCRZ5hN4znzCNbbg9QcYGxRMNd-cNCNeqU5SGBL3iIoQhs1O7pO_yuUV_ISshIFXn0THxiI_2U7RepP_xh3GeBnJB9epfh4YdP7y-SpBgNHJWE5X1B_XEUNQAlR1XHrObOh6X4"
+        ]
+      },
+      {
+        "intervention_name": "ASC37",
+        "trial_ids": [],
+        "disease_indication": [],
+        "development_phase": "Preclinical",
+        "status": "Provisional",
+        "source_url": [
+          "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG4xmONqZyWkX4nH61bAiDh_fAMXcK1xhk2B5OiRcTdTRzPgIBrvTryGdiME4sDRhzK9rmkvIrnNHUzcx1VmKbQNZ5ksgczVFNwlYKFRTJ_zTuqmgXmql0kOEyCHtbKcCk-XVjwFzxlXiys51UlaDShsTTfPfjcOhTIxI8cSNpuVIfXNbgcBQPRuYTQWxTmRqyHhMGhHwql-j0fdi1lWtkUSwNm5sUZvU7oAcVrlDuqwbkE1YlaAT4u564uzZro5QWaJ8DrCWM-h7QkslbJD3_beuGAKRYkAlY"
+        ]
+      }
+    ]
+  },
+  {
+    "organization_name": "Imperial College London",
+    "assets": [
+      {
+        "intervention_name": "GLP-1 Receptor Agonist (GRAVITAS trial)",
+        "trial_ids": [
+          "EudraCT Number: 2013-005570-22"
+        ],
+        "disease_indication": [
+          "Type 2 Diabetes Mellitus"
+        ],
+        "development_phase": "Observational",
+        "status": "Completed",
+        "source_url": [
+          "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHOCjusX1Krm3RHLyRWOFjz8aIFQoDFVd3DyfiO77Snm6dKGL4ggqV0B4Z8RSLF-yXMksqP-BA2VA7XqV1POXD3HApt-978LHN5DqiIqiXQb-ATqqOu8R4DWNnKMkaetUuBclhZ_f5nUlCZyhnVOvKZWU3dIZBRuoVp60CyB9E"
+        ]
+      }
+    ]
+  },
+  {
+    "organization_name": "Lund University",
+    "assets": [
+      {
+        "intervention_name": "DPP-4 inhibitors",
+        "trial_ids": [
+          "EudraCT Number: 2013-005334-37"
+        ],
+        "disease_indication": [
+          "Type 2 Diabetes Mellitus"
+        ],
+        "development_phase": "Observational",
+        "status": "Ongoing",
+        "source_url": [
+          "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHOCjusX1Krm3RHLyRWOFjz8aIFQoDFVd3DyfiO77Snm6dKGL4ggqV0B4Z8RSLF-yXMksqP-BA2VA7XqV1POXD3HApt-978LHN5DqiIqiXQb-ATqqOu8R4DWNnKMkaetUuBclhZ_f5nUlCZyhnVOvKZWU3dIZBRuoVp60CyB9E"
+        ]
+      }
+    ]
+  },
+  {
+    "organization_name": "Academic Medical Center",
+    "assets": [
+      {
+        "intervention_name": "GLP-1 (and lifestyle intensification)",
+        "trial_ids": [
+          "EudraCT Number: 2017-000349-30"
+        ],
+        "disease_indication": [
+          "Type 2 Diabetes Mellitus"
+        ],
+        "development_phase": "Completed",
+        "status": "Completed",
+        "source_url": [
+          "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHOCjusX1Krm3RHLyRWOFjz8aIFQoDFVd3DyfiO77Snm6dKGL4ggqV0B4Z8RSLF-yXMksqP-BA2VA7XqV1POXD3HApt-978LHN5DqiIqiXQb-ATqqOu8R4DWNnKMkaetUuBclhZ_f5nUlCZyhnVOvKZWU3dIZBRuoVp60CyB9E"
+        ]
+      }
+    ]
+  },
+  {
+    "organization_name": "Medical University of Vienna / Medizinische Universität Wien",
+    "assets": [
+      {
+        "intervention_name": "Lixisenatide (in combination with basal Insulin)",
+        "trial_ids": [],
+        "disease_indication": [
+          "Type 2 Diabetes Mellitus"
+        ],
+        "development_phase": "Completed",
+        "status": "Completed",
+        "source_url": [
+          "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHOCjusX1Krm3RHLyRWOFjz8aIFQoDFVd3DyfiO77Snm6dKGL4ggqV0B4Z8RSLF-yXMksqP-BA2VA7XqV1POXD3HApt-978LHN5DqiIqiXQb-ATqqOu8R4DWNnKMkaetUuBclhZ_f5nUlCZyhnVOvKZWU3dIZBRuoVp60CyB9E"
+        ]
+      }
+    ]
+  },
+  {
+    "organization_name": "University College London",
+    "assets": [
+      {
+        "intervention_name": "Semaglutide",
+        "trial_ids": [
+          "NCT03659682"
+        ],
+        "disease_indication": [
+          "Idiopathic Parkinson's Disease"
+        ],
+        "development_phase": "Phase III",
+        "status": "Active",
+        "source_url": [
+          "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFeNutks-KUfUFNVH8qkxbwymHcuoFGkPQCJbPucFPiDTcH10GJZFAz2GpIizg61hhcKbCq_IS4IMTK_smLJPkWLlwTOqf1CjiGw5YpnJbsQYreGPH0JznWehHI7-HWnzsQUkCE5DhK"
+        ]
+      }
+    ]
+  },
+  {
+    "organization_name": "Louisiana State University Pennington Biomedical Research Center",
+    "assets": [
+      {
+        "intervention_name": "Tirzepatide (GLP-1 agonist)",
+        "trial_ids": [
+          "NCT07154719"
+        ],
+        "disease_indication": [
+          "Obesity",
+          "Type 2 Diabetes Mellitus"
+        ],
+        "development_phase": "Phase II",
+        "status": "Not yet recruiting",
+        "source_url": [
+          "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH2vnt-GNTD9sBV4OepFVRPoFn3Jh7BRaiF26vT4MHurpP2AMQWqmrebpyf9D9LZZaP9RkqUSkZ26KLTmoWujMnAjAADPDbDP5mNJDYZN8jziYIoOGI6gBnurex6dEH22k0BXnBEPlf"
+        ]
+      }
+    ]
+  },
+  {
+    "organization_name": "University of Copenhagen",
+    "assets": [
+      {
+        "intervention_name": "Liraglutide",
+        "trial_ids": [
+          "NCT04122716"
+        ],
+        "disease_indication": [
+          "Obesity"
+        ],
+        "development_phase": "Phase III",
+        "status": "Active",
+        "source_url": [
+          "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFCTqG9Z-iTMuSG_0kRf9DJeL8UKTQGXdQQzZNJh7Qrvt2EBhxtAe-4fgz5c_z65nYWwLsLe8kL4gTBBasFfPw1JvHt3X8hVQ7cHcXVvAP7ovIvloKSzypWpiFGFE-VXYbGSE0Fb2rS"
+        ]
+      }
+    ]
+  },
+  {
+    "organization_name": "Region Hovedstaden",
+    "assets": [
+      {
+        "intervention_name": "Semaglutide",
+        "trial_ids": [
+          "NCT04892199"
+        ],
+        "disease_indication": [
+          "Prediabetes",
+          "Diabetes (in patients treated with antipsychotic medication)",
+          "Schizophrenia"
+        ],
+        "development_phase": "Phase IV",
+        "status": "Completed",
+        "source_url": [
+          "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFd0dykIZqquRSTF1iDc72HRshdsBaQ6aXBUrGBwFzE6709HqGG2YVKGXYcAcEkcQy7YQ0t15V2YUj1gu_WohS87ML2TsRhpD1G_OqGxQWckp0T96aq2HiYfWhZxrC1b-D8FYNG0swu"
+        ]
+      }
+    ]
+  },
+  {
+    "organization_name": "Italian Medicines Agency",
+    "assets": [
+      {
+        "intervention_name": "GLP-1 Receptor Agonists (various)",
+        "trial_ids": [
+          "NCT03959865"
+        ],
+        "disease_indication": [
+          "Type 2 Diabetes Mellitus"
+        ],
+        "development_phase": "Observational",
+        "status": "Completed",
+        "source_url": [
+          "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG-7vJ4B1IHYvEojAHPz0AOJx7Vzs2TsFcr_saDdWl4e47s1N4um7bneol5-vmsV-KrAUAsXX7nC0hmNAqn2NoP2vlpsnVAAUsF0N8E73Vgn9GLvABljpOztz8FGsSqMzdvKcUrPeqI"
+        ]
+      }
+    ]
+  },
+  {
+    "organization_name": "New York State Psychiatric Institute",
+    "assets": [
+      {
+        "intervention_name": "Liraglutide",
+        "trial_ids": [
+          "NCT04199728"
+        ],
+        "disease_indication": [
+          "Opioid Use Disorder"
+        ],
+        "development_phase": "Phase II",
+        "status": "Active",
+        "source_url": [
+          "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGFBYMz1EtI0EGxJw9oRfMySveLUw6Mb2JjRY4QR7P8bB5Tuf-MlN-AdUrLEomO923_QbzQwzmCxAxsCumGhdsyy140uZlyxWXc5dYCgxWruMtIbkyVpzyJA3pO0_qOvqfXs_YJssBa"
+        ]
+      }
+    ]
+  }
+]

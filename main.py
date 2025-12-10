@@ -15,6 +15,8 @@ load_dotenv()
 
 client = genai.Client(api_key=os.environ["GOOGLE_API_KEY"])
 
+# --- Helper Functions ---
+
 
 def save_to_json(data: list, filename: str):
     """
@@ -176,7 +178,7 @@ For each drug candidate, use this exact structure:
     "moa": "string or null (Mechanism of Action, e.g., 'NaV1.8 Inhibitor')", 
     "route_of_admin": "string or null (e.g., 'Oral', 'IV')",
     "status": "string (Default to 'Active' unless 'Discontinued' is explicitly stated)",
-    "source_url": "list of strings (The urls which you got from the search tool starting for a particular candidate starts with https://vertexaisearch.cloud.google.com/grounding-api-redirect/)",
+    "source_url": "string (The url which you got from the search tool starting for a particular candidate starts with https://vertexaisearch.cloud.google.com/grounding-api-redirect/)",
   }}
 ]
 
@@ -191,43 +193,40 @@ Do not provide an intro or outro. Output **only** the raw JSON list. Begin the s
         model="gemini-2.5-flash",
         contents=agent_prompt,
         config=types.GenerateContentConfig(
-            tools=[types.Tool(google_search=types.GoogleSearchRetrieval)],
+            tools=[types.Tool(google_search=types.GoogleSearch())],
         )
     )
+    # print(response.model_dump_json(indent=2)) 
 
-    # The textual search report (what you were using before)
     search_report = getattr(response, "text", None) or response.get("text", None) or ""
     if not search_report:
         print(f"⚠️ Agent found nothing for {company}")
         return
 
-    # Try to extract grounding URLs from the full response object
     grounding_urls = extract_grounding_urls_from_response(response)
     if grounding_urls:
         print(f"🔗 Found grounding URLs ({len(grounding_urls)}):")
         for u in grounding_urls:
             print("  -", u)
     else:
-        print("⚠️ No grounding URLs found in model response metadata. Proceeding without grounding URLs.")
-
-    # 2. Structuring Step (BAML)
+        print(f"🔗 No grounding URLs found for {company}")
+    
     print(f"🧠 Structuring data for {company}...")
 
     pipeline_data = None
     try:
-        # Try passing grounding URLs into ExtractPipeline (if supported)
         pipeline_data = b.ExtractPipeline(
             search_report=search_report,
             company=company,
-            grounding_urls=grounding_urls  # many baml clients may accept extra kwargs
+            grounding_urls=grounding_urls  
         )
         print(f"✅ SUCCESS: b.ExtractPipeline returned {len(pipeline_data)} records (with grounding_urls param).")
     except TypeError:
-        # b.ExtractPipeline doesn't accept grounding_urls — fallback to legacy call
         try:
             pipeline_data = b.ExtractPipeline(
                 search_report=search_report,
-                company=company
+                company=company,
+                grounding_urls=grounding_urls
             )
             print(f"✅ SUCCESS: b.ExtractPipeline returned {len(pipeline_data)} records (without grounding_urls param).")
         except Exception as e:
@@ -237,15 +236,12 @@ Do not provide an intro or outro. Output **only** the raw JSON list. Begin the s
         print(f"❌ BAML Error: {e}")
         return
 
-    # Ensure pipeline_data is a list-like collection
     if not pipeline_data:
         print("⚠️ No pipeline data returned by ExtractPipeline.")
         return
 
-    # 3. Attach grounding URLs to each record's source_url if missing or merge if present
     enriched = []
     for item in pipeline_data:
-        # Convert pydantic model to dict if necessary but keep original for save
         try:
             item_dict = item.model_dump()
         except Exception:
@@ -254,7 +250,6 @@ Do not provide an intro or outro. Output **only** the raw JSON list. Begin the s
             except Exception:
                 item_dict = {}
 
-        # Normalize existing source_url into a list
         existing = item_dict.get("source_url", None)
         merged_urls = []
 
@@ -264,17 +259,13 @@ Do not provide an intro or outro. Output **only** the raw JSON list. Begin the s
             elif isinstance(existing, str):
                 merged_urls.append(existing)
 
-        # Add grounding URLs, avoiding duplicates
         for u in grounding_urls:
             if u not in merged_urls:
                 merged_urls.append(u)
 
-        # If merged_urls is empty, keep source_url as empty list (could be useful)
         final_source = merged_urls if merged_urls else []
 
-        # Attempt to set the source_url on the original item if it's a mutable object, otherwise keep dict
         try:
-            # If pydantic model, set attribute if possible
             if hasattr(item, "source_url"):
                 try:
                     setattr(item, "source_url", final_source)
@@ -282,11 +273,10 @@ Do not provide an intro or outro. Output **only** the raw JSON list. Begin the s
                     continue
                 except Exception:
                     pass
-            # If item supports model_dump and reconstruction, create a copy dict
+
             item_dict["source_url"] = final_source
             enriched.append(item_dict)
         except Exception:
-            # fallback — produce a minimal record
             minimal = {
                 "sponsor_name": item_dict.get("sponsor_name", company),
                 "candidate_name": item_dict.get("candidate_name", None),
@@ -299,7 +289,6 @@ Do not provide an intro or outro. Output **only** the raw JSON list. Begin the s
             }
             enriched.append(minimal)
 
-    # 4. Save the enriched results to JSON
     try:
         safe_name = company.replace(" ", "_").lower()
         filename = f"{safe_name}_pipeline.json"
@@ -308,13 +297,114 @@ Do not provide an intro or outro. Output **only** the raw JSON list. Begin the s
         print(f"❌ Error saving results: {e}")
 
 
-async def main():
-    # You can add as many companies as you want here
-    companies = ["biomarin"]
+async def get_target_landscape(target: str):
+    print(f"\n🎯 [Target Mode] Agent is researching landscape for {target}...")
 
-    for company in companies:
+    agent_prompt = f"""
+### PERSONA
+You are an expert Competitive Intelligence Analyst. Your goal is to map the entire competitive landscape for the drug target: **{target}**.
+
+### OBJECTIVE
+Perform a comprehensive web search to identify ALL organizations (Industry and Academia) currently developing drugs or therapies that target **{target}**. You must capture every single asset from Preclinical stages up to Approved status.
+
+### SEARCH STRATEGY
+1.  **Registry Search:** Search for "ClinicalTrials.gov {target}", "EudraCT {target}", and "JapicCTI {target}" to find specific trial IDs (NCT numbers) and interventions.
+2.  **Competitor Mapping:** Search for "companies developing {target} inhibitors", "{target} competitive landscape 2024 2025", and "top {target} pipeline assets".
+3.  **Recent News:** Search for "{target} clinical trial results", "{target} IND clearance", and "{target} preclinical data presentation" to find new players or early-stage assets.
+
+### EXTRACTION RULES (STRICT)
+*   **Grouping:** You MUST group findings by the Organization (Company/Institute).
+*   **Completeness:** List EVERYTHING found. Do not summarize. Do not filter for "top" assets only.
+*   **URL Accuracy:** **Do not construct or guess URLs.** Use the actual `groundingChunks.web.uri` or source URLs returned by your search tool.
+*   **Formatting:** Return the data ONLY as a valid JSON list. Do not include markdown formatting (like ```
+*   **Normalization:** Normalize 'development_phase' and 'status' exactly as requested in the schema.
+
+### DATA SCHEMA (JSON)
+For each organization found, use this exact structure:
+
+[
+  {{
+    "organization_name": "string (The official name of the sponsor/company, e.g. 'Amgen')",
+    "assets": [
+      {{
+        "intervention_name": "string (Drug code like 'AMG 510' or descriptive name like '{target} Inhibitor'. Do not leave empty)",
+        "trial_ids": [
+          "string (Registry IDs like 'NCT04380753'. Leave empty list [] if Preclinical)"
+        ],
+        "disease_indication": [
+          "string (Specific indications, e.g. 'NSCLC', 'Solid Tumors')"
+        ],
+        "development_phase": "string (Normalize to: 'Preclinical', 'Phase I', 'Phase II', 'Phase III', 'Filed', 'Approved', 'Observational')",
+        "status": "string (Normalize to: 'Active', 'Recruiting', 'Completed', 'Discontinued', 'Provisional')",
+        "source_url": "string (The url which you got from the search tool starting for a particular asset/trial. It starts with https://vertexaisearch.cloud.google.com/grounding-api-redirect/)"
+      }}
+    ]
+  }}
+]
+
+### CRITICAL INSTRUCTION
+Do not provide an intro or outro. Output **only** the raw JSON list. Begin the landscape search now for {target}.
+"""
+
+
+    response = client.models.generate_content(
+        model="gemini-2.5-flash",
+        contents=agent_prompt,
+        config=types.GenerateContentConfig(
+            tools=[types.Tool(google_search=types.GoogleSearch())],
+        )
+    )
+
+    search_report = getattr(response, "text", None) or ""
+    grounding_urls = extract_grounding_urls_from_response(response)
+
+    if not search_report:
+        print(f"⚠️ Found nothing for target {target}")
+        return
+    
+    print(f"🔗 Found {len(grounding_urls)} source URLs.")
+    print(f"🧠 Structuring landscape data for {target}...")
+
+    try:
+        landscape_data = b.ExtractTargetLandscape(
+            search_report=search_report,
+            target_name=target,
+            grounding_urls=grounding_urls
+        )
+
+        enriched = []
+        for org in landscape_data:
+            org_dict = org.model_dump()
+            
+            # We attach the grounding URLs to the specific assets if they are missing URLs
+            # or we can attach to a new field if you add one to OrganizationEntry.
+            # For now, let's ensure every asset has at least the top-level search URLs if specific ones aren't found.
+            for asset in org_dict.get("assets", []):
+                if not asset.get("source_url"):
+                    asset["source_url"] = grounding_urls
+            
+            enriched.append(org_dict)
+
+        # 4. Save to JSON
+        safe_name = target.replace(" ", "_").lower()
+        filename = f"target_{safe_name}_trials.json"
+        save_to_json(enriched, filename)
+
+    except Exception as e:
+        print(f"❌ BAML Error (Target Landscape): {e}")
+
+
+
+async def main():
+    
+    companies_to_analyze = ["biomarin"] 
+    for company in companies_to_analyze:
         await get_pipeline_data(company)
 
+    targets_to_analyze = ["GLP-1R"]
+
+    for target in targets_to_analyze:
+        await get_target_landscape(target)
 
 if __name__ == "__main__":
     asyncio.run(main())

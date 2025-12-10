@@ -1,284 +1,47 @@
 [
   {
     "sponsor_name": "BioMarin Pharmaceutical Inc.",
-    "candidate_name": "Aldurazyme (laronidase)",
-    "disease_indication": [
-      "Mucopolysaccharidosis Type I (MPS I)"
-    ],
-    "development_phase": "Approved",
-    "moa": "Enzyme Replacement Therapy",
-    "route_of_admin": null,
-    "status": null,
-    "source_url": [
-      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH_wBgGHMiNTTvbsthlasqS21KX3xvUMoRr7NT-Qn5UF_gYWieVmqitYallz1u02-5wqrQN3O5nfwtb-JJ0arwDSH2SYz9JD9eqsHGqWSGNjaEQbms043t0Y_70l5Gbts1AsNPpfLZtUtVMjVsqF6Ef"
-    ]
-  },
-  {
-    "sponsor_name": "BioMarin Pharmaceutical Inc.",
-    "candidate_name": "Brineura (cerliponase alfa)",
-    "disease_indication": [
-      "Batten disease (CLN2 disease)"
-    ],
-    "development_phase": "Approved",
-    "moa": "Enzyme Replacement Therapy",
-    "route_of_admin": null,
-    "status": null,
-    "source_url": [
-      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH_wBgGHMiNTTvbsthlasqS21KX3xvUMoRr7NT-Qn5UF_gYWieVmqitYallz1u02-5wqrQN3O5nfwtb-JJ0arwDSH2SYz9JD9eqsHGqWSGNjaEQbms043t0Y_70l5Gbts1AsNPpfLZtUtVMjVsqF6Ef"
-    ]
-  },
-  {
-    "sponsor_name": "BioMarin Pharmaceutical Inc.",
-    "candidate_name": "Firdapse (amifampridine phosphate)",
-    "disease_indication": [
-      "Lambert–Eaton myasthenic syndrome (LEMS)"
-    ],
-    "development_phase": "Approved",
-    "moa": null,
-    "route_of_admin": null,
-    "status": null,
-    "source_url": [
-      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH_wBgGHMiNTTvbsthlasqS21KX3xvUMoRr7NT-Qn5UF_gYWieVmqitYallz1u02-5wqrQN3O5nfwtb-JJ0arwDSH2SYz9JD9eqsHGqWSGNjaEQbms043t0Y_70l5Gbts1AsNPpfLZtUtVMjVsqF6Ef"
-    ]
-  },
-  {
-    "sponsor_name": "BioMarin Pharmaceutical Inc.",
-    "candidate_name": "Kuvan (sapropterin dihydrochloride)",
-    "disease_indication": [
-      "Phenylketonuria (PKU)"
-    ],
-    "development_phase": "Approved",
-    "moa": null,
-    "route_of_admin": null,
-    "status": null,
-    "source_url": [
-      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH_wBgGHMiNTTvbsthlasqS21KX3xvUMoRr7NT-Qn5UF_gYWieVmqitYallz1u02-5wqrQN3O5nfwtb-JJ0arwDSH2SYz9JD9eqsHGqWSGNjaEQbms043t0Y_70l5Gbts1AsNPpfLZtUtVMjVsqF6Ef"
-    ]
-  },
-  {
-    "sponsor_name": "BioMarin Pharmaceutical Inc.",
-    "candidate_name": "Naglazyme (galsulfase)",
-    "disease_indication": [
-      "Mucopolysaccharidosis Type VI (MPS VI)"
-    ],
-    "development_phase": "Approved",
-    "moa": "Enzyme Replacement Therapy",
-    "route_of_admin": null,
-    "status": null,
-    "source_url": [
-      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH_wBgGHMiNTTvbsthlasqS21KX3xvUMoRr7NT-Qn5UF_gYWieVmqitYallz1u02-5wqrQN3O5nfwtb-JJ0arwDSH2SYz9JD9eqsHGqWSGNjaEQbms043t0Y_70l5Gbts1AsNPpfLZtUtVMjVsqF6Ef"
-    ]
-  },
-  {
-    "sponsor_name": "BioMarin Pharmaceutical Inc.",
-    "candidate_name": "Palynziq (pegvaliase-pqpz)",
-    "disease_indication": [
-      "Phenylketonuria (PKU)"
-    ],
-    "development_phase": "Approved",
-    "moa": null,
-    "route_of_admin": null,
-    "status": null,
-    "source_url": [
-      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFT4CeaSpWajJ4J6ymoVr6PycfaR84T1SSuhiclYZNsHG0EtT80Prvik8jNh-xle8YFk7e0BHK4lUtC7uH6czW9Lr_OVdqmTZ2t6i31OVu7DDkNTeQ="
-    ]
-  },
-  {
-    "sponsor_name": "BioMarin Pharmaceutical Inc.",
-    "candidate_name": "Palynziq (pegvaliase-pqpz)",
-    "disease_indication": [
-      "Phenylketonuria (PKU) in adolescents aged 12-17"
-    ],
-    "development_phase": "Approved",
-    "moa": null,
-    "route_of_admin": null,
-    "status": null,
-    "source_url": [
-      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFT4CeaSpWajJ4J6ymoVr6PycfaR84T1SSuhiclYZNsHG0EtT80Prvik8jNh-xle8YFk7e0BHK4lUtC7uH6czW9Lr_OVdqmTZ2t6i31OVu7DDkNTeQ="
-    ]
-  },
-  {
-    "sponsor_name": "BioMarin Pharmaceutical Inc.",
-    "candidate_name": "Roctavian (valoctocogene roxaparvovec)",
-    "disease_indication": [
-      "Severe Hemophilia A"
-    ],
-    "development_phase": "Approved",
-    "moa": "Gene Therapy",
-    "route_of_admin": null,
-    "status": null,
-    "source_url": [
-      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHuLU690AA5Ypo4gKlEM8ga0DAvNySH-56xpMhvW_Dzbb5Ef0IanHpa8rwDfmY7RcU62wrdpXtcHr3UYwUPlpuSwUUWfh0iz-elkMB3KX5OLFYQoOqywQdZtMV2j5FZk7IyOos-Fc3vLtscihri-NKH9_8P6TVGf2zXUOl-hbiRq_9tP587Ld8rvLm33AYiQpA4ZdhqBciwBwtcyrPvIR0XoJxePFw="
-    ]
-  },
-  {
-    "sponsor_name": "BioMarin Pharmaceutical Inc.",
-    "candidate_name": "Vimizim (elosulfase alfa)",
-    "disease_indication": [
-      "Morquio A Syndrome (MPS IVA)"
-    ],
-    "development_phase": "Approved",
-    "moa": "Enzyme Replacement Therapy",
-    "route_of_admin": null,
-    "status": null,
-    "source_url": [
-      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH_wBgGHMiNTTvbsthlasqS21KX3xvUMoRr7NT-Qn5UF_gYWieVmqitYallz1u02-5wqrQN3O5nfwtb-JJ0arwDSH2SYz9JD9eqsHGqWSGNjaEQbms043t0Y_70l5Gbts1AsNPpfLZtUtVMjVsqF6Ef"
-    ]
-  },
-  {
-    "sponsor_name": "BioMarin Pharmaceutical Inc.",
-    "candidate_name": "Voxzogo (vosoritide)",
-    "disease_indication": [
-      "Achondroplasia"
-    ],
-    "development_phase": "Approved",
-    "moa": null,
-    "route_of_admin": null,
-    "status": null,
-    "source_url": [
-      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHuLU690AA5Ypo4gKlEM8ga0DAvNySH-56xpMhvW_Dzbb5Ef0IanHpa8rwDfmY7RcU62wrdpXtcHr3UYwUPlpuSwUUWfh0iz-elkMB3KX5OLFYQoOqywQdZtMV2j5FZk7IyOos-Fc3vLtscihri-NKH9_8P6TVGf2zXUOl-hbiRq_9tP587Ld8rvLm33AYiQpA4ZdhqBciwBwtcyrPvIR0XoJxePFw="
-    ]
-  },
-  {
-    "sponsor_name": "BioMarin Pharmaceutical Inc.",
-    "candidate_name": "Voxzogo (vosoritide)",
-    "disease_indication": [
-      "Hypochondroplasia"
-    ],
-    "development_phase": "Phase III",
-    "moa": null,
-    "route_of_admin": null,
-    "status": null,
-    "source_url": [
-      "https://vertexaisearch.google.com/grounding-api-redirect/AUZIYQGkoPPx4xUSECSDnia1-Wk1ZMZVlxiWafkkvF7Gu84AWRL_edG6epNGBS4oN8J3AQlU4A23TVOkaLRZX2HMgDKapJ5rf98Fb0PAKaGVvJ9pdCZNyC7G0qB1zmX_R0tGkcx6OLekHTGF8e_lFyyS6vhP0PsJtvr60sPY1bke"
-    ]
-  },
-  {
-    "sponsor_name": "BioMarin Pharmaceutical Inc.",
     "candidate_name": "BMN 333",
     "disease_indication": [
+      "Multiple growth disorders",
       "Achondroplasia",
-      "Hypochondroplasia",
-      "Growth Disorders"
+      "Hypochondroplasia"
     ],
     "development_phase": "Phase I",
-    "moa": "Long-acting C-type Natriuretic Peptide (CNP)",
+    "moa": "C-type natriuretic peptide (CNP)",
     "route_of_admin": null,
     "status": null,
     "source_url": [
-      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEWNwM-XeKkKc6HniX-mFQ0GRkFmF8mLhbA0LYIGITjzgQWThG8SXxo3t5gHTmqB2Mv4sAerVTAih0a52s1Y60Hkl-RVKY0q0rQxU9t66EYU-qnutlIktsNNo4heA7la7w-IGlHAa0C4puag42sscaEq-cDIZNQ532gglZtUvMBPvr0scYUOd7lLJDnH0mCQBCFzDlEBPJeVC-NhBf27NPADzlGbezTPioszuiCFfKuBanWw1MBjg=="
+      "[https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGRoKaGZTW3P2euUL3aVTlRMfecYLvODLFHn_Xk24NYV9gmy5gXqIW-IyTFssbf5MkOM8_RgXADPkIlTfvlabAQPfaeMporAMWfr00wocAcPjZnrXm7ah6EkX59XYyq8wJtuuIXHpTBtL7gYgV329reZuTLpn2-jqi0I-4CGBrAX1FzNT2LyQrXDvUzS4Jchh_8KQKVbHyPFYWVeU6VqXzCAGkHd7M]"
     ]
   },
   {
     "sponsor_name": "BioMarin Pharmaceutical Inc.",
     "candidate_name": "BMN 349",
     "disease_indication": [
-      "Alpha-1 Antitrypsin Deficiency (AATD)-associated liver disease"
+      "Alpha-1 antitrypsin deficiency (AATD)-associated liver disease"
     ],
     "development_phase": "Phase I",
-    "moa": "Alpha-1 Antitrypsin (A1AT) modulator, protein folding stabilizer (molecular chaperone)",
+    "moa": "Alpha-1 Antitrypsin (A1AT) modulator, Protein folding stabilizer, Molecular chaperone",
     "route_of_admin": null,
     "status": null,
     "source_url": [
-      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGqupxCMaMG2rt0tGyfiM_XXr9Hw7nilWyHlBmV23Lbi8UbMQdGIdJBauX924tR_l1wOB7EuKzoDfD3Q0pO2La2WL5XoRj8KC1teWMm3pgH-hvDb8Tpzgziqjupo4bj02vK6saRMX6SHWHKpwVEzGUQPHvuyODt8Ua9XPrYx0YCdIUL7weoEHo9Dlp3vDLApNYRmCO9vYQ2lLs_dk8LX-6WH6YKWCHu8UGzMWhKGtCIU1hoVamHR9NryAslvrFd"
+      "[https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFaIafDSwUqr8yBoPOLQCC8B_p6RomHMOmO6TH4foShho8DnkYTGTI2ol-fwL0W0NkdLz36RocWMSJwfhDG4mjmGV-y1QK7V1lqTDNL4a7Is7fH7F6zOO3sEnwXfzscPj6LslBscKNWzNEoAjEP3TPTiPNbMvT_nr3kwdvSf2NzTnQ_EzOlrVM7GsE-agh-R8b0O-30tsPWO7GimipQQXuMsJXiW9ZOND2YYxdDH0YQtIeuhcw]"
     ]
   },
   {
     "sponsor_name": "BioMarin Pharmaceutical Inc.",
     "candidate_name": "BMN 351",
     "disease_indication": [
-      "Duchenne Muscular Dystrophy (Exon 51 skipping amenable)"
+      "Duchenne muscular dystrophy (DMD)",
+      "DMD with exon 51 skipping amenable genetic mutation"
     ],
     "development_phase": "Phase I",
-    "moa": "Next-generation oligonucleotide (Exon skipping therapy)",
+    "moa": "Antisense oligonucleotide (ASO), DMD exon 51 modulator",
     "route_of_admin": null,
     "status": null,
     "source_url": [
-      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEWNwM-XeKkKc6HniX-mFQ0GRkFmF8mLhbA0LYIGITjzgQWThG8SXxo3t5gHTmqB2Mv4sAerVTAih0a52s1Y60Hkl-RVKY0q0rQxU9t66EYU-qnutlIktsNNo4heA7la7w-IGlHAa0C4puag42sscaEq-cDIZNQ532gglZtUvMBPvr0scYUOd7lLJDnH0mCQBCFzDlEBPJeVC-NhBf27NPADzlGbezTPioszuiCFfKuBanWw1MBjg=="
-    ]
-  },
-  {
-    "sponsor_name": "BioMarin Pharmaceutical Inc.",
-    "candidate_name": "BMN 401",
-    "disease_indication": [
-      "ENPP1 Deficiency"
-    ],
-    "development_phase": "Phase I",
-    "moa": "First-in-class therapy",
-    "route_of_admin": null,
-    "status": null,
-    "source_url": [
-      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEWNwM-XeKkKc6HniX-mFQ0GRkFmF8mLhbA0LYIGITjzgQWThG8SXxo3t5gHTmqB2Mv4sAerVTAih0a52s1Y60Hkl-RVKY0q0rQxU9t66EYU-qnutlIktsNNo4heA7la7w-IGlHAa0C4puag42sscaEq-cDIZNQ532gglZtUvMBPvr0scYUOd7lLJDnH0mCQBCFzDlEBPJeVC-NhBf27NPADzlGbezTPioszuiCFfKuBanWw1MBjg=="
-    ]
-  },
-  {
-    "sponsor_name": "BioMarin Pharmaceutical Inc.",
-    "candidate_name": "BMN 255",
-    "disease_indication": [
-      "Metabolic dysfunction-associated steatohepatitis (MASH)"
-    ],
-    "development_phase": "Phase I",
-    "moa": null,
-    "route_of_admin": null,
-    "status": null,
-    "source_url": [
-      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHuLU690AA5Ypo4gKlEM8ga0DAvNySH-56xpMhvW_Dzbb5Ef0IanHpa8rwDfmY7RcU62wrdpXtcHr3UYwUPlpuSwUUWfh0iz-elkMB3KX5OLFYQoOqywQdZtMV2j5FZk7IyOos-Fc3vLtscihri-NKH9_8P6TVGf2zXUOl-hbiRq_9tP587Ld8rvLm33AYiQpA4ZdhqBciwBwtcyrPvIR0XoJxePFw="
-    ]
-  },
-  {
-    "sponsor_name": "BioMarin Pharmaceutical Inc.",
-    "candidate_name": "BMN 293",
-    "disease_indication": [
-      "MYBPC3 hypertrophic cardiomyopathy"
-    ],
-    "development_phase": "Preclinical",
-    "moa": "Gene therapy",
-    "route_of_admin": null,
-    "status": null,
-    "source_url": [
-      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEYWVp4tp7OoJa5jF8E34gKeFi8uMqg3EqK-y0a2WxG_JroBH6A5TKuzC7Uxg9eIsBll9yj6MJzxewM_ugysKcZAzWDch92r1EGqgU_4PSkoY8mYI9ZvZKxbjTBJl34_c_560yRlJEnqYR1-SbUXIXe1w22iS5LtWaIcx-p3STdBPpdFWSNDc85Yu3zZ2GK4mdBjzl1A45oUCDFtloXh0G6ITt_sxG2D7bosCdcgRlQVjnmdN-xNw=="
-    ]
-  },
-  {
-    "sponsor_name": "BioMarin Pharmaceutical Inc.",
-    "candidate_name": "BMN 331",
-    "disease_indication": [
-      "Hereditary angioedema"
-    ],
-    "development_phase": "Phase I",
-    "moa": "Gene therapy",
-    "route_of_admin": null,
-    "status": null,
-    "source_url": [
-      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHuLU690AA5Ypo4gKlEM8ga0DAvNySH-56xpMhvW_Dzbb5Ef0IanHpa8rwDfmY7RcU62wrdpXtcHr3UYwUPlpuSwUUWfh0iz-elkMB3KX5OLFYQoOqywQdZtMV2j5FZk7IyOos-Fc3vLtscihri-NKH9_8P6TVGf2zXUOl-hbiRq_9tP587Ld8rvLm33AYiQpA4ZdhqBciwBwtcyrPvIR0XoJxePFw="
-    ]
-  },
-  {
-    "sponsor_name": "BioMarin Pharmaceutical Inc.",
-    "candidate_name": "BMN 355",
-    "disease_indication": [
-      "Long-QT syndrome types 2 and 3"
-    ],
-    "development_phase": "Preclinical",
-    "moa": "Monoclonal antibody",
-    "route_of_admin": null,
-    "status": null,
-    "source_url": [
-      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHuLU690AA5Ypo4gKlEM8ga0DAvNySH-56xpMhvW_Dzbb5Ef0IanHpa8rwDfmY7RcU62wrdpXtcHr3UYwUPlpuSwUUWfh0iz-elkMB3KX5OLFYQoOqywQdZtMV2j5FZk7IyOos-Fc3vLtscihri-NKH9_8P6TVGf2zXUOl-hbiRq_9tP587Ld8rvLm33AYiQpA4ZdhqBciwBwtcyrPvIR0XoJxePFw="
-    ]
-  },
-  {
-    "sponsor_name": "BioMarin Pharmaceutical Inc.",
-    "candidate_name": "BMN 365",
-    "disease_indication": [
-      "Plakophilin-2 mutations and arrhythmogenic right ventricular dysplasia/cardiomyopathy"
-    ],
-    "development_phase": "Preclinical",
-    "moa": null,
-    "route_of_admin": null,
-    "status": null,
-    "source_url": [
-      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHuLU690AA5Ypo4gKlEM8ga0DAvNySH-56xpMhvW_Dzbb5Ef0IanHpa8rwDfmY7RcU62wrdpXtcHr3UYwUPlpuSwUUWfh0iz-elkMB3KX5OLFYQoOqywQdZtMV2j5FZk7IyOos-Fc3vLtscihri-NKH9_8P6TVGf2zXUOl-hbiRq_9tP587Ld8rvLm33AYiQpA4ZdhqBciwBwtcyrPvIR0XoJxePFw="
+      "[https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHsxgpgNPyLOvsImTafFxjA3lyaXu0HtBMW1YDvbDmJuvWL4pc2YJXk58cTGHTW-jVDx5heJghpwLc0qzVqBKQQobO_LRyCJeLYsl6EJKmP3Rq2M6GQztOnYR9FXkiLRd4KtiTTLrxJUmzOEotpgdevDbHQm0FOYhtAJTemSl-R8VZmLqSHtvwXNnykpVStAcR4AVz5eYtxHUYKYnuUz6i3x-RLA-xw31-hia2lfvUqc6F0o9Xxpe3drx41-q34yAZSqdnGQ1nXyAtGI6mQx5UqqchtssTHESzkvPl2vLGyuybniIwSFPfRMQDnKZ4vKvZ9wZ0LKW5ZmjtRG0nm1-AKV1Na7tU]"
     ]
   },
   {
@@ -288,11 +51,111 @@
       "Phenylketonuria (PKU)"
     ],
     "development_phase": "Preclinical",
+    "moa": "Reduces immunogenicity from novel pegylation",
+    "route_of_admin": null,
+    "status": null,
+    "source_url": [
+      "[https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHtiT273YeSlEga9SLuxUqPQQ5acuZv7ekpblngHkzUrcrqWohFoktn6sr8nYIlzWvOhJASfarADTEzkjaDZTuFc5SbVNLnxOTVLb5bSx6IyN0s2lQid6OlQX9CkfWbm5kMqgCFMFC7YQkKcxI6iGngNVYjFeGf5l79-5kekUxu6yvHQJ8jdimQZBcgk94KhQ6x3njClBUI-ID9OhsEM9bTOBffYp2LWJSt2SXXI5Fo4Q5KwZBa9FBxr0WZ3MLin7x4LkYapeDovlv-hKzYHkrIteYa_T1RaAKx7L2SkxTB4XE]"
+    ]
+  },
+  {
+    "sponsor_name": "BioMarin Pharmaceutical Inc.",
+    "candidate_name": "BMN 370",
+    "disease_indication": [
+      "Von Willebrand Disease (vWD)"
+    ],
+    "development_phase": "Preclinical",
     "moa": null,
     "route_of_admin": null,
     "status": null,
     "source_url": [
-      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGkoPPx4xUSECSDnia1-Wk1ZMZVlxiWafkkvF7Gu84AWRL_edG6epNGBS4oN8J3AQlU4A23TVOkaLRZX2HMgDKapJ5rf98Fb0PAKaGVvJ9pdCZNyC7G0qB1zmX_R0tGkcx6OLekHTGF8e_lFyyS6vhP0PsJtvr60sPY1bke"
+      "[https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHtiT273YeSlEga9SLuxUqPQQ5acuZv7ekpblngHkzUrcrqWohFoktn6sr8nYIlzWvOhJASfarADTEzkjaDZTuFc5SbVNLnxOTVLb5bSx6IyN0s2lQid6OlQX9CkfWbm5kMqgCFMFC7YQkKcxI6iGngNVYjFeGf5l79-5kekUxu6yvHQJ8jdimQZBcgk94KhQ6x3njClBUI-ID9OhsEM9bTOBffYp2LWJSt2SXXI5Fo4Q5KwZBa9FBxr0WZ3MLin7x4LkYapeDovlv-hKzYHkrIteYa_T1RaAKx7L2SkxTB4XE]"
+    ]
+  },
+  {
+    "sponsor_name": "BioMarin Pharmaceutical Inc.",
+    "candidate_name": "BMN 401",
+    "disease_indication": [
+      "ENPP1 Deficiency"
+    ],
+    "development_phase": "Phase II",
+    "moa": "First-in-class therapy",
+    "route_of_admin": null,
+    "status": null,
+    "source_url": [
+      "[https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGnMBV7OFdYCPjk8EP-1wMRFSbZwchRmQ6zeVutV5dXHJBygfSYuURsHhfa7YrTPR58bJ66dRR-ghlVF_qBjWD4MVFZNIww9A917oipiw0w4lLgsdLu_l4DZM5CsMgsJNS_lsK0FKynZ3vlupVobZaUmUJ5RMn05iTU528VYF1JaXVXsp4C-T_ysox1TnS-NWNwuBfa7jox5INLnteG29UmjJouBYnUaPXFlw1ZCujRFYT059cvpQ==]"
+    ]
+  },
+  {
+    "sponsor_name": "BioMarin Pharmaceutical Inc.",
+    "candidate_name": "BMN 293",
+    "disease_indication": [
+      "Myosin binding protein C3 (MYBPC3) hypertrophic cardiomyopathy"
+    ],
+    "development_phase": "Preclinical",
+    "moa": "AAV gene therapy, restores cardiac MYBPC3 expression",
+    "route_of_admin": null,
+    "status": null,
+    "source_url": [
+      "[https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHixC7Bh7by6XkwvdzF36K2Cerc0vV-cu7LOZeYVfR8Hxum6J7gFXrkKxD1wPbvxQH1Q3CZ9gNScw7yezFVzZt9MquqAfdUR-oRzSz3E_iFgjbFBHmsfJGWe2BofpMHdBjExgYapsbp6VPLUQ4oTvVVMl9qP44cIbAIMMA1CFT-dU9z4h9LkNHby8S-6rgXKNsT6Efyg5A=]"
+    ]
+  },
+  {
+    "sponsor_name": "BioMarin Pharmaceutical Inc.",
+    "candidate_name": "BMN 331",
+    "disease_indication": [
+      "Hereditary angioedema (HAE)"
+    ],
+    "development_phase": "Phase I",
+    "moa": "AAV5-mediated gene therapy, C1-INH stimulants, AAV5 hSERPING1 (wild-type human C1 Esterase Inhibitor)",
+    "route_of_admin": null,
+    "status": null,
+    "source_url": [
+      "[https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGRoKaGZTW3P2euUL3aVTlRMfecYLvODLFHn_Xk24NYV9gmy5gXqIW-IyTFssbf5MkOM8_RgXADPkIlTfvlabAQPfaeMporAMWfr00wocAcPjZnrXm7ah6EkX59XYyq8wJtuuIXHpTBtL7gYgV329reZuTLpn2-jqi0I-4CGBrAX1FzNT2LyQrXDvUzS4Jchh_8KQKVbHyPFYWVeU6VqXzCAGkHd7M]"
+    ]
+  },
+  {
+    "sponsor_name": "BioMarin Pharmaceutical Inc.",
+    "candidate_name": "BMN 255",
+    "disease_indication": [
+      "Metabolic dysfunction-associated steatohepatitis (MASH)",
+      "Non-alcoholic fatty liver disease (NAFLD) and hyperoxaluria",
+      "Hyperoxaluria in chronic liver disease"
+    ],
+    "development_phase": "Phase I",
+    "moa": null,
+    "route_of_admin": null,
+    "status": null,
+    "source_url": [
+      "[https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHBvaOjsoI0AY-SOdtF6o3CrbYXGJZ8PYHEikILKJVGydf8DF86XOXB20Y1YrQ6sBP2_4AP2o-2il6_S1OMvKwCF2H_Lc3xsyhtJhvCy6A_J2c4Lfr0tzxKfh5XDX4dxPCIwIrKWJBbD6_PK4HAWNPdrdAW8eloh2O4H2yq]"
+    ]
+  },
+  {
+    "sponsor_name": "BioMarin Pharmaceutical Inc.",
+    "candidate_name": "BMN 355",
+    "disease_indication": [
+      "Long-QT syndrome types 2 and 3"
+    ],
+    "development_phase": "Preclinical",
+    "moa": "Monoclonal antibody, selectively increases Kv7.1 ion channel activity",
+    "route_of_admin": null,
+    "status": null,
+    "source_url": [
+      "[https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGRoKaGZTW3P2euUL3aVTlRMfecYLvODLFHn_Xk24NYV9gmy5gXqIW-IyTFssbf5MkOM8_RgXADPkIlTfvlabAQPfaeMporAMWfr00wocAcPjZnrXm7ah6EkX59XYyq8wJtuuIXHpTBtL7gYgV329reZuTLpn2-jqi0I-4CGBrAX1FzNT2LyQrXDvUzS4Jchh_8KQKVbHyPFYWVeU6VqXzCAGkHd7M]"
+    ]
+  },
+  {
+    "sponsor_name": "BioMarin Pharmaceutical Inc.",
+    "candidate_name": "BMN 365",
+    "disease_indication": [
+      "Plakophilin-2 (PKP2) mutations and arrhythmogenic right ventricular dysplasia/cardiomyopathy (ARVD/C)"
+    ],
+    "development_phase": "Preclinical",
+    "moa": "AAV gene therapy, replacement gene to form a protein",
+    "route_of_admin": null,
+    "status": null,
+    "source_url": [
+      "[https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGRoKaGZTW3P2euUL3aVTlRMfecYLvODLFHn_Xk24NYV9gmy5gXqIW-IyTFssbf5MkOM8_RgXADPkIlTfvlabAQPfaeMporAMWfr00wocAcPjZnrXm7ah6EkX59XYyq8wJtuuIXHpTBtL7gYgV329reZuTLpn2-jqi0I-4CGBrAX1FzNT2LyQrXDvUzS4Jchh_8KQKVbHyPFYWVeU6VqXzCAGkHd7M]"
     ]
   }
 ]

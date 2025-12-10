@@ -14,12 +14,33 @@ class PipelineEntry {
   
   status string? @description("Current status of the program (e.g. 'Active', 'Discontinued', 'Hold'). Default to 'Active' if implied.")
   
-  source_url string[]? @description("The specific URLs where this data point was found.")
+  source_url string[]? @description("The specific URL where this data point was found.")
+}
+
+
+class TargetAsset {
+  intervention_name string @description("The drug name, code, or molecule (e.g. 'AMG 510', 'Sotorasib'). If preclinical and unnamed, use a descriptive term like 'KRAS G12C Inhibitor'.")
+
+  trial_ids string[] @description("List of registry IDs if available (e.g. 'NCT04380753', 'EudraCT-2021...'). Leave empty if Preclinical.")
+
+  disease_indication string[] @description("Specific indications mentioned in context of this target (e.g. 'NSCLC', 'Solid Tumors').")
+
+  development_phase string @description("Current phase. Normalize to: 'Preclinical', 'Phase I', 'Phase II', 'Phase III', 'Filed', 'Approved'. Use 'Observational' for non-interventional studies.")
+
+  status string @description("Current status. Use 'Active', 'Recruiting', 'Completed', 'Discontinued', or 'Provisional' if the link to the target is ambiguous.")
+
+  source_url string[]? @description("URLs specific to this asset/trial finding.")
+}
+
+class OrganizationEntry {
+  organization_name string @description("The official name of the sponsor/company (e.g. 'Amgen', 'Mirati Therapeutics').")
+  
+  assets TargetAsset[] @description("List of all assets/interventions this organization is developing for the specified target.")
 }
 
 
 // The extraction function
-function ExtractPipeline(search_report: string, company: string) -> PipelineEntry[] {
+function ExtractPipeline(search_report: string, company: string, grounding_urls: string[]) -> PipelineEntry[] {
   client CustomGemini
   prompt #"
     Task: Extract structured data from the report below.
@@ -43,10 +64,54 @@ function ExtractPipeline(search_report: string, company: string) -> PipelineEntr
         "disease_indication": ["Acute Pain"],
         "development_phase": "Phase III",
         "moa": "NaV1.8 Inhibitor",
-        "source_url": "https://..."
+        "source_url": [{{ grounding_urls }}]
       }
     ]
 
     Output JSON:
+  "#
+}
+
+function ExtractTargetLandscape(search_report: string, target_name: string, grounding_urls: string[]) -> OrganizationEntry[] {
+  client CustomGemini
+  prompt #"
+    ### ROLE
+    You are a Competitive Intelligence Analyst.
+
+    ### OBJECTIVE
+    Analyze the search report below to identify the competitive landscape for the biological target: {{ target_name }}.
+    Group all findings by the Organization (Sponsor) doing the work.
+
+    ### INPUT DATA
+    Target: {{ target_name }}
+    Search Report:
+    {{ search_report }}
+
+    ### EXTRACTION RULES
+    1. **Scope:** Include Interventional trials (NCT/EudraCT), Observational studies, and Preclinical programs.
+    2. **Grouping:** Create ONE entry per Organization. If a company has multiple drugs/trials for {{ target_name }}, list them all under that company's 'assets' list.
+    3. **Ambiguity:** If a mention is vague (e.g. "Company X is exploring {{ target_name }} targets" without a specific drug name), capture it but set status to 'Provisional'.
+    4. **Trial IDs:** Aggressively extract NCT numbers, EudraCT numbers, or ISRCTN numbers.
+    5. **Normalization:**
+       - Map 'Discovery' / 'Lead Op' -> 'Preclinical'
+       - Map 'Marketed' -> 'Approved'
+
+    ### JSON OUTPUT FORMAT
+    Return a list of OrganizationEntry objects.
+    [
+      {
+        "organization_name": "Amgen",
+        "assets": [
+          {
+            "intervention_name": "Sotorasib",
+            "trial_ids": ["NCT03600883"],
+            "disease_indication": ["NSCLC"],
+            "development_phase": "Approved",
+            "status": "Active",
+            "source_url": [{{ grounding_urls }}]
+          }
+        ]
+      }
+    ]
   "#
 }
