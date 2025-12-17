@@ -1,0 +1,164 @@
+[
+  {
+    "target": "GIPR",
+    "drug_name": "Tirzepatide",
+    "sponsor": "Eli Lilly",
+    "disease_indication": [
+      "Type 2 diabetes",
+      "Obesity",
+      "Obstructive sleep apnea",
+      "Overweight/Obesity",
+      "Cardiovascular disease (reducing risk in type 2 diabetes)",
+      "Non-alcoholic steatohepatitis (NASH)"
+    ],
+    "development_status": "Approved",
+    "source_url": [
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEqT7J2izfPMjI6t_goCOpFqu7VFeIlX1gCQ6-IMSbQWGJvzso-4KqAE4DLkVqS3J7TB28SQTz8R4iZRtDIDoEpOXW4XxhBrDN_5T0DEdWjwraVFbSm6QyYa0UUscRPaTzv-pNJAdZyVGhAq8AR0s7gE7NPFmP6VVRpS2wJgpLst6eo5c0rjIxHE2Ph0C1N8kGygjG_PZEk",
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFBwNYoYkjTkXrtGLuwRKmW3rlvtQv5m2ImPAmUzUP1FRMLVknnIu3tCXOwNheFGwDxeA7izvS6SHI4flyTEejBB3hnCiHuAtP68l_mKI6BgeshIDBz_eQ8dfiD0543T3apNFjeuB2VhodusfwMRuDc4cDafbywsrCUJTYeZksSkYGPjxyGrFbI5JEItmR-XWfqSe7HVcua",
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHLbKDHi11TZZ4IklkUxyDuyHuGOZ1CXrSL0p2ByeWn_XI5QjHVYGrwuqDB5-V9VTOXIl-HFfcSkq0a9_NdW-_Zmffx0XTbSd8u6Guu87uQYBrHSNOgPUiu02A_YeClky2jYv1AUOPyUbc0ed94-FBWYWNZAmpkAJaA1jTjAPMBjtLI19ebSJbD8GK5wafuiOclAVba7tQ=",
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQENx_Wt7HXzZ1C7VxFCYp2zkPqdA_5WeIkzNxpcXN_EaVM0AQJN_7FvpPYV-k3YhnD_wbjp5Niw0ufICEMKVJ0GvZCbmhLyafVYVgEko3eBLO6XhAkNl72W93rF8Pc2ojMxmJVxMWSszn2LzgNwHr6VgoTGD8NDYi0h5GdreZZEyzn4ufZbjr625d7SSBhhZFwRm3REFh0T1hDoYhFxc6fVaLV6",
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHzp6BFV9yKk99SVj-Pk3g_7XDQH9XJrFo3gLmsgwFdHYbzBhs34Y6RfzUZ_RAqdBWw65kFjzh-E0rA0_R23y6uy18pezOHivkYn_HdkwNGudDs8B1aqSUgIXGABEg3mD7reUw6Z29hSfa_hoqzlbJRed2NZqwnjF0ospBJVWRYekCXtfwPs7X6fOsd_SO8zpArzxXKO5bS8FSF8MIbE3Y-"
+    ]
+  },
+  {
+    "target": "GIPR",
+    "drug_name": "Maridebart cafraglutide (MariTide)",
+    "sponsor": "Amgen",
+    "disease_indication": [
+      "Obesity"
+    ],
+    "development_status": "Phase III",
+    "source_url": [
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEqT7J2izfPMjI6t_goCOpFqu7VFeIlX1gCQ6-IMSbQWGJvzso-4KqAE4DLkVqS3J7TB28SQTz8R4iZRtDIDoEpOXW4XxhBrDN_5T0DEdWjwraVFbSm6QyYa0UUscRPaTzv-pNJAdZyVGhAq8AR0s7gE7NPFmP6VVRpS2wJgpLst6eo5c0rjIxHE2Ph0C1N8kGygjG_PZEk",
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFBwNYoYkjTkXrtGLuwRKmW3rlvtQv5m2ImPAmUzUP1FRMLVknnIu3tCXOwNheFGwDxeA7izvS6SHI4flyTEejBB3hnCiHuAtP68l_mKI6BgeshIDBz_eQ8dfiD0543T3apNFjeuB2VhodusfwMRuDc4cDafbywsrCUJTYeZksSkYGPjxyGrFbI5JEItmR-XWfqSe7HVcua",
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHLbKDHi11TZZ4IklkUxyDuyHuGOZ1CXrSL0p2ByeWn_XI5QjHVYGrwuqDB5-V9VTOXIl-HFfcSkq0a9_NdW-_Zmffx0XTbSd8u6Guu87uQYBrHSNOgPUiu02A_YeClky2jYv1AUOPyUbc0ed94-FBWYWNZAmpkAJaA1jTjAPMBjtLI19ebSJbD8GK5wafuiOclAVba7tQ=",
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQENx_Wt7HXzZ1C7VxFCYp2zkPqdA_5WeIkzNxpcXN_EaVM0AQJN_7FvpPYV-k3YhnD_wbjp5Niw0ufICEMKVJ0GvZCbmhLyafVYVgEko3eBLO6XhAkNl72W93rF8Pc2ojMxmJVxMWSszn2LzgNwHr6VgoTGD8NDYi0h5GdreZZEyzn4ufZbjr625d7SSBhhZFwRm3REFh0T1hDoYhFxc6fVaLV6",
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHzp6BFV9yKk99SVj-Pk3g_7XDQH9XJrFo3gLmsgwFdHYbzBhs34Y6RfzUZ_RAqdBWw65kFjzh-E0rA0_R23y6uy18pezOHivkYn_HdkwNGudDs8B1aqSUgIXGABEg3mD7reUw6Z29hSfa_hoqzlbJRed2NZqwnjF0ospBJVWRYekCXtfwPs7X6fOsd_SO8zpArzxXKO5bS8FSF8MIbE3Y-"
+    ]
+  },
+  {
+    "target": "GIPR",
+    "drug_name": "LY3437943",
+    "sponsor": "Eli Lilly",
+    "disease_indication": [
+      "Body weight reduction",
+      "Blood glucose reduction"
+    ],
+    "development_status": "Phase I",
+    "source_url": [
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEqT7J2izfPMjI6t_goCOpFqu7VFeIlX1gCQ6-IMSbQWGJvzso-4KqAE4DLkVqS3J7TB28SQTz8R4iZRtDIDoEpOXW4XxhBrDN_5T0DEdWjwraVFbSm6QyYa0UUscRPaTzv-pNJAdZyVGhAq8AR0s7gE7NPFmP6VVRpS2wJgpLst6eo5c0rjIxHE2Ph0C1N8kGygjG_PZEk",
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFBwNYoYkjTkXrtGLuwRKmW3rlvtQv5m2ImPAmUzUP1FRMLVknnIu3tCXOwNheFGwDxeA7izvS6SHI4flyTEejBB3hnCiHuAtP68l_mKI6BgeshIDBz_eQ8dfiD0543T3apNFjeuB2VhodusfwMRuDc4cDafbywsrCUJTYeZksSkYGPjxyGrFbI5JEItmR-XWfqSe7HVcua",
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHLbKDHi11TZZ4IklkUxyDuyHuGOZ1CXrSL0p2ByeWn_XI5QjHVYGrwuqDB5-V9VTOXIl-HFfcSkq0a9_NdW-_Zmffx0XTbSd8u6Guu87uQYBrHSNOgPUiu02A_YeClky2jYv1AUOPyUbc0ed94-FBWYWNZAmpkAJaA1jTjAPMBjtLI19ebSJbD8GK5wafuiOclAVba7tQ=",
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQENx_Wt7HXzZ1C7VxFCYp2zkPqdA_5WeIkzNxpcXN_EaVM0AQJN_7FvpPYV-k3YhnD_wbjp5Niw0ufICEMKVJ0GvZCbmhLyafVYVgEko3eBLO6XhAkNl72W93rF8Pc2ojMxmJVxMWSszn2LzgNwHr6VgoTGD8NDYi0h5GdreZZEyzn4ufZbjr625d7SSBhhZFwRm3REFh0T1hDoYhFxc6fVaLV6",
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHzp6BFV9yKk99SVj-Pk3g_7XDQH9XJrFo3gLmsgwFdHYbzBhs34Y6RfzUZ_RAqdBWw65kFjzh-E0rA0_R23y6uy18pezOHivkYn_HdkwNGudDs8B1aqSUgIXGABEg3mD7reUw6Z29hSfa_hoqzlbJRed2NZqwnjF0ospBJVWRYekCXtfwPs7X6fOsd_SO8zpArzxXKO5bS8FSF8MIbE3Y-"
+    ]
+  },
+  {
+    "target": "GIPR",
+    "drug_name": "PF-07976016",
+    "sponsor": "Pfizer",
+    "disease_indication": [
+      "Chronic weight management"
+    ],
+    "development_status": "Phase II",
+    "source_url": [
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEqT7J2izfPMjI6t_goCOpFqu7VFeIlX1gCQ6-IMSbQWGJvzso-4KqAE4DLkVqS3J7TB28SQTz8R4iZRtDIDoEpOXW4XxhBrDN_5T0DEdWjwraVFbSm6QyYa0UUscRPaTzv-pNJAdZyVGhAq8AR0s7gE7NPFmP6VVRpS2wJgpLst6eo5c0rjIxHE2Ph0C1N8kGygjG_PZEk",
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFBwNYoYkjTkXrtGLuwRKmW3rlvtQv5m2ImPAmUzUP1FRMLVknnIu3tCXOwNheFGwDxeA7izvS6SHI4flyTEejBB3hnCiHuAtP68l_mKI6BgeshIDBz_eQ8dfiD0543T3apNFjeuB2VhodusfwMRuDc4cDafbywsrCUJTYeZksSkYGPjxyGrFbI5JEItmR-XWfqSe7HVcua",
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHLbKDHi11TZZ4IklkUxyDuyHuGOZ1CXrSL0p2ByeWn_XI5QjHVYGrwuqDB5-V9VTOXIl-HFfcSkq0a9_NdW-_Zmffx0XTbSd8u6Guu87uQYBrHSNOgPUiu02A_YeClky2jYv1AUOPyUbc0ed94-FBWYWNZAmpkAJaA1jTjAPMBjtLI19ebSJbD8GK5wafuiOclAVba7tQ=",
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQENx_Wt7HXzZ1C7VxFCYp2zkPqdA_5WeIkzNxpcXN_EaVM0AQJN_7FvpPYV-k3YhnD_wbjp5Niw0ufICEMKVJ0GvZCbmhLyafVYVgEko3eBLO6XhAkNl72W93rF8Pc2ojMxmJVxMWSszn2LzgNwHr6VgoTGD8NDYi0h5GdreZZEyzn4ufZbjr625d7SSBhhZFwRm3REFh0T1hDoYhFxc6fVaLV6",
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHzp6BFV9yKk99SVj-Pk3g_7XDQH9XJrFo3gLmsgwFdHYbzBhs34Y6RfzUZ_RAqdBWw65kFjzh-E0rA0_R23y6uy18pezOHivkYn_HdkwNGudDs8B1aqSUgIXGABEg3mD7reUw6Z29hSfa_hoqzlbJRed2NZqwnjF0ospBJVWRYekCXtfwPs7X6fOsd_SO8zpArzxXKO5bS8FSF8MIbE3Y-"
+    ]
+  },
+  {
+    "target": "GIPR",
+    "drug_name": "RG7697",
+    "sponsor": "Marcadia Biotech (with Roche support)",
+    "disease_indication": [],
+    "development_status": "Phase I",
+    "source_url": [
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEqT7J2izfPMjI6t_goCOpFqu7VFeIlX1gCQ6-IMSbQWGJvzso-4KqAE4DLkVqS3J7TB28SQTz8R4iZRtDIDoEpOXW4XxhBrDN_5T0DEdWjwraVFbSm6QyYa0UUscRPaTzv-pNJAdZyVGhAq8AR0s7gE7NPFmP6VVRpS2wJgpLst6eo5c0rjIxHE2Ph0C1N8kGygjG_PZEk",
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFBwNYoYkjTkXrtGLuwRKmW3rlvtQv5m2ImPAmUzUP1FRMLVknnIu3tCXOwNheFGwDxeA7izvS6SHI4flyTEejBB3hnCiHuAtP68l_mKI6BgeshIDBz_eQ8dfiD0543T3apNFjeuB2VhodusfwMRuDc4cDafbywsrCUJTYeZksSkYGPjxyGrFbI5JEItmR-XWfqSe7HVcua",
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHLbKDHi11TZZ4IklkUxyDuyHuGOZ1CXrSL0p2ByeWn_XI5QjHVYGrwuqDB5-V9VTOXIl-HFfcSkq0a9_NdW-_Zmffx0XTbSd8u6Guu87uQYBrHSNOgPUiu02A_YeClky2jYv1AUOPyUbc0ed94-FBWYWNZAmpkAJaA1jTjAPMBjtLI19ebSJbD8GK5wafuiOclAVba7tQ=",
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQENx_Wt7HXzZ1C7VxFCYp2zkPqdA_5WeIkzNxpcXN_EaVM0AQJN_7FvpPYV-k3YhnD_wbjp5Niw0ufICEMKVJ0GvZCbmhLyafVYVgEko3eBLO6XhAkNl72W93rF8Pc2ojMxmJVxMWSszn2LzgNwHr6VgoTGD8NDYi0h5GdreZZEyzn4ufZbjr625d7SSBhhZFwRm3REFh0T1hDoYhFxc6fVaLV6",
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHzp6BFV9yKk99SVj-Pk3g_7XDQH9XJrFo3gLmsgwFdHYbzBhs34Y6RfzUZ_RAqdBWw65kFjzh-E0rA0_R23y6uy18pezOHivkYn_HdkwNGudDs8B1aqSUgIXGABEg3mD7reUw6Z29hSfa_hoqzlbJRed2NZqwnjF0ospBJVWRYekCXtfwPs7X6fOsd_SO8zpArzxXKO5bS8FSF8MIbE3Y-"
+    ]
+  },
+  {
+    "target": "GIPR",
+    "drug_name": "NNC0090–2746",
+    "sponsor": "Novo Nordisk",
+    "disease_indication": [],
+    "development_status": "Phase II",
+    "source_url": [
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEqT7J2izfPMjI6t_goCOpFqu7VFeIlX1gCQ6-IMSbQWGJvzso-4KqAE4DLkVqS3J7TB28SQTz8R4iZRtDIDoEpOXW4XxhBrDN_5T0DEdWjwraVFbSm6QyYa0UUscRPaTzv-pNJAdZyVGhAq8AR0s7gE7NPFmP6VVRpS2wJgpLst6eo5c0rjIxHE2Ph0C1N8kGygjG_PZEk",
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFBwNYoYkjTkXrtGLuwRKmW3rlvtQv5m2ImPAmUzUP1FRMLVknnIu3tCXOwNheFGwDxeA7izvS6SHI4flyTEejBB3hnCiHuAtP68l_mKI6BgeshIDBz_eQ8dfiD0543T3apNFjeuB2VhodusfwMRuDc4cDafbywsrCUJTYeZksSkYGPjxyGrFbI5JEItmR-XWfqSe7HVcua",
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHLbKDHi11TZZ4IklkUxyDuyHuGOZ1CXrSL0p2ByeWn_XI5QjHVYGrwuqDB5-V9VTOXIl-HFfcSkq0a9_NdW-_Zmffx0XTbSd8u6Guu87uQYBrHSNOgPUiu02A_YeClky2jYv1AUOPyUbc0ed94-FBWYWNZAmpkAJaA1jTjAPMBjtLI19ebSJbD8GK5wafuiOclAVba7tQ=",
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQENx_Wt7HXzZ1C7VxFCYp2zkPqdA_5WeIkzNxpcXN_EaVM0AQJN_7FvpPYV-k3YhnD_wbjp5Niw0ufICEMKVJ0GvZCbmhLyafVYVgEko3eBLO6XhAkNl72W93rF8Pc2ojMxmJVxMWSszn2LzgNwHr6VgoTGD8NDYi0h5GdreZZEyzn4ufZbjr625d7SSBhhZFwRm3REFh0T1hDoYhFxc6fVaLV6",
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHzp6BFV9yKk99SVj-Pk3g_7XDQH9XJrFo3gLmsgwFdHYbzBhs34Y6RfzUZ_RAqdBWw65kFjzh-E0rA0_R23y6uy18pezOHivkYn_HdkwNGudDs8B1aqSUgIXGABEg3mD7reUw6Z29hSfa_hoqzlbJRed2NZqwnjF0ospBJVWRYekCXtfwPs7X6fOsd_SO8zpArzxXKO5bS8FSF8MIbE3Y-"
+    ]
+  },
+  {
+    "target": "GIPR",
+    "drug_name": "AT-7687",
+    "sponsor": null,
+    "disease_indication": [
+      "Weight loss",
+      "Metabolic improvements"
+    ],
+    "development_status": "Preclinical",
+    "source_url": [
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEqT7J2izfPMjI6t_goCOpFqu7VFeIlX1gCQ6-IMSbQWGJvzso-4KqAE4DLkVqS3J7TB28SQTz8R4iZRtDIDoEpOXW4XxhBrDN_5T0DEdWjwraVFbSm6QyYa0UUscRPaTzv-pNJAdZyVGhAq8AR0s7gE7NPFmP6VVRpS2wJgpLst6eo5c0rjIxHE2Ph0C1N8kGygjG_PZEk",
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFBwNYoYkjTkXrtGLuwRKmW3rlvtQv5m2ImPAmUzUP1FRMLVknnIu3tCXOwNheFGwDxeA7izvS6SHI4flyTEejBB3hnCiHuAtP68l_mKI6BgeshIDBz_eQ8dfiD0543T3apNFjeuB2VhodusfwMRuDc4cDafbywsrCUJTYeZksSkYGPjxyGrFbI5JEItmR-XWfqSe7HVcua",
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHLbKDHi11TZZ4IklkUxyDuyHuGOZ1CXrSL0p2ByeWn_XI5QjHVYGrwuqDB5-V9VTOXIl-HFfcSkq0a9_NdW-_Zmffx0XTbSd8u6Guu87uQYBrHSNOgPUiu02A_YeClky2jYv1AUOPyUbc0ed94-FBWYWNZAmpkAJaA1jTjAPMBjtLI19ebSJbD8GK5wafuiOclAVba7tQ=",
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQENx_Wt7HXzZ1C7VxFCYp2zkPqdA_5WeIkzNxpcXN_EaVM0AQJN_7FvpPYV-k3YhnD_wbjp5Niw0ufICEMKVJ0GvZCbmhLyafVYVgEko3eBLO6XhAkNl72W93rF8Pc2ojMxmJVxMWSszn2LzgNwHr6VgoTGD8NDYi0h5GdreZZEyzn4ufZbjr625d7SSBhhZFwRm3REFh0T1hDoYhFxc6fVaLV6",
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHzp6BFV9yKk99SVj-Pk3g_7XDQH9XJrFo3gLmsgwFdHYbzBhs34Y6RfzUZ_RAqdBWw65kFjzh-E0rA0_R23y6uy18pezOHivkYn_HdkwNGudDs8B1aqSUgIXGABEg3mD7reUw6Z29hSfa_hoqzlbJRed2NZqwnjF0ospBJVWRYekCXtfwPs7X6fOsd_SO8zpArzxXKO5bS8FSF8MIbE3Y-"
+    ]
+  },
+  {
+    "target": "GIPR",
+    "drug_name": "mGIP-Ant-1",
+    "sponsor": "Rosenkilde's group at the University of Copenhagen",
+    "disease_indication": [
+      "Reduction in body weight"
+    ],
+    "development_status": "Preclinical",
+    "source_url": [
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEqT7J2izfPMjI6t_goCOpFqu7VFeIlX1gCQ6-IMSbQWGJvzso-4KqAE4DLkVqS3J7TB28SQTz8R4iZRtDIDoEpOXW4XxhBrDN_5T0DEdWjwraVFbSm6QyYa0UUscRPaTzv-pNJAdZyVGhAq8AR0s7gE7NPFmP6VVRpS2wJgpLst6eo5c0rjIxHE2Ph0C1N8kGygjG_PZEk",
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFBwNYoYkjTkXrtGLuwRKmW3rlvtQv5m2ImPAmUzUP1FRMLVknnIu3tCXOwNheFGwDxeA7izvS6SHI4flyTEejBB3hnCiHuAtP68l_mKI6BgeshIDBz_eQ8dfiD0543T3apNFjeuB2VhodusfwMRuDc4cDafbywsrCUJTYeZksSkYGPjxyGrFbI5JEItmR-XWfqSe7HVcua",
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHLbKDHi11TZZ4IklkUxyDuyHuGOZ1CXrSL0p2ByeWn_XI5QjHVYGrwuqDB5-V9VTOXIl-HFfcSkq0a9_NdW-_Zmffx0XTbSd8u6Guu87uQYBrHSNOgPUiu02A_YeClky2jYv1AUOPyUbc0ed94-FBWYWNZAmpkAJaA1jTjAPMBjtLI19ebSJbD8GK5wafuiOclAVba7tQ=",
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQENx_Wt7HXzZ1C7VxFCYp2zkPqdA_5WeIkzNxpcXN_EaVM0AQJN_7FvpPYV-k3YhnD_wbjp5Niw0ufICEMKVJ0GvZCbmhLyafVYVgEko3eBLO6XhAkNl72W93rF8Pc2ojMxmJVxMWSszn2LzgNwHr6VgoTGD8NDYi0h5GdreZZEyzn4ufZbjr625d7SSBhhZFwRm3REFh0T1hDoYhFxc6fVaLV6",
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHzp6BFV9yKk99SVj-Pk3g_7XDQH9XJrFo3gLmsgwFdHYbzBhs34Y6RfzUZ_RAqdBWw65kFjzh-E0rA0_R23y6uy18pezOHivkYn_HdkwNGudDs8B1aqSUgIXGABEg3mD7reUw6Z29hSfa_hoqzlbJRed2NZqwnjF0ospBJVWRYekCXtfwPs7X6fOsd_SO8zpArzxXKO5bS8FSF8MIbE3Y-"
+    ]
+  },
+  {
+    "target": "GIPR",
+    "drug_name": "Peptide antagonist '7'",
+    "sponsor": "Novo Nordisk",
+    "disease_indication": [
+      "Reduction in body weight",
+      "Reduction in food intake"
+    ],
+    "development_status": "Preclinical",
+    "source_url": [
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEqT7J2izfPMjI6t_goCOpFqu7VFeIlX1gCQ6-IMSbQWGJvzso-4KqAE4DLkVqS3J7TB28SQTz8R4iZRtDIDoEpOXW4XxhBrDN_5T0DEdWjwraVFbSm6QyYa0UUscRPaTzv-pNJAdZyVGhAq8AR0s7gE7NPFmP6VVRpS2wJgpLst6eo5c0rjIxHE2Ph0C1N8kGygjG_PZEk",
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFBwNYoYkjTkXrtGLuwRKmW3rlvtQv5m2ImPAmUzUP1FRMLVknnIu3tCXOwNheFGwDxeA7izvS6SHI4flyTEejBB3hnCiHuAtP68l_mKI6BgeshIDBz_eQ8dfiD0543T3apNFjeuB2VhodusfwMRuDc4cDafbywsrCUJTYeZksSkYGPjxyGrFbI5JEItmR-XWfqSe7HVcua",
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHLbKDHi11TZZ4IklkUxyDuyHuGOZ1CXrSL0p2ByeWn_XI5QjHVYGrwuqDB5-V9VTOXIl-HFfcSkq0a9_NdW-_Zmffx0XTbSd8u6Guu87uQYBrHSNOgPUiu02A_YeClky2jYv1AUOPyUbc0ed94-FBWYWNZAmpkAJaA1jTjAPMBjtLI19ebSJbD8GK5wafuiOclAVba7tQ=",
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQENx_Wt7HXzZ1C7VxFCYp2zkPqdA_5WeIkzNxpcXN_EaVM0AQJN_7FvpPYV-k3YhnD_wbjp5Niw0ufICEMKVJ0GvZCbmhLyafVYVgEko3eBLO6XhAkNl72W93rF8Pc2ojMxmJVxMWSszn2LzgNwHr6VgoTGD8NDYi0h5GdreZZEyzn4ufZbjr625d7SSBhhZFwRm3REFh0T1hDoYhFxc6fVaLV6",
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHzp6BFV9yKk99SVj-Pk3g_7XDQH9XJrFo3gLmsgwFdHYbzBhs34Y6RfzUZ_RAqdBWw65kFjzh-E0rA0_R23y6uy18pezOHivkYn_HdkwNGudDs8B1aqSUgIXGABEg3mD7reUw6Z29hSfa_hoqzlbJRed2NZqwnjF0ospBJVWRYekCXtfwPs7X6fOsd_SO8zpArzxXKO5bS8FSF8MIbE3Y-"
+    ]
+  },
+  {
+    "target": "GIPR",
+    "drug_name": "BGM-0504",
+    "sponsor": "Eli Lilly Canada, Inc.",
+    "disease_indication": [],
+    "development_status": "Preclinical",
+    "source_url": [
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEqT7J2izfPMjI6t_goCOpFqu7VFeIlX1gCQ6-IMSbQWGJvzso-4KqAE4DLkVqS3J7TB28SQTz8R4iZRtDIDoEpOXW4XxhBrDN_5T0DEdWjwraVFbSm6QyYa0UUscRPaTzv-pNJAdZyVGhAq8AR0s7gE7NPFmP6VVRpS2wJgpLst6eo5c0rjIxHE2Ph0C1N8kGygjG_PZEk",
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFBwNYoYkjTkXrtGLuwRKmW3rlvtQv5m2ImPAmUzUP1FRMLVknnIu3tCXOwNheFGwDxeA7izvS6SHI4flyTEejBB3hnCiHuAtP68l_mKI6BgeshIDBz_eQ8dfiD0543T3apNFjeuB2VhodusfwMRuDc4cDafbywsrCUJTYeZksSkYGPjxyGrFbI5JEItmR-XWfqSe7HVcua",
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHLbKDHi11TZZ4IklkUxyDuyHuGOZ1CXrSL0p2ByeWn_XI5QjHVYGrwuqDB5-V9VTOXIl-HFfcSkq0a9_NdW-_Zmffx0XTbSd8u6Guu87uQYBrHSNOgPUiu02A_YeClky2jYv1AUOPyUbc0ed94-FBWYWNZAmpkAJaA1jTjAPMBjtLI19ebSJbD8GK5wafuiOclAVba7tQ=",
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQENx_Wt7HXzZ1C7VxFCYp2zkPqdA_5WeIkzNxpcXN_EaVM0AQJN_7FvpPYV-k3YhnD_wbjp5Niw0ufICEMKVJ0GvZCbmhLyafVYVgEko3eBLO6XhAkNl72W93rF8Pc2ojMxmJVxMWSszn2LzgNwHr6VgoTGD8NDYi0h5GdreZZEyzn4ufZbjr625d7SSBhhZFwRm3REFh0T1hDoYhFxc6fVaLV6",
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHzp6BFV9yKk99SVj-Pk3g_7XDQH9XJrFo3gLmsgwFdHYbzBhs34Y6RfzUZ_RAqdBWw65kFjzh-E0rA0_R23y6uy18pezOHivkYn_HdkwNGudDs8B1aqSUgIXGABEg3mD7reUw6Z29hSfa_hoqzlbJRed2NZqwnjF0ospBJVWRYekCXtfwPs7X6fOsd_SO8zpArzxXKO5bS8FSF8MIbE3Y-"
+    ]
+  }
+]

@@ -445,6 +445,7 @@ dependencies = [
     { name = "google-genai" },
     { name = "playwright" },
     { name = "python-dotenv" },
+    { name = "urllib3" },
 ]
 
 [package.metadata]
@@ -455,6 +456,7 @@ requires-dist = [
     { name = "google-genai", specifier = ">=1.53.0" },
     { name = "playwright", specifier = ">=1.56.0" },
     { name = "python-dotenv", specifier = ">=1.2.1" },
+    { name = "urllib3", specifier = ">=2.6.0" },
 ]
 
 [[package]]

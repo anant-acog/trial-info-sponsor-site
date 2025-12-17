@@ -1,0 +1,315 @@
+{
+  "target": "GPR75",
+  "total_runs": 4,
+  "unique_drugs": [
+    {
+      "target": "GPR75",
+      "drug_name": "GPR75 Small Molecule Program (AstraZeneca & Regeneron)",
+      "sponsor": "AstraZeneca & Regeneron Pharmaceuticals",
+      "disease_indication": [
+        "Obesity",
+        "Metabolic disorders"
+      ],
+      "development_status": "Preclinical",
+      "source_urls": [
+        "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFGvlsklzkKkcGHmphrtvfLhdeajoySWtqX9M0w7ChLSGnWKd-R7DRM0cEZT2jpY9JkwoLpEyYBETqlq8diFzNxYDhRZajDD8EZfuPF_M_UErQe1rZOpbbfi6cOvk03p3d69TwVt5R7xoDE89EP69iaRymkyiTNijZJ5Ro5UQR9G-gAdk0mDimoLX-4siPuUg==",
+        "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGiYmVYgk9n_alADE9JUUsbFmN_32NGVB4qJpQ0xwotZ8-gEeYh_GK1jRJxuTKwoDI-FdaxqFNeJA7-MJf5lyQ6WNmqPTh-2eMfa3SmOO2AaNUOxuRfWXK27Gx61iYB5ir-HbM9Z2alHNJSjnioXOt9ljI3pxzsPkfQfGIheQQvJCeTfOf4TDU5XqxrwOMD3x1hfw3EqXBWovDLwQvH",
+        "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF2PQzEJ1MqFizFqLIOduxAAJardRFoJewS5F36Q7QFpBMmQ2_hBu0GTXMWUZ7QZ_0D1q5MsnVxVzr5xhiBeFxX7yJsRBN_dEhyvGfXdiDBVfVn5i9UVFEoo_j6NIz6tgc9JrN2TMahCGcSkxcRPLuJog3bbgKIjSkk-1GfrnBUZe9Y6OxKVWDvLknsWtb_DkcDu_U6GVDzfAA=",
+        "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGbH51gOvOVFQMUazoSY-oB9w2VbOP6yO5fityCPpycTKGEx6b8hxsfziJj_y4OLeO7tpOvAtI49NMuWPBpHT8pW3XlieRx-Ew5lnyG7CUOxVVNTVEmOHKO7IPXO973q1Veoe2Iboa7bM-QviyHuA9DkNiUvwo0RHptazY-gIQgxvK4pziobwe5ZZ6CGGiH0qDhVwzPmJaJ",
+        "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEP7tnXH7y6d8g0zCKHpNJ8WtGCmNfZYnVUTqi_W421rF3I8RRbInfb8LyLS999NwKV0pSLZfmLVbW3d8izRJX1ti6N8feyuza6-4pBOal50sI_Ty_XBhldjiBOAXI1z33bvl7y6ZaqgZy0erEsZdA0NuJtQbMAdRAM-XHW8LyeGPsAYb0KjNJv6aJybcjfs0fm",
+        "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHb2p-Nch0uu-FmiPha8EXPpX0wp4Iy70nWJC31MadvsRblH783TyyrWxSvxXdK_Pr0o9GRlRziOfPd_0VA5nZX9sl4n5jynG8ZSvAwSi7sDLcnTPUvwd08Ofc2RdpK7Bcf0sCFwhKFK0ftolbeuRiWIurWNr-Gng72EE6LSI9WFyMQFcwuGKmhx-qyoT8LC2Sqcg==",
+        "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHgDg1HPxQGBEUFOLJYxP4OqsD4d8ZUuhAaYftlX2aAVUgFEhF9wUOldWktTu65qJkCKJlnTJGuKSfCPpoGsTEIli3S3rNlImsqdWMFCGaEdNBC55tpconRpH5Jf9RUSQZBZnYNrX9oCPW43UlVNtVSRAEhlYbGZKHuvk0aQGmK4344GsDegJKWXxKcIO7fCF8jrvA=",
+        "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHiyhI9MkJIpOHEgD0qaQCP5rR8Z5kMs8oH6Z0ar6fVgLEf3o3EGKgwmehqzKnR5gziU98Mrldq4w6bIC6_gLHv-C7unEPTaJize9AbHhVxdpd6IbWkMXsENAkYkvL6eZSLCrwOBlKWph8pN0ZO_cdgaCCzZtDA2fqw9lcPqt2QXNLUVQrjJPSHGW5Ejrdq3NE=",
+        "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG2QJcHsiIAotxDJ-QYL7o0pB6PmNFxTcuoa5aYQMPBRaLT_Y61VvIQK2UrVk5y5UZ9sGF2v6qnO_Hdo1qRw-JaG7VhYFZxMh9nAS_DXkvyKTiVWemdBsq-vwEokK_P3ankJ3iJxg3xK_3tDchqQOi1mE_6KaH-U4ABgKch5u08wZVDYXcaxzJiP36oM31tZH3Z_SmoImG-pkhoGe0U",
+        "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFhN48qaoMztfU61KoQYqaY4CNB8Xk0mkfEEIKAvwg4WUcybI4khgxkTLZCVd9W_ByaP656DIk237tYtC2KaiWJpjIwYydWbEQbL6K1kKYW0EsVNaeNBN-WkNiIVakETvHG7N2_l1uriFXZOoj-ZLZ4s2qnCVjZCLfesZ8-bIAqXJZf1WwqFTdIYmDnu0lKvlU7kuN-nc1jmV8t-xY="
+      ]
+    },
+    {
+      "target": "GPR75",
+      "drug_name": "GPR75 siRNA Program (Alnylam & Regeneron)",
+      "sponsor": "Alnylam Pharmaceuticals & Regeneron Pharmaceuticals",
+      "disease_indication": [
+        "Obesity",
+        "Weight-related diseases"
+      ],
+      "development_status": "Preclinical",
+      "source_urls": [
+        "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFGvlsklzkKkcGHmphrtvfLhdeajoySWtqX9M0w7ChLSGnWKd-R7DRM0cEZT2jpY9JkwoLpEyYBETqlq8diFzNxYDhRZajDD8EZfuPF_M_UErQe1rZOpbbfi6cOvk03p3d69TwVt5R7xoDE89EP69iaRymkyiTNijZJ5Ro5UQR9G-gAdk0mDimoLX-4siPuUg==",
+        "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGiYmVYgk9n_alADE9JUUsbFmN_32NGVB4qJpQ0xwotZ8-gEeYh_GK1jRJxuTKwoDI-FdaxqFNeJA7-MJf5lyQ6WNmqPTh-2eMfa3SmOO2AaNUOxuRfWXK27Gx61iYB5ir-HbM9Z2alHNJSjnioXOt9ljI3pxzsPkfQfGIheQQvJCeTfOf4TDU5XqxrwOMD3x1hfw3EqXBWovDLwQvH",
+        "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF2PQzEJ1MqFizFqLIOduxAAJardRFoJewS5F36Q7QFpBMmQ2_hBu0GTXMWUZ7QZ_0D1q5MsnVxVzr5xhiBeFxX7yJsRBN_dEhyvGfXdiDBVfVn5i9UVFEoo_j6NIz6tgc9JrN2TMahCGcSkxcRPLuJog3bbgKIjSkk-1GfrnBUZe9Y6OxKVWDvLknsWtb_DkcDu_U6GVDzfAA=",
+        "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGbH51gOvOVFQMUazoSY-oB9w2VbOP6yO5fityCPpycTKGEx6b8hxsfziJj_y4OLeO7tpOvAtI49NMuWPBpHT8pW3XlieRx-Ew5lnyG7CUOxVVNTVEmOHKO7IPXO973q1Veoe2Iboa7bM-QviyHuA9DkNiUvwo0RHptazY-gIQgxvK4pziobwe5ZZ6CGGiH0qDhVwzPmJaJ",
+        "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEP7tnXH7y6d8g0zCKHpNJ8WtGCmNfZYnVUTqi_W421rF3I8RRbInfb8LyLS999NwKV0pSLZfmLVbW3d8izRJX1ti6N8feyuza6-4pBOal50sI_Ty_XBhldjiBOAXI1z33bvl7y6ZaqgZy0erEsZdA0NuJtQbMAdRAM-XHW8LyeGPsAYb0KjNJv6aJybcjfs0fm",
+        "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHb2p-Nch0uu-FmiPha8EXPpX0wp4Iy70nWJC31MadvsRblH783TyyrWxSvxXdK_Pr0o9GRlRziOfPd_0VA5nZX9sl4n5jynG8ZSvAwSi7sDLcnTPUvwd08Ofc2RdpK7Bcf0sCFwhKFK0ftolbeuRiWIurWNr-Gng72EE6LSI9WFyMQFcwuGKmhx-qyoT8LC2Sqcg==",
+        "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHgDg1HPxQGBEUFOLJYxP4OqsD4d8ZUuhAaYftlX2aAVUgFEhF9wUOldWktTu65qJkCKJlnTJGuKSfCPpoGsTEIli3S3rNlImsqdWMFCGaEdNBC55tpconRpH5Jf9RUSQZBZnYNrX9oCPW43UlVNtVSRAEhlYbGZKHuvk0aQGmK4344GsDegJKWXxKcIO7fCF8jrvA=",
+        "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHiyhI9MkJIpOHEgD0qaQCP5rR8Z5kMs8oH6Z0ar6fVgLEf3o3EGKgwmehqzKnR5gziU98Mrldq4w6bIC6_gLHv-C7unEPTaJize9AbHhVxdpd6IbWkMXsENAkYkvL6eZSLCrwOBlKWph8pN0ZO_cdgaCCzZtDA2fqw9lcPqt2QXNLUVQrjJPSHGW5Ejrdq3NE=",
+        "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG2QJcHsiIAotxDJ-QYL7o0pB6PmNFxTcuoa5aYQMPBRaLT_Y61VvIQK2UrVk5y5UZ9sGF2v6qnO_Hdo1qRw-JaG7VhYFZxMh9nAS_DXkvyKTiVWemdBsq-vwEokK_P3ankJ3iJxg3xK_3tDchqQOi1mE_6KaH-U4ABgKch5u08wZVDYXcaxzJiP36oM31tZH3Z_SmoImG-pkhoGe0U",
+        "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFhN48qaoMztfU61KoQYqaY4CNB8Xk0mkfEEIKAvwg4WUcybI4khgxkTLZCVd9W_ByaP656DIk237tYtC2KaiWJpjIwYydWbEQbL6K1kKYW0EsVNaeNBN-WkNiIVakETvHG7N2_l1uriFXZOoj-ZLZ4s2qnCVjZCLfesZ8-bIAqXJZf1WwqFTdIYmDnu0lKvlU7kuN-nc1jmV8t-xY="
+      ]
+    },
+    {
+      "target": "GPR75",
+      "drug_name": "GPR75 Antibody Program (Regeneron)",
+      "sponsor": "Regeneron Pharmaceuticals",
+      "disease_indication": [
+        "Obesity"
+      ],
+      "development_status": "Preclinical",
+      "source_urls": [
+        "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFGvlsklzkKkcGHmphrtvfLhdeajoySWtqX9M0w7ChLSGnWKd-R7DRM0cEZT2jpY9JkwoLpEyYBETqlq8diFzNxYDhRZajDD8EZfuPF_M_UErQe1rZOpbbfi6cOvk03p3d69TwVt5R7xoDE89EP69iaRymkyiTNijZJ5Ro5UQR9G-gAdk0mDimoLX-4siPuUg==",
+        "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGiYmVYgk9n_alADE9JUUsbFmN_32NGVB4qJpQ0xwotZ8-gEeYh_GK1jRJxuTKwoDI-FdaxqFNeJA7-MJf5lyQ6WNmqPTh-2eMfa3SmOO2AaNUOxuRfWXK27Gx61iYB5ir-HbM9Z2alHNJSjnioXOt9ljI3pxzsPkfQfGIheQQvJCeTfOf4TDU5XqxrwOMD3x1hfw3EqXBWovDLwQvH",
+        "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF2PQzEJ1MqFizFqLIOduxAAJardRFoJewS5F36Q7QFpBMmQ2_hBu0GTXMWUZ7QZ_0D1q5MsnVxVzr5xhiBeFxX7yJsRBN_dEhyvGfXdiDBVfVn5i9UVFEoo_j6NIz6tgc9JrN2TMahCGcSkxcRPLuJog3bbgKIjSkk-1GfrnBUZe9Y6OxKVWDvLknsWtb_DkcDu_U6GVDzfAA=",
+        "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGbH51gOvOVFQMUazoSY-oB9w2VbOP6yO5fityCPpycTKGEx6b8hxsfziJj_y4OLeO7tpOvAtI49NMuWPBpHT8pW3XlieRx-Ew5lnyG7CUOxVVNTVEmOHKO7IPXO973q1Veoe2Iboa7bM-QviyHuA9DkNiUvwo0RHptazY-gIQgxvK4pziobwe5ZZ6CGGiH0qDhVwzPmJaJ",
+        "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEP7tnXH7y6d8g0zCKHpNJ8WtGCmNfZYnVUTqi_W421rF3I8RRbInfb8LyLS999NwKV0pSLZfmLVbW3d8izRJX1ti6N8feyuza6-4pBOal50sI_Ty_XBhldjiBOAXI1z33bvl7y6ZaqgZy0erEsZdA0NuJtQbMAdRAM-XHW8LyeGPsAYb0KjNJv6aJybcjfs0fm",
+        "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHb2p-Nch0uu-FmiPha8EXPpX0wp4Iy70nWJC31MadvsRblH783TyyrWxSvxXdK_Pr0o9GRlRziOfPd_0VA5nZX9sl4n5jynG8ZSvAwSi7sDLcnTPUvwd08Ofc2RdpK7Bcf0sCFwhKFK0ftolbeuRiWIurWNr-Gng72EE6LSI9WFyMQFcwuGKmhx-qyoT8LC2Sqcg==",
+        "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHgDg1HPxQGBEUFOLJYxP4OqsD4d8ZUuhAaYftlX2aAVUgFEhF9wUOldWktTu65qJkCKJlnTJGuKSfCPpoGsTEIli3S3rNlImsqdWMFCGaEdNBC55tpconRpH5Jf9RUSQZBZnYNrX9oCPW43UlVNtVSRAEhlYbGZKHuvk0aQGmK4344GsDegJKWXxKcIO7fCF8jrvA=",
+        "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHiyhI9MkJIpOHEgD0qaQCP5rR8Z5kMs8oH6Z0ar6fVgLEf3o3EGKgwmehqzKnR5gziU98Mrldq4w6bIC6_gLHv-C7unEPTaJize9AbHhVxdpd6IbWkMXsENAkYkvL6eZSLCrwOBlKWph8pN0ZO_cdgaCCzZtDA2fqw9lcPqt2QXNLUVQrjJPSHGW5Ejrdq3NE=",
+        "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG2QJcHsiIAotxDJ-QYL7o0pB6PmNFxTcuoa5aYQMPBRaLT_Y61VvIQK2UrVk5y5UZ9sGF2v6qnO_Hdo1qRw-JaG7VhYFZxMh9nAS_DXkvyKTiVWemdBsq-vwEokK_P3ankJ3iJxg3xK_3tDchqQOi1mE_6KaH-U4ABgKch5u08wZVDYXcaxzJiP36oM31tZH3Z_SmoImG-pkhoGe0U",
+        "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFhN48qaoMztfU61KoQYqaY4CNB8Xk0mkfEEIKAvwg4WUcybI4khgxkTLZCVd9W_ByaP656DIk237tYtC2KaiWJpjIwYydWbEQbL6K1kKYW0EsVNaeNBN-WkNiIVakETvHG7N2_l1uriFXZOoj-ZLZ4s2qnCVjZCLfesZ8-bIAqXJZf1WwqFTdIYmDnu0lKvlU7kuN-nc1jmV8t-xY="
+      ]
+    },
+    {
+      "target": "GPR75",
+      "drug_name": "ConfometRx GPR75 Agonist Program",
+      "sponsor": "ConfometRx, Inc.",
+      "disease_indication": [
+        "Obesity"
+      ],
+      "development_status": "Preclinical",
+      "source_urls": [
+        "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFGvlsklzkKkcGHmphrtvfLhdeajoySWtqX9M0w7ChLSGnWKd-R7DRM0cEZT2jpY9JkwoLpEyYBETqlq8diFzNxYDhRZajDD8EZfuPF_M_UErQe1rZOpbbfi6cOvk03p3d69TwVt5R7xoDE89EP69iaRymkyiTNijZJ5Ro5UQR9G-gAdk0mDimoLX-4siPuUg==",
+        "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGiYmVYgk9n_alADE9JUUsbFmN_32NGVB4qJpQ0xwotZ8-gEeYh_GK1jRJxuTKwoDI-FdaxqFNeJA7-MJf5lyQ6WNmqPTh-2eMfa3SmOO2AaNUOxuRfWXK27Gx61iYB5ir-HbM9Z2alHNJSjnioXOt9ljI3pxzsPkfQfGIheQQvJCeTfOf4TDU5XqxrwOMD3x1hfw3EqXBWovDLwQvH",
+        "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF2PQzEJ1MqFizFqLIOduxAAJardRFoJewS5F36Q7QFpBMmQ2_hBu0GTXMWUZ7QZ_0D1q5MsnVxVzr5xhiBeFxX7yJsRBN_dEhyvGfXdiDBVfVn5i9UVFEoo_j6NIz6tgc9JrN2TMahCGcSkxcRPLuJog3bbgKIjSkk-1GfrnBUZe9Y6OxKVWDvLknsWtb_DkcDu_U6GVDzfAA=",
+        "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGbH51gOvOVFQMUazoSY-oB9w2VbOP6yO5fityCPpycTKGEx6b8hxsfziJj_y4OLeO7tpOvAtI49NMuWPBpHT8pW3XlieRx-Ew5lnyG7CUOxVVNTVEmOHKO7IPXO973q1Veoe2Iboa7bM-QviyHuA9DkNiUvwo0RHptazY-gIQgxvK4pziobwe5ZZ6CGGiH0qDhVwzPmJaJ",
+        "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEP7tnXH7y6d8g0zCKHpNJ8WtGCmNfZYnVUTqi_W421rF3I8RRbInfb8LyLS999NwKV0pSLZfmLVbW3d8izRJX1ti6N8feyuza6-4pBOal50sI_Ty_XBhldjiBOAXI1z33bvl7y6ZaqgZy0erEsZdA0NuJtQbMAdRAM-XHW8LyeGPsAYb0KjNJv6aJybcjfs0fm",
+        "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHb2p-Nch0uu-FmiPha8EXPpX0wp4Iy70nWJC31MadvsRblH783TyyrWxSvxXdK_Pr0o9GRlRziOfPd_0VA5nZX9sl4n5jynG8ZSvAwSi7sDLcnTPUvwd08Ofc2RdpK7Bcf0sCFwhKFK0ftolbeuRiWIurWNr-Gng72EE6LSI9WFyMQFcwuGKmhx-qyoT8LC2Sqcg==",
+        "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHgDg1HPxQGBEUFOLJYxP4OqsD4d8ZUuhAaYftlX2aAVUgFEhF9wUOldWktTu65qJkCKJlnTJGuKSfCPpoGsTEIli3S3rNlImsqdWMFCGaEdNBC55tpconRpH5Jf9RUSQZBZnYNrX9oCPW43UlVNtVSRAEhlYbGZKHuvk0aQGmK4344GsDegJKWXxKcIO7fCF8jrvA=",
+        "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHiyhI9MkJIpOHEgD0qaQCP5rR8Z5kMs8oH6Z0ar6fVgLEf3o3EGKgwmehqzKnR5gziU98Mrldq4w6bIC6_gLHv-C7unEPTaJize9AbHhVxdpd6IbWkMXsENAkYkvL6eZSLCrwOBlKWph8pN0ZO_cdgaCCzZtDA2fqw9lcPqt2QXNLUVQrjJPSHGW5Ejrdq3NE=",
+        "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG2QJcHsiIAotxDJ-QYL7o0pB6PmNFxTcuoa5aYQMPBRaLT_Y61VvIQK2UrVk5y5UZ9sGF2v6qnO_Hdo1qRw-JaG7VhYFZxMh9nAS_DXkvyKTiVWemdBsq-vwEokK_P3ankJ3iJxg3xK_3tDchqQOi1mE_6KaH-U4ABgKch5u08wZVDYXcaxzJiP36oM31tZH3Z_SmoImG-pkhoGe0U",
+        "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFhN48qaoMztfU61KoQYqaY4CNB8Xk0mkfEEIKAvwg4WUcybI4khgxkTLZCVd9W_ByaP656DIk237tYtC2KaiWJpjIwYydWbEQbL6K1kKYW0EsVNaeNBN-WkNiIVakETvHG7N2_l1uriFXZOoj-ZLZ4s2qnCVjZCLfesZ8-bIAqXJZf1WwqFTdIYmDnu0lKvlU7kuN-nc1jmV8t-xY="
+      ]
+    },
+    {
+      "target": "GPR75",
+      "drug_name": "Orion GPR75 Candidate 1",
+      "sponsor": "Orion Biotechnology",
+      "disease_indication": [
+        "Obesity",
+        "Metabolic Disorders"
+      ],
+      "development_status": "Preclinical",
+      "source_urls": [
+        "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFGvlsklzkKkcGHmphrtvfLhdeajoySWtqX9M0w7ChLSGnWKd-R7DRM0cEZT2jpY9JkwoLpEyYBETqlq8diFzNxYDhRZajDD8EZfuPF_M_UErQe1rZOpbbfi6cOvk03p3d69TwVt5R7xoDE89EP69iaRymkyiTNijZJ5Ro5UQR9G-gAdk0mDimoLX-4siPuUg==",
+        "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGiYmVYgk9n_alADE9JUUsbFmN_32NGVB4qJpQ0xwotZ8-gEeYh_GK1jRJxuTKwoDI-FdaxqFNeJA7-MJf5lyQ6WNmqPTh-2eMfa3SmOO2AaNUOxuRfWXK27Gx61iYB5ir-HbM9Z2alHNJSjnioXOt9ljI3pxzsPkfQfGIheQQvJCeTfOf4TDU5XqxrwOMD3x1hfw3EqXBWovDLwQvH",
+        "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF2PQzEJ1MqFizFqLIOduxAAJardRFoJewS5F36Q7QFpBMmQ2_hBu0GTXMWUZ7QZ_0D1q5MsnVxVzr5xhiBeFxX7yJsRBN_dEhyvGfXdiDBVfVn5i9UVFEoo_j6NIz6tgc9JrN2TMahCGcSkxcRPLuJog3bbgKIjSkk-1GfrnBUZe9Y6OxKVWDvLknsWtb_DkcDu_U6GVDzfAA=",
+        "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGbH51gOvOVFQMUazoSY-oB9w2VbOP6yO5fityCPpycTKGEx6b8hxsfziJj_y4OLeO7tpOvAtI49NMuWPBpHT8pW3XlieRx-Ew5lnyG7CUOxVVNTVEmOHKO7IPXO973q1Veoe2Iboa7bM-QviyHuA9DkNiUvwo0RHptazY-gIQgxvK4pziobwe5ZZ6CGGiH0qDhVwzPmJaJ",
+        "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEP7tnXH7y6d8g0zCKHpNJ8WtGCmNfZYnVUTqi_W421rF3I8RRbInfb8LyLS999NwKV0pSLZfmLVbW3d8izRJX1ti6N8feyuza6-4pBOal50sI_Ty_XBhldjiBOAXI1z33bvl7y6ZaqgZy0erEsZdA0NuJtQbMAdRAM-XHW8LyeGPsAYb0KjNJv6aJybcjfs0fm",
+        "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHb2p-Nch0uu-FmiPha8EXPpX0wp4Iy70nWJC31MadvsRblH783TyyrWxSvxXdK_Pr0o9GRlRziOfPd_0VA5nZX9sl4n5jynG8ZSvAwSi7sDLcnTPUvwd08Ofc2RdpK7Bcf0sCFwhKFK0ftolbeuRiWIurWNr-Gng72EE6LSI9WFyMQFcwuGKmhx-qyoT8LC2Sqcg==",
+        "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHgDg1HPxQGBEUFOLJYxP4OqsD4d8ZUuhAaYftlX2aAVUgFEhF9wUOldWktTu65qJkCKJlnTJGuKSfCPpoGsTEIli3S3rNlImsqdWMFCGaEdNBC55tpconRpH5Jf9RUSQZBZnYNrX9oCPW43UlVNtVSRAEhlYbGZKHuvk0aQGmK4344GsDegJKWXxKcIO7fCF8jrvA=",
+        "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHiyhI9MkJIpOHEgD0qaQCP5rR8Z5kMs8oH6Z0ar6fVgLEf3o3EGKgwmehqzKnR5gziU98Mrldq4w6bIC6_gLHv-C7unEPTaJize9AbHhVxdpd6IbWkMXsENAkYkvL6eZSLCrwOBlKWph8pN0ZO_cdgaCCzZtDA2fqw9lcPqt2QXNLUVQrjJPSHGW5Ejrdq3NE=",
+        "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG2QJcHsiIAotxDJ-QYL7o0pB6PmNFxTcuoa5aYQMPBRaLT_Y61VvIQK2UrVk5y5UZ9sGF2v6qnO_Hdo1qRw-JaG7VhYFZxMh9nAS_DXkvyKTiVWemdBsq-vwEokK_P3ankJ3iJxg3xK_3tDchqQOi1mE_6KaH-U4ABgKch5u08wZVDYXcaxzJiP36oM31tZH3Z_SmoImG-pkhoGe0U",
+        "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFhN48qaoMztfU61KoQYqaY4CNB8Xk0mkfEEIKAvwg4WUcybI4khgxkTLZCVd9W_ByaP656DIk237tYtC2KaiWJpjIwYydWbEQbL6K1kKYW0EsVNaeNBN-WkNiIVakETvHG7N2_l1uriFXZOoj-ZLZ4s2qnCVjZCLfesZ8-bIAqXJZf1WwqFTdIYmDnu0lKvlU7kuN-nc1jmV8t-xY="
+      ]
+    },
+    {
+      "target": "GPR75",
+      "drug_name": "Orion GPR75 Candidate 2",
+      "sponsor": "Orion Biotechnology",
+      "disease_indication": [
+        "Obesity",
+        "Metabolic Disorders"
+      ],
+      "development_status": "Preclinical",
+      "source_urls": [
+        "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFGvlsklzkKkcGHmphrtvfLhdeajoySWtqX9M0w7ChLSGnWKd-R7DRM0cEZT2jpY9JkwoLpEyYBETqlq8diFzNxYDhRZajDD8EZfuPF_M_UErQe1rZOpbbfi6cOvk03p3d69TwVt5R7xoDE89EP69iaRymkyiTNijZJ5Ro5UQR9G-gAdk0mDimoLX-4siPuUg==",
+        "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGiYmVYgk9n_alADE9JUUsbFmN_32NGVB4qJpQ0xwotZ8-gEeYh_GK1jRJxuTKwoDI-FdaxqFNeJA7-MJf5lyQ6WNmqPTh-2eMfa3SmOO2AaNUOxuRfWXK27Gx61iYB5ir-HbM9Z2alHNJSjnioXOt9ljI3pxzsPkfQfGIheQQvJCeTfOf4TDU5XqxrwOMD3x1hfw3EqXBWovDLwQvH",
+        "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF2PQzEJ1MqFizFqLIOduxAAJardRFoJewS5F36Q7QFpBMmQ2_hBu0GTXMWUZ7QZ_0D1q5MsnVxVzr5xhiBeFxX7yJsRBN_dEhyvGfXdiDBVfVn5i9UVFEoo_j6NIz6tgc9JrN2TMahCGcSkxcRPLuJog3bbgKIjSkk-1GfrnBUZe9Y6OxKVWDvLknsWtb_DkcDu_U6GVDzfAA=",
+        "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGbH51gOvOVFQMUazoSY-oB9w2VbOP6yO5fityCPpycTKGEx6b8hxsfziJj_y4OLeO7tpOvAtI49NMuWPBpHT8pW3XlieRx-Ew5lnyG7CUOxVVNTVEmOHKO7IPXO973q1Veoe2Iboa7bM-QviyHuA9DkNiUvwo0RHptazY-gIQgxvK4pziobwe5ZZ6CGGiH0qDhVwzPmJaJ",
+        "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEP7tnXH7y6d8g0zCKHpNJ8WtGCmNfZYnVUTqi_W421rF3I8RRbInfb8LyLS999NwKV0pSLZfmLVbW3d8izRJX1ti6N8feyuza6-4pBOal50sI_Ty_XBhldjiBOAXI1z33bvl7y6ZaqgZy0erEsZdA0NuJtQbMAdRAM-XHW8LyeGPsAYb0KjNJv6aJybcjfs0fm",
+        "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHb2p-Nch0uu-FmiPha8EXPpX0wp4Iy70nWJC31MadvsRblH783TyyrWxSvxXdK_Pr0o9GRlRziOfPd_0VA5nZX9sl4n5jynG8ZSvAwSi7sDLcnTPUvwd08Ofc2RdpK7Bcf0sCFwhKFK0ftolbeuRiWIurWNr-Gng72EE6LSI9WFyMQFcwuGKmhx-qyoT8LC2Sqcg==",
+        "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHgDg1HPxQGBEUFOLJYxP4OqsD4d8ZUuhAaYftlX2aAVUgFEhF9wUOldWktTu65qJkCKJlnTJGuKSfCPpoGsTEIli3S3rNlImsqdWMFCGaEdNBC55tpconRpH5Jf9RUSQZBZnYNrX9oCPW43UlVNtVSRAEhlYbGZKHuvk0aQGmK4344GsDegJKWXxKcIO7fCF8jrvA=",
+        "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHiyhI9MkJIpOHEgD0qaQCP5rR8Z5kMs8oH6Z0ar6fVgLEf3o3EGKgwmehqzKnR5gziU98Mrldq4w6bIC6_gLHv-C7unEPTaJize9AbHhVxdpd6IbWkMXsENAkYkvL6eZSLCrwOBlKWph8pN0ZO_cdgaCCzZtDA2fqw9lcPqt2QXNLUVQrjJPSHGW5Ejrdq3NE=",
+        "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG2QJcHsiIAotxDJ-QYL7o0pB6PmNFxTcuoa5aYQMPBRaLT_Y61VvIQK2UrVk5y5UZ9sGF2v6qnO_Hdo1qRw-JaG7VhYFZxMh9nAS_DXkvyKTiVWemdBsq-vwEokK_P3ankJ3iJxg3xK_3tDchqQOi1mE_6KaH-U4ABgKch5u08wZVDYXcaxzJiP36oM31tZH3Z_SmoImG-pkhoGe0U",
+        "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFhN48qaoMztfU61KoQYqaY4CNB8Xk0mkfEEIKAvwg4WUcybI4khgxkTLZCVd9W_ByaP656DIk237tYtC2KaiWJpjIwYydWbEQbL6K1kKYW0EsVNaeNBN-WkNiIVakETvHG7N2_l1uriFXZOoj-ZLZ4s2qnCVjZCLfesZ8-bIAqXJZf1WwqFTdIYmDnu0lKvlU7kuN-nc1jmV8t-xY="
+      ]
+    },
+    {
+      "target": "GPR75",
+      "drug_name": "GPR75 Small Molecule Program",
+      "sponsor": "Regeneron Pharmaceuticals; AstraZeneca",
+      "disease_indication": [
+        "Obesity",
+        "Related Co-morbidities"
+      ],
+      "development_status": "Preclinical",
+      "source_urls": [
+        "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGL911nOAyrgwl-g6f8bhWFcuBgU4bhsK3ro6z-1_hxfSCHOsl-nPzaUWcC6RGDz3raYXgROP3WgFsQKaiPfSqYjQrivwv2EFkloRqMQYPQXvl7CrLZiIygSiDbxnPXUpFxo0F3SCP74MLn7_5B8QiJ3enc9IesPNBlgmgBn_dpgsTeO6aZ0yfB3b5TgXgSY-JP7eb7z7xOMrGX",
+        "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH7iJjr6S_oq0t5E3yu_Cp4kGA5jgvl9Ge_BYJiq_6qF4uS4i7CNFPTodKKTpg6iwYrqkDBvQBEixk_BRf6yJrVzi9OaoemTFBBfwKZ26r-F95YcSNJigzHlxUJRs0xAHXop7vWhB0_7BRTOSGvoHAqRn4ybc5agad6D6E2uayCArMyKTRtR4-iRc5OIGN5U3LhDb3D3WUlqzY=",
+        "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG0wnUhwPTTZhklXz9eub6r8N_LBhMu1KifpLX6_ZXmuqk6vg1wx0Db1c1wH97uO1995Gdamgxx_Hy6njUoN5R5LxudMnEd40jH-fftBj1OGjk9WzpmPJNpitidGB4qeCgHzC_I0mkdIY7ZyMIV4-mifwJHylpZftjMtSt8aA4XUHVaUBqvtnI-DAoo6YGNoRfBJbYgcxwAdJfOaw==",
+        "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEK6nGLLv41XFjFETU6PYS4-SotFS0TgJhvBul95ualWskx-j-hXQu67Dj-zbWlMKuiTMmEshalELOl_FhczUNor2189rb1vvuZa9nGUAEm3qCNcvO1zdhYbF4h8-GHQen5xrPWO1IO8tbADEC0KEOqae0Lsho8UQs-poaZ29HQeAYvMWTk7fu_if8IHZyoNAjgKBBAbISo",
+        "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH5ccyWqmvjhZ76q7eMFB7thtzHRQOAT3Vc6ajE8DgMyrYjgyJgs9OHpZgxcJSXorpSiAwe0xpWwInMF0B_AI7e97uElJqnNS9TYbJBnkZmgCFGio5ML_G4MJ5ia7g_WsOT4Q-iDGtagTywlqVQexG1Q4g36BO8w3F-4nlytoZzG4wuZM9IsTkB6RJkmD7YBPORGmEZxKw=",
+        "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHZtRrBOhtBGW2GZx0NZdKHk7sotL4U-imH5iIpdmR2U4TbZuLQVkwh44JEmQkGXeUNAurdBPPqSbfLlnmfv0h9NzdB2TVTDPnYFXwf6SUf7LZmdaeWAw8rvcaLYF5hZK4uR0_Eebf6_prGuEkndmIThBFoACnWNJ8XivM8vIuuRIoRqCQn0_IV4oCwdtzgb13kA-4itqKBIglhgkc=",
+        "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHyfCznSesYsS1vrqBdLxlh6-Jeucf0iQGN5h_JJxpSbHf_9ld9VcLDkL5z0VzOx4EFqntvJhgF9n8RqxpFdA87JV06Lk9hiAaDnS0ItaxVkp1meDMPYg-xHBj-TqzCj1Mg8BWMe3tEPWt8WtljOxIAts5_XjrS6PMbbJ-BiZ59rD-aUHAYcZlmYv6usrpcIWYQWF__Z0Sh",
+        "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH1k4II7KfjsUxmVSzm3s4Em7nsaRt02mry34oubnHsdn78vzmOtGu7IgErBKlz6qb4IZFHjVWVenKKgRqwg0RmKrCUdX-OCAGALOFuokGicDmGY4o3wjYXIREnAc4nbHQF2Sa2GCo6CPuREOEmMEH2eHvoM64CUyJSiV1mlLKKmgwobdXo7cwRhWGy1FQ90XVehtnum_Cv8uc=",
+        "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFFnGxJh0THKcz2pukIR0vz0BGK6A1hIk3u8jk6SHWXFEtRDFIln8Y9sbW33mo_g2Ud1Ua28I2w89tLkkew1JEhbrKtLOkERoDGT_As-MLqDheJBJJ84BGoQG3RgROcFeLRxfcmRod206vC719lga4opbve_KoAjOKcfmk7CzknGJzNb9ab76C9F7r_lf0pEN1glX1PhXBjvjY=",
+        "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQErWrMEBcH3j4OHGi3a639cDmxoaIyXEEwJSC_teI1qFfuIkRSJSDyEnsdSJXY_PNSKRzXxBsscbU9CN_C2saLfdivCqG8wVAbu6TarVQBMX2VdKxrg6BmNzNw4jNmgawSPIfgOHzHHkStZguIjOx9jeTfr0ya9OBVADDl2HZradAwW05XhQ0GVwXxf7F0PI5vio3JrKVoqE-k6CfC2ZbA=",
+        "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGH7-vYX40lG3kTafBnzUq2pOZfXwybR12-OoT_Y8Jy3XR54q8YNldPtwdXrhhwOwd9pYVTv-D0URQzm5l8484ssMpoO1-jb2EGWh4lwVkN_5dXdAQm4-vPIS0znx5hL5UaBNjfKQvXsroZ7mKnk5r7npBGnDkZIHmN-vhz83uTLhF2ms5MBx6hwJ-q0fodGBxBa5zlyVE=",
+        "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH2qqL9yWmVN4RJs28SudxyGQos_qHJXyQ4ei-UBRdQHqPt7oOxwrfEIWnyIO0gL-yU-GJbKQExfpEF2YXYcqf8t6LNW2v6iXvtGch2zhB3tg-tMf230Kd-Z2-WabhLRoYdM5K4pXMf14KqBFM0o4cdD2LZTRyAOH1jV0roTpjEBFSlyKzrbzGeadRL2y6G8ceBLpZRlnei",
+        "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG-whablQmEN5CLUNNKguwg3xxip1EZIG59FttwjU1p52LjmrRntC6y4ZupaC4ZOLw06PrzPqNtiCllGrcN2EvcXFEDkE3FtwEalzRcyhXYI8JYGECOs8cJdqaOGO6U_AaJPRjbOBWYIPhFwNBhXANlytINwNV03j8ctXCLQgkcS0Rwk281jzkVOFy8i_pLbCj1Qh_zVBNjGQ==",
+        "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFmS6pFLkDUxf-jQOf-qUIqHdhyOuCO7xbXo7GLpoTl9lri8rI2fQSVBB__fpcaVetnfDmkDQNdvgKLO6J8wrrisdYcQcA0f2uKcikg9JR2BlmNst4qOpskaXuG3fUFXh-a1mkxlKEay1oyzo1QT0Ue2ykHRI-h6g5opSmABViMjiINQji133UeK3hEiGraA3k0VTl0JjnzvXY0sNiY"
+      ]
+    },
+    {
+      "target": "GPR75",
+      "drug_name": "GPR75 siRNA Program",
+      "sponsor": "Regeneron Pharmaceuticals; Alnylam Pharmaceuticals",
+      "disease_indication": [
+        "Obesity"
+      ],
+      "development_status": "Preclinical",
+      "source_urls": [
+        "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGL911nOAyrgwl-g6f8bhWFcuBgU4bhsK3ro6z-1_hxfSCHOsl-nPzaUWcC6RGDz3raYXgROP3WgFsQKaiPfSqYjQrivwv2EFkloRqMQYPQXvl7CrLZiIygSiDbxnPXUpFxo0F3SCP74MLn7_5B8QiJ3enc9IesPNBlgmgBn_dpgsTeO6aZ0yfB3b5TgXgSY-JP7eb7z7xOMrGX",
+        "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH7iJjr6S_oq0t5E3yu_Cp4kGA5jgvl9Ge_BYJiq_6qF4uS4i7CNFPTodKKTpg6iwYrqkDBvQBEixk_BRf6yJrVzi9OaoemTFBBfwKZ26r-F95YcSNJigzHlxUJRs0xAHXop7vWhB0_7BRTOSGvoHAqRn4ybc5agad6D6E2uayCArMyKTRtR4-iRc5OIGN5U3LhDb3D3WUlqzY=",
+        "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG0wnUhwPTTZhklXz9eub6r8N_LBhMu1KifpLX6_ZXmuqk6vg1wx0Db1c1wH97uO1995Gdamgxx_Hy6njUoN5R5LxudMnEd40jH-fftBj1OGjk9WzpmPJNpitidGB4qeCgHzC_I0mkdIY7ZyMIV4-mifwJHylpZftjMtSt8aA4XUHVaUBqvtnI-DAoo6YGNoRfBJbYgcxwAdJfOaw==",
+        "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEK6nGLLv41XFjFETU6PYS4-SotFS0TgJhvBul95ualWskx-j-hXQu67Dj-zbWlMKuiTMmEshalELOl_FhczUNor2189rb1vvuZa9nGUAEm3qCNcvO1zdhYbF4h8-GHQen5xrPWO1IO8tbADEC0KEOqae0Lsho8UQs-poaZ29HQeAYvMWTk7fu_if8IHZyoNAjgKBBAbISo",
+        "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH5ccyWqmvjhZ76q7eMFB7thtzHRQOAT3Vc6ajE8DgMyrYjgyJgs9OHpZgxcJSXorpSiAwe0xpWwInMF0B_AI7e97uElJqnNS9TYbJBnkZmgCFGio5ML_G4MJ5ia7g_WsOT4Q-iDGtagTywlqVQexG1Q4g36BO8w3F-4nlytoZzG4wuZM9IsTkB6RJkmD7YBPORGmEZxKw=",
+        "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHZtRrBOhtBGW2GZx0NZdKHk7sotL4U-imH5iIpdmR2U4TbZuLQVkwh44JEmQkGXeUNAurdBPPqSbfLlnmfv0h9NzdB2TVTDPnYFXwf6SUf7LZmdaeWAw8rvcaLYF5hZK4uR0_Eebf6_prGuEkndmIThBFoACnWNJ8XivM8vIuuRIoRqCQn0_IV4oCwdtzgb13kA-4itqKBIglhgkc=",
+        "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHyfCznSesYsS1vrqBdLxlh6-Jeucf0iQGN5h_JJxpSbHf_9ld9VcLDkL5z0VzOx4EFqntvJhgF9n8RqxpFdA87JV06Lk9hiAaDnS0ItaxVkp1meDMPYg-xHBj-TqzCj1Mg8BWMe3tEPWt8WtljOxIAts5_XjrS6PMbbJ-BiZ59rD-aUHAYcZlmYv6usrpcIWYQWF__Z0Sh",
+        "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH1k4II7KfjsUxmVSzm3s4Em7nsaRt02mry34oubnHsdn78vzmOtGu7IgErBKlz6qb4IZFHjVWVenKKgRqwg0RmKrCUdX-OCAGALOFuokGicDmGY4o3wjYXIREnAc4nbHQF2Sa2GCo6CPuREOEmMEH2eHvoM64CUyJSiV1mlLKKmgwobdXo7cwRhWGy1FQ90XVehtnum_Cv8uc=",
+        "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFFnGxJh0THKcz2pukIR0vz0BGK6A1hIk3u8jk6SHWXFEtRDFIln8Y9sbW33mo_g2Ud1Ua28I2w89tLkkew1JEhbrKtLOkERoDGT_As-MLqDheJBJJ84BGoQG3RgROcFeLRxfcmRod206vC719lga4opbve_KoAjOKcfmk7CzknGJzNb9ab76C9F7r_lf0pEN1glX1PhXBjvjY=",
+        "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQErWrMEBcH3j4OHGi3a639cDmxoaIyXEEwJSC_teI1qFfuIkRSJSDyEnsdSJXY_PNSKRzXxBsscbU9CN_C2saLfdivCqG8wVAbu6TarVQBMX2VdKxrg6BmNzNw4jNmgawSPIfgOHzHHkStZguIjOx9jeTfr0ya9OBVADDl2HZradAwW05XhQ0GVwXxf7F0PI5vio3JrKVoqE-k6CfC2ZbA=",
+        "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGH7-vYX40lG3kTafBnzUq2pOZfXwybR12-OoT_Y8Jy3XR54q8YNldPtwdXrhhwOwd9pYVTv-D0URQzm5l8484ssMpoO1-jb2EGWh4lwVkN_5dXdAQm4-vPIS0znx5hL5UaBNjfKQvXsroZ7mKnk5r7npBGnDkZIHmN-vhz83uTLhF2ms5MBx6hwJ-q0fodGBxBa5zlyVE=",
+        "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH2qqL9yWmVN4RJs28SudxyGQos_qHJXyQ4ei-UBRdQHqPt7oOxwrfEIWnyIO0gL-yU-GJbKQExfpEF2YXYcqf8t6LNW2v6iXvtGch2zhB3tg-tMf230Kd-Z2-WabhLRoYdM5K4pXMf14KqBFM0o4cdD2LZTRyAOH1jV0roTpjEBFSlyKzrbzGeadRL2y6G8ceBLpZRlnei",
+        "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG-whablQmEN5CLUNNKguwg3xxip1EZIG59FttwjU1p52LjmrRntC6y4ZupaC4ZOLw06PrzPqNtiCllGrcN2EvcXFEDkE3FtwEalzRcyhXYI8JYGECOs8cJdqaOGO6U_AaJPRjbOBWYIPhFwNBhXANlytINwNV03j8ctXCLQgkcS0Rwk281jzkVOFy8i_pLbCj1Qh_zVBNjGQ==",
+        "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFmS6pFLkDUxf-jQOf-qUIqHdhyOuCO7xbXo7GLpoTl9lri8rI2fQSVBB__fpcaVetnfDmkDQNdvgKLO6J8wrrisdYcQcA0f2uKcikg9JR2BlmNst4qOpskaXuG3fUFXh-a1mkxlKEay1oyzo1QT0Ue2ykHRI-h6g5opSmABViMjiINQji133UeK3hEiGraA3k0VTl0JjnzvXY0sNiY"
+      ]
+    },
+    {
+      "target": "GPR75",
+      "drug_name": "GPR75 Antibody Program",
+      "sponsor": "Regeneron Pharmaceuticals",
+      "disease_indication": [
+        "Obesity"
+      ],
+      "development_status": "Preclinical",
+      "source_urls": [
+        "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGL911nOAyrgwl-g6f8bhWFcuBgU4bhsK3ro6z-1_hxfSCHOsl-nPzaUWcC6RGDz3raYXgROP3WgFsQKaiPfSqYjQrivwv2EFkloRqMQYPQXvl7CrLZiIygSiDbxnPXUpFxo0F3SCP74MLn7_5B8QiJ3enc9IesPNBlgmgBn_dpgsTeO6aZ0yfB3b5TgXgSY-JP7eb7z7xOMrGX",
+        "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH7iJjr6S_oq0t5E3yu_Cp4kGA5jgvl9Ge_BYJiq_6qF4uS4i7CNFPTodKKTpg6iwYrqkDBvQBEixk_BRf6yJrVzi9OaoemTFBBfwKZ26r-F95YcSNJigzHlxUJRs0xAHXop7vWhB0_7BRTOSGvoHAqRn4ybc5agad6D6E2uayCArMyKTRtR4-iRc5OIGN5U3LhDb3D3WUlqzY=",
+        "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG0wnUhwPTTZhklXz9eub6r8N_LBhMu1KifpLX6_ZXmuqk6vg1wx0Db1c1wH97uO1995Gdamgxx_Hy6njUoN5R5LxudMnEd40jH-fftBj1OGjk9WzpmPJNpitidGB4qeCgHzC_I0mkdIY7ZyMIV4-mifwJHylpZftjMtSt8aA4XUHVaUBqvtnI-DAoo6YGNoRfBJbYgcxwAdJfOaw==",
+        "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEK6nGLLv41XFjFETU6PYS4-SotFS0TgJhvBul95ualWskx-j-hXQu67Dj-zbWlMKuiTMmEshalELOl_FhczUNor2189rb1vvuZa9nGUAEm3qCNcvO1zdhYbF4h8-GHQen5xrPWO1IO8tbADEC0KEOqae0Lsho8UQs-poaZ29HQeAYvMWTk7fu_if8IHZyoNAjgKBBAbISo",
+        "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH5ccyWqmvjhZ76q7eMFB7thtzHRQOAT3Vc6ajE8DgMyrYjgyJgs9OHpZgxcJSXorpSiAwe0xpWwInMF0B_AI7e97uElJqnNS9TYbJBnkZmgCFGio5ML_G4MJ5ia7g_WsOT4Q-iDGtagTywlqVQexG1Q4g36BO8w3F-4nlytoZzG4wuZM9IsTkB6RJkmD7YBPORGmEZxKw=",
+        "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHZtRrBOhtBGW2GZx0NZdKHk7sotL4U-imH5iIpdmR2U4TbZuLQVkwh44JEmQkGXeUNAurdBPPqSbfLlnmfv0h9NzdB2TVTDPnYFXwf6SUf7LZmdaeWAw8rvcaLYF5hZK4uR0_Eebf6_prGuEkndmIThBFoACnWNJ8XivM8vIuuRIoRqCQn0_IV4oCwdtzgb13kA-4itqKBIglhgkc=",
+        "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHyfCznSesYsS1vrqBdLxlh6-Jeucf0iQGN5h_JJxpSbHf_9ld9VcLDkL5z0VzOx4EFqntvJhgF9n8RqxpFdA87JV06Lk9hiAaDnS0ItaxVkp1meDMPYg-xHBj-TqzCj1Mg8BWMe3tEPWt8WtljOxIAts5_XjrS6PMbbJ-BiZ59rD-aUHAYcZlmYv6usrpcIWYQWF__Z0Sh",
+        "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH1k4II7KfjsUxmVSzm3s4Em7nsaRt02mry34oubnHsdn78vzmOtGu7IgErBKlz6qb4IZFHjVWVenKKgRqwg0RmKrCUdX-OCAGALOFuokGicDmGY4o3wjYXIREnAc4nbHQF2Sa2GCo6CPuREOEmMEH2eHvoM64CUyJSiV1mlLKKmgwobdXo7cwRhWGy1FQ90XVehtnum_Cv8uc=",
+        "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFFnGxJh0THKcz2pukIR0vz0BGK6A1hIk3u8jk6SHWXFEtRDFIln8Y9sbW33mo_g2Ud1Ua28I2w89tLkkew1JEhbrKtLOkERoDGT_As-MLqDheJBJJ84BGoQG3RgROcFeLRxfcmRod206vC719lga4opbve_KoAjOKcfmk7CzknGJzNb9ab76C9F7r_lf0pEN1glX1PhXBjvjY=",
+        "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQErWrMEBcH3j4OHGi3a639cDmxoaIyXEEwJSC_teI1qFfuIkRSJSDyEnsdSJXY_PNSKRzXxBsscbU9CN_C2saLfdivCqG8wVAbu6TarVQBMX2VdKxrg6BmNzNw4jNmgawSPIfgOHzHHkStZguIjOx9jeTfr0ya9OBVADDl2HZradAwW05XhQ0GVwXxf7F0PI5vio3JrKVoqE-k6CfC2ZbA=",
+        "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGH7-vYX40lG3kTafBnzUq2pOZfXwybR12-OoT_Y8Jy3XR54q8YNldPtwdXrhhwOwd9pYVTv-D0URQzm5l8484ssMpoO1-jb2EGWh4lwVkN_5dXdAQm4-vPIS0znx5hL5UaBNjfKQvXsroZ7mKnk5r7npBGnDkZIHmN-vhz83uTLhF2ms5MBx6hwJ-q0fodGBxBa5zlyVE=",
+        "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH2qqL9yWmVN4RJs28SudxyGQos_qHJXyQ4ei-UBRdQHqPt7oOxwrfEIWnyIO0gL-yU-GJbKQExfpEF2YXYcqf8t6LNW2v6iXvtGch2zhB3tg-tMf230Kd-Z2-WabhLRoYdM5K4pXMf14KqBFM0o4cdD2LZTRyAOH1jV0roTpjEBFSlyKzrbzGeadRL2y6G8ceBLpZRlnei",
+        "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG-whablQmEN5CLUNNKguwg3xxip1EZIG59FttwjU1p52LjmrRntC6y4ZupaC4ZOLw06PrzPqNtiCllGrcN2EvcXFEDkE3FtwEalzRcyhXYI8JYGECOs8cJdqaOGO6U_AaJPRjbOBWYIPhFwNBhXANlytINwNV03j8ctXCLQgkcS0Rwk281jzkVOFy8i_pLbCj1Qh_zVBNjGQ==",
+        "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFmS6pFLkDUxf-jQOf-qUIqHdhyOuCO7xbXo7GLpoTl9lri8rI2fQSVBB__fpcaVetnfDmkDQNdvgKLO6J8wrrisdYcQcA0f2uKcikg9JR2BlmNst4qOpskaXuG3fUFXh-a1mkxlKEay1oyzo1QT0Ue2ykHRI-h6g5opSmABViMjiINQji133UeK3hEiGraA3k0VTl0JjnzvXY0sNiY"
+      ]
+    },
+    {
+      "target": "GPR75",
+      "drug_name": "GPR75 Agonist Program",
+      "sponsor": "Confo Therapeutics",
+      "disease_indication": [
+        "Obesity"
+      ],
+      "development_status": "Preclinical",
+      "source_urls": [
+        "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGL911nOAyrgwl-g6f8bhWFcuBgU4bhsK3ro6z-1_hxfSCHOsl-nPzaUWcC6RGDz3raYXgROP3WgFsQKaiPfSqYjQrivwv2EFkloRqMQYPQXvl7CrLZiIygSiDbxnPXUpFxo0F3SCP74MLn7_5B8QiJ3enc9IesPNBlgmgBn_dpgsTeO6aZ0yfB3b5TgXgSY-JP7eb7z7xOMrGX",
+        "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH7iJjr6S_oq0t5E3yu_Cp4kGA5jgvl9Ge_BYJiq_6qF4uS4i7CNFPTodKKTpg6iwYrqkDBvQBEixk_BRf6yJrVzi9OaoemTFBBfwKZ26r-F95YcSNJigzHlxUJRs0xAHXop7vWhB0_7BRTOSGvoHAqRn4ybc5agad6D6E2uayCArMyKTRtR4-iRc5OIGN5U3LhDb3D3WUlqzY=",
+        "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG0wnUhwPTTZhklXz9eub6r8N_LBhMu1KifpLX6_ZXmuqk6vg1wx0Db1c1wH97uO1995Gdamgxx_Hy6njUoN5R5LxudMnEd40jH-fftBj1OGjk9WzpmPJNpitidGB4qeCgHzC_I0mkdIY7ZyMIV4-mifwJHylpZftjMtSt8aA4XUHVaUBqvtnI-DAoo6YGNoRfBJbYgcxwAdJfOaw==",
+        "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEK6nGLLv41XFjFETU6PYS4-SotFS0TgJhvBul95ualWskx-j-hXQu67Dj-zbWlMKuiTMmEshalELOl_FhczUNor2189rb1vvuZa9nGUAEm3qCNcvO1zdhYbF4h8-GHQen5xrPWO1IO8tbADEC0KEOqae0Lsho8UQs-poaZ29HQeAYvMWTk7fu_if8IHZyoNAjgKBBAbISo",
+        "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH5ccyWqmvjhZ76q7eMFB7thtzHRQOAT3Vc6ajE8DgMyrYjgyJgs9OHpZgxcJSXorpSiAwe0xpWwInMF0B_AI7e97uElJqnNS9TYbJBnkZmgCFGio5ML_G4MJ5ia7g_WsOT4Q-iDGtagTywlqVQexG1Q4g36BO8w3F-4nlytoZzG4wuZM9IsTkB6RJkmD7YBPORGmEZxKw=",
+        "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHZtRrBOhtBGW2GZx0NZdKHk7sotL4U-imH5iIpdmR2U4TbZuLQVkwh44JEmQkGXeUNAurdBPPqSbfLlnmfv0h9NzdB2TVTDPnYFXwf6SUf7LZmdaeWAw8rvcaLYF5hZK4uR0_Eebf6_prGuEkndmIThBFoACnWNJ8XivM8vIuuRIoRqCQn0_IV4oCwdtzgb13kA-4itqKBIglhgkc=",
+        "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHyfCznSesYsS1vrqBdLxlh6-Jeucf0iQGN5h_JJxpSbHf_9ld9VcLDkL5z0VzOx4EFqntvJhgF9n8RqxpFdA87JV06Lk9hiAaDnS0ItaxVkp1meDMPYg-xHBj-TqzCj1Mg8BWMe3tEPWt8WtljOxIAts5_XjrS6PMbbJ-BiZ59rD-aUHAYcZlmYv6usrpcIWYQWF__Z0Sh",
+        "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH1k4II7KfjsUxmVSzm3s4Em7nsaRt02mry34oubnHsdn78vzmOtGu7IgErBKlz6qb4IZFHjVWVenKKgRqwg0RmKrCUdX-OCAGALOFuokGicDmGY4o3wjYXIREnAc4nbHQF2Sa2GCo6CPuREOEmMEH2eHvoM64CUyJSiV1mlLKKmgwobdXo7cwRhWGy1FQ90XVehtnum_Cv8uc=",
+        "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFFnGxJh0THKcz2pukIR0vz0BGK6A1hIk3u8jk6SHWXFEtRDFIln8Y9sbW33mo_g2Ud1Ua28I2w89tLkkew1JEhbrKtLOkERoDGT_As-MLqDheJBJJ84BGoQG3RgROcFeLRxfcmRod206vC719lga4opbve_KoAjOKcfmk7CzknGJzNb9ab76C9F7r_lf0pEN1glX1PhXBjvjY=",
+        "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQErWrMEBcH3j4OHGi3a639cDmxoaIyXEEwJSC_teI1qFfuIkRSJSDyEnsdSJXY_PNSKRzXxBsscbU9CN_C2saLfdivCqG8wVAbu6TarVQBMX2VdKxrg6BmNzNw4jNmgawSPIfgOHzHHkStZguIjOx9jeTfr0ya9OBVADDl2HZradAwW05XhQ0GVwXxf7F0PI5vio3JrKVoqE-k6CfC2ZbA=",
+        "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGH7-vYX40lG3kTafBnzUq2pOZfXwybR12-OoT_Y8Jy3XR54q8YNldPtwdXrhhwOwd9pYVTv-D0URQzm5l8484ssMpoO1-jb2EGWh4lwVkN_5dXdAQm4-vPIS0znx5hL5UaBNjfKQvXsroZ7mKnk5r7npBGnDkZIHmN-vhz83uTLhF2ms5MBx6hwJ-q0fodGBxBa5zlyVE=",
+        "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH2qqL9yWmVN4RJs28SudxyGQos_qHJXyQ4ei-UBRdQHqPt7oOxwrfEIWnyIO0gL-yU-GJbKQExfpEF2YXYcqf8t6LNW2v6iXvtGch2zhB3tg-tMf230Kd-Z2-WabhLRoYdM5K4pXMf14KqBFM0o4cdD2LZTRyAOH1jV0roTpjEBFSlyKzrbzGeadRL2y6G8ceBLpZRlnei",
+        "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG-whablQmEN5CLUNNKguwg3xxip1EZIG59FttwjU1p52LjmrRntC6y4ZupaC4ZOLw06PrzPqNtiCllGrcN2EvcXFEDkE3FtwEalzRcyhXYI8JYGECOs8cJdqaOGO6U_AaJPRjbOBWYIPhFwNBhXANlytINwNV03j8ctXCLQgkcS0Rwk281jzkVOFy8i_pLbCj1Qh_zVBNjGQ==",
+        "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFmS6pFLkDUxf-jQOf-qUIqHdhyOuCO7xbXo7GLpoTl9lri8rI2fQSVBB__fpcaVetnfDmkDQNdvgKLO6J8wrrisdYcQcA0f2uKcikg9JR2BlmNst4qOpskaXuG3fUFXh-a1mkxlKEay1oyzo1QT0Ue2ykHRI-h6g5opSmABViMjiINQji133UeK3hEiGraA3k0VTl0JjnzvXY0sNiY"
+      ]
+    },
+    {
+      "target": "GPR75",
+      "drug_name": "GPR75 Small Molecule Candidates",
+      "sponsor": "ConfometRx",
+      "disease_indication": [
+        "Obesity"
+      ],
+      "development_status": "Preclinical",
+      "source_urls": [
+        "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGL911nOAyrgwl-g6f8bhWFcuBgU4bhsK3ro6z-1_hxfSCHOsl-nPzaUWcC6RGDz3raYXgROP3WgFsQKaiPfSqYjQrivwv2EFkloRqMQYPQXvl7CrLZiIygSiDbxnPXUpFxo0F3SCP74MLn7_5B8QiJ3enc9IesPNBlgmgBn_dpgsTeO6aZ0yfB3b5TgXgSY-JP7eb7z7xOMrGX",
+        "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH7iJjr6S_oq0t5E3yu_Cp4kGA5jgvl9Ge_BYJiq_6qF4uS4i7CNFPTodKKTpg6iwYrqkDBvQBEixk_BRf6yJrVzi9OaoemTFBBfwKZ26r-F95YcSNJigzHlxUJRs0xAHXop7vWhB0_7BRTOSGvoHAqRn4ybc5agad6D6E2uayCArMyKTRtR4-iRc5OIGN5U3LhDb3D3WUlqzY=",
+        "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG0wnUhwPTTZhklXz9eub6r8N_LBhMu1KifpLX6_ZXmuqk6vg1wx0Db1c1wH97uO1995Gdamgxx_Hy6njUoN5R5LxudMnEd40jH-fftBj1OGjk9WzpmPJNpitidGB4qeCgHzC_I0mkdIY7ZyMIV4-mifwJHylpZftjMtSt8aA4XUHVaUBqvtnI-DAoo6YGNoRfBJbYgcxwAdJfOaw==",
+        "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEK6nGLLv41XFjFETU6PYS4-SotFS0TgJhvBul95ualWskx-j-hXQu67Dj-zbWlMKuiTMmEshalELOl_FhczUNor2189rb1vvuZa9nGUAEm3qCNcvO1zdhYbF4h8-GHQen5xrPWO1IO8tbADEC0KEOqae0Lsho8UQs-poaZ29HQeAYvMWTk7fu_if8IHZyoNAjgKBBAbISo",
+        "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH5ccyWqmvjhZ76q7eMFB7thtzHRQOAT3Vc6ajE8DgMyrYjgyJgs9OHpZgxcJSXorpSiAwe0xpWwInMF0B_AI7e97uElJqnNS9TYbJBnkZmgCFGio5ML_G4MJ5ia7g_WsOT4Q-iDGtagTywlqVQexG1Q4g36BO8w3F-4nlytoZzG4wuZM9IsTkB6RJkmD7YBPORGmEZxKw=",
+        "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHZtRrBOhtBGW2GZx0NZdKHk7sotL4U-imH5iIpdmR2U4TbZuLQVkwh44JEmQkGXeUNAurdBPPqSbfLlnmfv0h9NzdB2TVTDPnYFXwf6SUf7LZmdaeWAw8rvcaLYF5hZK4uR0_Eebf6_prGuEkndmIThBFoACnWNJ8XivM8vIuuRIoRqCQn0_IV4oCwdtzgb13kA-4itqKBIglhgkc=",
+        "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHyfCznSesYsS1vrqBdLxlh6-Jeucf0iQGN5h_JJxpSbHf_9ld9VcLDkL5z0VzOx4EFqntvJhgF9n8RqxpFdA87JV06Lk9hiAaDnS0ItaxVkp1meDMPYg-xHBj-TqzCj1Mg8BWMe3tEPWt8WtljOxIAts5_XjrS6PMbbJ-BiZ59rD-aUHAYcZlmYv6usrpcIWYQWF__Z0Sh",
+        "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH1k4II7KfjsUxmVSzm3s4Em7nsaRt02mry34oubnHsdn78vzmOtGu7IgErBKlz6qb4IZFHjVWVenKKgRqwg0RmKrCUdX-OCAGALOFuokGicDmGY4o3wjYXIREnAc4nbHQF2Sa2GCo6CPuREOEmMEH2eHvoM64CUyJSiV1mlLKKmgwobdXo7cwRhWGy1FQ90XVehtnum_Cv8uc=",
+        "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFFnGxJh0THKcz2pukIR0vz0BGK6A1hIk3u8jk6SHWXFEtRDFIln8Y9sbW33mo_g2Ud1Ua28I2w89tLkkew1JEhbrKtLOkERoDGT_As-MLqDheJBJJ84BGoQG3RgROcFeLRxfcmRod206vC719lga4opbve_KoAjOKcfmk7CzknGJzNb9ab76C9F7r_lf0pEN1glX1PhXBjvjY=",
+        "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQErWrMEBcH3j4OHGi3a639cDmxoaIyXEEwJSC_teI1qFfuIkRSJSDyEnsdSJXY_PNSKRzXxBsscbU9CN_C2saLfdivCqG8wVAbu6TarVQBMX2VdKxrg6BmNzNw4jNmgawSPIfgOHzHHkStZguIjOx9jeTfr0ya9OBVADDl2HZradAwW05XhQ0GVwXxf7F0PI5vio3JrKVoqE-k6CfC2ZbA=",
+        "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGH7-vYX40lG3kTafBnzUq2pOZfXwybR12-OoT_Y8Jy3XR54q8YNldPtwdXrhhwOwd9pYVTv-D0URQzm5l8484ssMpoO1-jb2EGWh4lwVkN_5dXdAQm4-vPIS0znx5hL5UaBNjfKQvXsroZ7mKnk5r7npBGnDkZIHmN-vhz83uTLhF2ms5MBx6hwJ-q0fodGBxBa5zlyVE=",
+        "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH2qqL9yWmVN4RJs28SudxyGQos_qHJXyQ4ei-UBRdQHqPt7oOxwrfEIWnyIO0gL-yU-GJbKQExfpEF2YXYcqf8t6LNW2v6iXvtGch2zhB3tg-tMf230Kd-Z2-WabhLRoYdM5K4pXMf14KqBFM0o4cdD2LZTRyAOH1jV0roTpjEBFSlyKzrbzGeadRL2y6G8ceBLpZRlnei",
+        "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG-whablQmEN5CLUNNKguwg3xxip1EZIG59FttwjU1p52LjmrRntC6y4ZupaC4ZOLw06PrzPqNtiCllGrcN2EvcXFEDkE3FtwEalzRcyhXYI8JYGECOs8cJdqaOGO6U_AaJPRjbOBWYIPhFwNBhXANlytINwNV03j8ctXCLQgkcS0Rwk281jzkVOFy8i_pLbCj1Qh_zVBNjGQ==",
+        "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFmS6pFLkDUxf-jQOf-qUIqHdhyOuCO7xbXo7GLpoTl9lri8rI2fQSVBB__fpcaVetnfDmkDQNdvgKLO6J8wrrisdYcQcA0f2uKcikg9JR2BlmNst4qOpskaXuG3fUFXh-a1mkxlKEay1oyzo1QT0Ue2ykHRI-h6g5opSmABViMjiINQji133UeK3hEiGraA3k0VTl0JjnzvXY0sNiY"
+      ]
+    }
+  ],
+  "all_grounding_urls": [
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFekbjobir4xNV8wnofzFxslQpb6vNRDJ_aDBBmOd9KTzn9-wWMNCzfmlEiIypZsfLLwntcBsbNUSgJscqwU-iO8MhCaTvhVa6WwyvXIZsGNB6xLgwhXnwoQpT8-KdJ29i0wCBtN3q1s5iE6mJC4ijWVO7LM-aFJ590HKpcvzwMnbtg40EWXsy3bSmMlH9sdYSjvQ==",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEK6nGLLv41XFjFETU6PYS4-SotFS0TgJhvBul95ualWskx-j-hXQu67Dj-zbWlMKuiTMmEshalELOl_FhczUNor2189rb1vvuZa9nGUAEm3qCNcvO1zdhYbF4h8-GHQen5xrPWO1IO8tbADEC0KEOqae0Lsho8UQs-poaZ29HQeAYvMWTk7fu_if8IHZyoNAjgKBBAbISo",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEE3V-WGwBNCUGMsWThuHbZSN97baDfbW3VoZ7PXcX_2126MI-LR7BjwFMZZ8N-dLK8GwDG1aaL9kLaNkoHieA_8-dAqIWdXeQdq2p0Zuk7oBaZ31G2yRORz-6-pYxxx1oweorxCprV962jW1ioKJXkgw2w7snlLkvJ5h16wxNfj5Gjg_fNFQPvhsAdeQTDUNC5aoEqKnbUCM4Saev0TckdQ8FE-Q==",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFkaBSGuGysbRXjLsxIpsQi52-PtvofQvojEqDIC6It4sMQNmGeg-ZDxzj0kDL5UI1uSsTqsjGYA3Ug3YVgOxb15sT04wkRX60kKAWQpDRayN9ID2mFP9NhnTnzMLNb_ETosW3dJnYPTYWYCGiLtS9IsRG3s4oawmklADcPekyoHFzntYwDjiEXs9SnDD3o3gNYSpvpzcxAOWhjGiThAA==",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG-whablQmEN5CLUNNKguwg3xxip1EZIG59FttwjU1p52LjmrRntC6y4ZupaC4ZOLw06PrzPqNtiCllGrcN2EvcXFEDkE3FtwEalzRcyhXYI8JYGECOs8cJdqaOGO6U_AaJPRjbOBWYIPhFwNBhXANlytINwNV03j8ctXCLQgkcS0Rwk281jzkVOFy8i_pLbCj1Qh_zVBNjGQ==",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF0aM80iWh4bfSmHlnTB6VEmnA4rwKI4SrwfIJij2xEVgfpX9aildg0_FDEj3wL6Nhm5lOlllYO1hGh-gih5Ev_f9JN9RSet0Q4wjrutZlv4QHG2O4uGk8ZNi_txelt8hJeZtFa8JKVPUlmmTxaVESQZ6EqG9gJK6U8Vnz1EXenSPXQDRSMRG-fzmjqkrpEGMJL4nWZrv1XLA==",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFR3llPUv8lL6_snZLg-rzb8MRsQQpraLeVP30Y_-pHGSynU-ULEimj3fNy2T46WO_usdnkqDP3YMACHmKBx7SNadvE58ir1Ij4tU6vuXYuTDbsqTwp9P-DivWP79V07THOkWnClHIgRz5NYCqfRPLz23nenoezdI2kOz8wT44nyXdDtjTUNu8C4CqF9WSXeNDqPHRvvzZ9FOQBTvw2sJL_5Q==",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGiYmVYgk9n_alADE9JUUsbFmN_32NGVB4qJpQ0xwotZ8-gEeYh_GK1jRJxuTKwoDI-FdaxqFNeJA7-MJf5lyQ6WNmqPTh-2eMfa3SmOO2AaNUOxuRfWXK27Gx61iYB5ir-HbM9Z2alHNJSjnioXOt9ljI3pxzsPkfQfGIheQQvJCeTfOf4TDU5XqxrwOMD3x1hfw3EqXBWovDLwQvH",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGkmCksTi_dHipqd37kX9_hK3LgAmlAirS9ot7G01rD5Dl7EBQGEfOoX6t8-DyDnXBAVd6uds6NfTO5J9eqoGs64B8r33QPQgJHvVV83XaQcnd71UftMjWRfSCDlQC2gPBPq3fCDEe2la3SX7JD2-KBCLw-DNyOU-UeLZ9U9b0k7UQJ2tYBf7tQOjqqjXi3Z_-1P69Tbg==",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE21AO3w5tH_8-bJa7RHNBkTt3zr80J5pCiqu_E1j8sYV7eZA7jTQZ9l1zzB4oScT1I3o9Xe0PauDxpV-wwoXr2yoRQ5C10pzk-Y6Cwve89Sm0oxCoeorCC9XwrwRJU9kNTfAmycW_0EDUP0D4TGdjLHnjPq2mh-G4hXS_pvp7RYFd3iAHA0w7J7oezi004fpkJnrXyVAU=",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFmS6pFLkDUxf-jQOf-qUIqHdhyOuCO7xbXo7GLpoTl9lri8rI2fQSVBB__fpcaVetnfDmkDQNdvgKLO6J8wrrisdYcQcA0f2uKcikg9JR2BlmNst4qOpskaXuG3fUFXh-a1mkxlKEay1oyzo1QT0Ue2ykHRI-h6g5opSmABViMjiINQji133UeK3hEiGraA3k0VTl0JjnzvXY0sNiY",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHQouzwiw6hkb8UM4GaQaN1eOQ8sCfkqOiNBf9V0EPEqWX8YZBXq4GuZK3wgLHmLPWyfvjmaHVxj8sboP1jNlN0rEordFnA2peDM4tbJye5AOo2L36sa_2-VuAFFw9-MXfVlvS6WunwbLu9AHFmpyyNr6SXLgM8QLf2ocDmyR2oIeyCEkv3ucNNkxq-PLoMzORcSDlRG1PZGVwfuD6C42MMbz_YLA==",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHk7SG3qj8LqM0wM31MrwBpsIEGHkgrQgn0cvue3I0OC2bX75VI1dVx2lc9WWz9P70zChLn4WImOiXGSFS3FVy_uLs124eCYlduOXAETjicI5tOkuUaP5liJrwlkJiUt50lhM7cVHn5qCM4kFXgBbJ8wE6xB5KHH214WIrZqZ4eLD1-kRzu8OYGiEtpgWV533NOiWQGyiulz_ckYA==",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFFnGxJh0THKcz2pukIR0vz0BGK6A1hIk3u8jk6SHWXFEtRDFIln8Y9sbW33mo_g2Ud1Ua28I2w89tLkkew1JEhbrKtLOkERoDGT_As-MLqDheJBJJ84BGoQG3RgROcFeLRxfcmRod206vC719lga4opbve_KoAjOKcfmk7CzknGJzNb9ab76C9F7r_lf0pEN1glX1PhXBjvjY=",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGjNEYYgYeCzWB_81jVw7QdR_N4YVIRCuJdhYHDj4fvTQcj1aCG2AcgQZlA5EtGiHPWk06syTYXjbpUiv0HH0EX3Xy9iAmj6IJM3U5lPMf6cDUJ44B9NBZJkXFQqSrN6fHlRqFWB_zO5SMRh36On3ZkAM2vFsHItC3o84nNM8FdCGNMkyadEfj9tRgyLMGa7MDrLU3f9JuZIw==",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH5ccyWqmvjhZ76q7eMFB7thtzHRQOAT3Vc6ajE8DgMyrYjgyJgs9OHpZgxcJSXorpSiAwe0xpWwInMF0B_AI7e97uElJqnNS9TYbJBnkZmgCFGio5ML_G4MJ5ia7g_WsOT4Q-iDGtagTywlqVQexG1Q4g36BO8w3F-4nlytoZzG4wuZM9IsTkB6RJkmD7YBPORGmEZxKw=",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH2YKXMhRTsW1umUWZNTMPr0V7S0OQ80wy5gmUYsputWN2IKuIC6vF1gNcIU7F1PbhJsUujm6Z4fqDzm4AXa4coGWVZq1wnqDfBWoyJqZBHai2PRko4WV7WUZD5qAVY4ju06QvwMNGNdNes6bIWyy9eSzW__dBET-nF-WhegqC3Yystbf5Fcs3Tit5blkHBLgcdBtctkiNKiMB_DKQRKNyGG_kM",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGR2zLbLJhEuWIUw2m8vKzpv3kIvfgOOM5bqVD88OPxIw5VH-4OLtYnDwt5f4PdrQD1-S9ZIMINNvufSK_SF2cizS0HWEM_-X3vzbFDWE6plIDlXHU8zD-JvDrHBnGYTotIeKQnY5UIFm67Wr_Rm6BUdYYxXz-ozPvf7tSWpv18N_6ITPbOK9DCFCJQXWk-2tsIYf405tbV_Rip7XQn",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHb2p-Nch0uu-FmiPha8EXPpX0wp4Iy70nWJC31MadvsRblH783TyyrWxSvxXdK_Pr0o9GRlRziOfPd_0VA5nZX9sl4n5jynG8ZSvAwSi7sDLcnTPUvwd08Ofc2RdpK7Bcf0sCFwhKFK0ftolbeuRiWIurWNr-Gng72EE6LSI9WFyMQFcwuGKmhx-qyoT8LC2Sqcg==",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHAnBXzDJTqmI-c2CrMGlxA-NV8QJu5VSPuRwaA1OQtLTTbnkzK2I-YoSq_w43XTOMo5-v-Na48aRXkdLWUmXubvM2_NWeAfsxi5WSuMLRXhAREB5aNhDjYhUi9AH4JN7SqO0Thc76NubUQ6167LEIZ9SG2z43djzKiLx-LunFegUtQrpCogJxF-PBxFzhK6zpDuXkFMA==",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH1k4II7KfjsUxmVSzm3s4Em7nsaRt02mry34oubnHsdn78vzmOtGu7IgErBKlz6qb4IZFHjVWVenKKgRqwg0RmKrCUdX-OCAGALOFuokGicDmGY4o3wjYXIREnAc4nbHQF2Sa2GCo6CPuREOEmMEH2eHvoM64CUyJSiV1mlLKKmgwobdXo7cwRhWGy1FQ90XVehtnum_Cv8uc=",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGIqwg5gWxrmXnjiKFWj9aA0-rL3CvD2yt6OMbAlRzG8oavezNb45p-7iwgLAQqyuyYz0Za7mMzJRIZVDNTHg5XKhglM8S7Ni06n1MCtk0nKzhkiK1NR3mlTxPgSu4BmJNAFnxXxhr-oh2pF4kzuhlw7HHYFk9SO0YRv2al2W6r1J1xjxdRBpPLGwpiuyZw5nzFAfYWvtqlTh9VJA==",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHZtRrBOhtBGW2GZx0NZdKHk7sotL4U-imH5iIpdmR2U4TbZuLQVkwh44JEmQkGXeUNAurdBPPqSbfLlnmfv0h9NzdB2TVTDPnYFXwf6SUf7LZmdaeWAw8rvcaLYF5hZK4uR0_Eebf6_prGuEkndmIThBFoACnWNJ8XivM8vIuuRIoRqCQn0_IV4oCwdtzgb13kA-4itqKBIglhgkc=",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEBbvj5_OiqMsspPqs078OTzzPZAwHQXeYlpvZrKGb8OFeQtDWcgsvd-cRUUTrgLcpwPLjt4ABCudS9VL1hs1Pk4OBKA_YGcCKBnRGIsFd-BoRvUD2hoB6rmd2b05-bsiXAh30XMMl5FncnaqoQuqNi6J-S5mFlQcRy7Fl3Z5YkxsC4TXZnue91-PWXBsc59u8gQITujamYiQ==",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFGvlsklzkKkcGHmphrtvfLhdeajoySWtqX9M0w7ChLSGnWKd-R7DRM0cEZT2jpY9JkwoLpEyYBETqlq8diFzNxYDhRZajDD8EZfuPF_M_UErQe1rZOpbbfi6cOvk03p3d69TwVt5R7xoDE89EP69iaRymkyiTNijZJ5Ro5UQR9G-gAdk0mDimoLX-4siPuUg==",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHgDg1HPxQGBEUFOLJYxP4OqsD4d8ZUuhAaYftlX2aAVUgFEhF9wUOldWktTu65qJkCKJlnTJGuKSfCPpoGsTEIli3S3rNlImsqdWMFCGaEdNBC55tpconRpH5Jf9RUSQZBZnYNrX9oCPW43UlVNtVSRAEhlYbGZKHuvk0aQGmK4344GsDegJKWXxKcIO7fCF8jrvA=",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQErWrMEBcH3j4OHGi3a639cDmxoaIyXEEwJSC_teI1qFfuIkRSJSDyEnsdSJXY_PNSKRzXxBsscbU9CN_C2saLfdivCqG8wVAbu6TarVQBMX2VdKxrg6BmNzNw4jNmgawSPIfgOHzHHkStZguIjOx9jeTfr0ya9OBVADDl2HZradAwW05XhQ0GVwXxf7F0PI5vio3JrKVoqE-k6CfC2ZbA=",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGH7-vYX40lG3kTafBnzUq2pOZfXwybR12-OoT_Y8Jy3XR54q8YNldPtwdXrhhwOwd9pYVTv-D0URQzm5l8484ssMpoO1-jb2EGWh4lwVkN_5dXdAQm4-vPIS0znx5hL5UaBNjfKQvXsroZ7mKnk5r7npBGnDkZIHmN-vhz83uTLhF2ms5MBx6hwJ-q0fodGBxBa5zlyVE=",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGH_vcg1VKGsJO0Tifp4ktsN59fk1Yw43uNJnJip4ag2QanqZc4Ej0BmdlHiXjR6zgUj8F-U1gHLygwrCoNlG7FpNnnMPpoK-R7GSmDEHFxibG9ooPC2EPBq1vGx6hKHCtotMxo69HhZFnwb0ucn_cDDGrUyx0EHDrwrt-kOkXqLXej4uwEgGVzj7kFrSf4DgTjlvQmfXaF",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGIuQM1mfDtPlW-y_6k2WQs4UIIc9-yOk4UnhhGP03N4q8z_S7sR7gmGbmp49gvgiswfYdLrzY1Uly7tCNsB5SgqSqZKlnlqYOWP1wiVKF5TEjsL761Vu2ADZvmE-mTWJUKaVI_trLE_idtye-_8GjA8anAL_0IcQRc86KkmBNDzdtPzq3qzEMj8Y7HzHfeaNZ-yFEdx7cUfO4=",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGL911nOAyrgwl-g6f8bhWFcuBgU4bhsK3ro6z-1_hxfSCHOsl-nPzaUWcC6RGDz3raYXgROP3WgFsQKaiPfSqYjQrivwv2EFkloRqMQYPQXvl7CrLZiIygSiDbxnPXUpFxo0F3SCP74MLn7_5B8QiJ3enc9IesPNBlgmgBn_dpgsTeO6aZ0yfB3b5TgXgSY-JP7eb7z7xOMrGX",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGvNhQ39DjCe8LBf44N5UgaWr8oYZKhtt9jIyhCeGuAMndAuep8BVus9hvYQnQqnhPEWN5PcHjhUHIft_GPpuKHYn8KtPVLrMMRfLrwIWqC87Ur0eqrwtDWRfckVWylc7r9re0gszEV6RVyCT2aRir9fjN8Vui8V0vxUUMnVNFi9uHHmS8Z882O5jY8GrDDolr79MajleDDVqeljU4y",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFBD5yKxUm2x1G4WfWSZOHV7Pf_x4WknaCdDXIfRQ1aifcqT5PDP899doZnpp6EB2oh-84cPufDCQGHHMg40bf18B9CdCZIeWRTYGy0UyDZuPC7A4B50ZdAHBaWbfvtWZfGZEV0rWhuVSOuQnPuEgbnhfkdmDQTbXcRNqlcrs7qFnY_e9fddkuRiGFWQtIu51T39SrgYw==",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG2QJcHsiIAotxDJ-QYL7o0pB6PmNFxTcuoa5aYQMPBRaLT_Y61VvIQK2UrVk5y5UZ9sGF2v6qnO_Hdo1qRw-JaG7VhYFZxMh9nAS_DXkvyKTiVWemdBsq-vwEokK_P3ankJ3iJxg3xK_3tDchqQOi1mE_6KaH-U4ABgKch5u08wZVDYXcaxzJiP36oM31tZH3Z_SmoImG-pkhoGe0U",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHfMxQQwJzULhG21WYype620ISMZ4sgq_FbTAZR8kQukCwZgxw20SqdqIp4XRpHTqgCXmgPiw3r0PPcZc1f02ofhf86CQ-ae9_x38yiEcFc1mGfUeqJB5BmhzylhyKTYj0oFrr2Ig3_ZYYajbujbHytpaTmpUBRLti8aRgJLZPuldYQE0x1S6jMP7ymya1sU-YRcedmdUHaBdrDxA==",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFhSxz0gnD1uPN19e2zw_4fQ1duDqlbe-YmVVQ2KfyAZbmuLH20a-sfHZGbQ23NNObC0VgENaCVmWgLgh0IwdKqA5v3sRqrPSRsXYeJUY9NAOHKqNNP9ZZLOqA-FMRnUU57T9W0aGAHSAjtO8FcTfkXdKoKSRUnMa2yw4kbBCY6yhD4C6kKaiKXGPTHdqIsWD7jV4Zy6xIljndry3z-BjAmE-0=",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHiyhI9MkJIpOHEgD0qaQCP5rR8Z5kMs8oH6Z0ar6fVgLEf3o3EGKgwmehqzKnR5gziU98Mrldq4w6bIC6_gLHv-C7unEPTaJize9AbHhVxdpd6IbWkMXsENAkYkvL6eZSLCrwOBlKWph8pN0ZO_cdgaCCzZtDA2fqw9lcPqt2QXNLUVQrjJPSHGW5Ejrdq3NE=",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH2qqL9yWmVN4RJs28SudxyGQos_qHJXyQ4ei-UBRdQHqPt7oOxwrfEIWnyIO0gL-yU-GJbKQExfpEF2YXYcqf8t6LNW2v6iXvtGch2zhB3tg-tMf230Kd-Z2-WabhLRoYdM5K4pXMf14KqBFM0o4cdD2LZTRyAOH1jV0roTpjEBFSlyKzrbzGeadRL2y6G8ceBLpZRlnei",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEQZVu2UTvRA0zFCbvMfFhUDjtw8LEqayM6CxS-go2iIe1MU_bVownARYx94uZO7c61ncojKJQuEafGqDZhZ5aX_43iYCGqxYap5p8IZImwmN2vudw2CQaIhphKEqMUsxFdgiRQY8LOQ9-gDB4-PZ-oAW5USKFV5CJPn88s1aeLa9erLVF7GB2r2NJCyEZ7sVmFILDIhhwaIIr2",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH7iJjr6S_oq0t5E3yu_Cp4kGA5jgvl9Ge_BYJiq_6qF4uS4i7CNFPTodKKTpg6iwYrqkDBvQBEixk_BRf6yJrVzi9OaoemTFBBfwKZ26r-F95YcSNJigzHlxUJRs0xAHXop7vWhB0_7BRTOSGvoHAqRn4ybc5agad6D6E2uayCArMyKTRtR4-iRc5OIGN5U3LhDb3D3WUlqzY=",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHHn1QHdFY2bwoIrva1LANtTtfmyWEnMlfAZiJIY1XkrMRyo_ZxCuIdJzYCAdixMTyqKWztZMX5bwLaSkHURAXJI628MEvmjaO0vZA19yErR5ox3F__lKzdSnKpU8B6rJ4VcGlJnkmZHSTaLbetZjeREQJePmH9r0mZSu40covHB02Moo-w5mFF0RHB3ESAmzoDL8grCrHLXTXoZOqIsEbSFIkU",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF0I7wwV1uxOTzVhj2f0ZmQeDF2Mfe6EzCcqwFPuT5QSwJTLDDZChXJDkl2-euWMW6eqyFFAnVn_6xoUQ89y7UcD6z_TPfexP9Iuobc14eI-rtZlprtPY4mkIoiHU5kWR0_XdqOd_XgFWqEG1evk3udIy5uiDR7tM_TrGKhmxQiCV4T5Ge3elVC0ndMo9sOBZ8omU-w3pY=",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGaSI9264hvY93hxZOH2s473M91SB-J3m-u1m3KAKQ6OluKwAdF4zo-UA4bRO8Wt4BD_wmMicnrv_DJSU4j4mKr0JdueQvrRFMwfYW2dE_dYS-tnHecuCgT168hsfj7E67NUPyqbrexkzH1JcQXsxG2j-4Aq6Pj-C9y2HHiYM0CfClbtRF2p4kEUmyHHuXefJTg9RXs",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHyfCznSesYsS1vrqBdLxlh6-Jeucf0iQGN5h_JJxpSbHf_9ld9VcLDkL5z0VzOx4EFqntvJhgF9n8RqxpFdA87JV06Lk9hiAaDnS0ItaxVkp1meDMPYg-xHBj-TqzCj1Mg8BWMe3tEPWt8WtljOxIAts5_XjrS6PMbbJ-BiZ59rD-aUHAYcZlmYv6usrpcIWYQWF__Z0Sh",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFfN4AdiIbTP8VTmZFm7pT7gKOFrkZQ1FoZVhyXl3Th8n47_whVfnZCSLFVhAF8MRYe4UuecJ5Gy0Yo0xQy4P_2me5pgrtrUaXWPHNwOJU7LCF_NVSyK3ReCXu4ytsrfDhuR8bvY9rZnLmNOK538eVdAUOEljBSTE95gHlxwtR3Cz17LKCd5dlraDn62hThNPbE0X9mzYHSBjtV4C0=",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF2PQzEJ1MqFizFqLIOduxAAJardRFoJewS5F36Q7QFpBMmQ2_hBu0GTXMWUZ7QZ_0D1q5MsnVxVzr5xhiBeFxX7yJsRBN_dEhyvGfXdiDBVfVn5i9UVFEoo_j6NIz6tgc9JrN2TMahCGcSkxcRPLuJog3bbgKIjSkk-1GfrnBUZe9Y6OxKVWDvLknsWtb_DkcDu_U6GVDzfAA=",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG0wnUhwPTTZhklXz9eub6r8N_LBhMu1KifpLX6_ZXmuqk6vg1wx0Db1c1wH97uO1995Gdamgxx_Hy6njUoN5R5LxudMnEd40jH-fftBj1OGjk9WzpmPJNpitidGB4qeCgHzC_I0mkdIY7ZyMIV4-mifwJHylpZftjMtSt8aA4XUHVaUBqvtnI-DAoo6YGNoRfBJbYgcxwAdJfOaw==",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGrkK5Byg5OqAvHkzBsm26KDhf4XMaZ8dJTqlpFyp4W9FCq2fz-FETEKCNjGT2YUoCQUAFx-qgZd0CZtXAeoHYkqAEW7VMCfivZsWIojziIC7zB4WemepQVvRk6bf4MTfCv0P8Nm0hGquIJuZRaM6iKsnG0DnP_dAkAsRQWGkTI3ZVdccQ7t6OPxk87h49gKZBlsA8x7AU=",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGbH51gOvOVFQMUazoSY-oB9w2VbOP6yO5fityCPpycTKGEx6b8hxsfziJj_y4OLeO7tpOvAtI49NMuWPBpHT8pW3XlieRx-Ew5lnyG7CUOxVVNTVEmOHKO7IPXO973q1Veoe2Iboa7bM-QviyHuA9DkNiUvwo0RHptazY-gIQgxvK4pziobwe5ZZ6CGGiH0qDhVwzPmJaJ",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEP7tnXH7y6d8g0zCKHpNJ8WtGCmNfZYnVUTqi_W421rF3I8RRbInfb8LyLS999NwKV0pSLZfmLVbW3d8izRJX1ti6N8feyuza6-4pBOal50sI_Ty_XBhldjiBOAXI1z33bvl7y6ZaqgZy0erEsZdA0NuJtQbMAdRAM-XHW8LyeGPsAYb0KjNJv6aJybcjfs0fm",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFhN48qaoMztfU61KoQYqaY4CNB8Xk0mkfEEIKAvwg4WUcybI4khgxkTLZCVd9W_ByaP656DIk237tYtC2KaiWJpjIwYydWbEQbL6K1kKYW0EsVNaeNBN-WkNiIVakETvHG7N2_l1uriFXZOoj-ZLZ4s2qnCVjZCLfesZ8-bIAqXJZf1WwqFTdIYmDnu0lKvlU7kuN-nc1jmV8t-xY="
+  ]
+}
