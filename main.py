@@ -2,12 +2,14 @@ import os
 import asyncio
 import sys
 import json
-from datetime import datetime
+import re
+import aiohttp
 from dotenv import load_dotenv
 from google import genai
 from google.genai import types
+from typing import Dict, List, Tuple
+import hashlib
 
-# Fix imports path
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
 from baml_client import b
 
@@ -15,30 +17,95 @@ load_dotenv()
 
 client = genai.Client(api_key=os.environ["GOOGLE_API_KEY"])
 
-# --- Helper Functions ---
+VALID_STATUS_CODES = set(range(200, 300)) | set(range(300, 400))
 
+async def is_url_working(
+    session: aiohttp.ClientSession,
+    url: str,
+    timeout: int = 8
+) -> bool:
+    try:
+        async with session.head(url, allow_redirects=True, timeout=timeout) as resp:
+            if resp.status in VALID_STATUS_CODES:
+                return True
 
-def save_to_json(data: list, filename: str):
+        async with session.get(url, allow_redirects=True, timeout=timeout) as resp:
+            return resp.status in VALID_STATUS_CODES
+
+    except Exception:
+        return False
+
+async def filter_working_urls(urls: List[str]) -> List[str]:
+    if not urls:
+        return []
+
+    timeout = aiohttp.ClientTimeout(total=12)
+    connector = aiohttp.TCPConnector(limit=20)
+
+    async with aiohttp.ClientSession(
+        timeout=timeout,
+        connector=connector,
+        headers={"User-Agent": "ClinicalPipelineValidator/1.0"}
+    ) as session:
+        checks = [is_url_working(session, u) for u in urls]
+        results = await asyncio.gather(*checks, return_exceptions=True)
+
+    return [
+        url for url, ok in zip(urls, results)
+        if ok is True
+    ]
+
+def md5_signature(*parts: str) -> str:
+    joined = "||".join(p.lower().strip() for p in parts if p)
+    return hashlib.md5(joined.encode()).hexdigest()
+
+def extract_json_object(text: str) -> dict:
     """
-    Saves the list of Pydantic models (or dicts) to a JSON file.
-    Ensures each item has a source_url field (list or string).
+    Robustly extracts the first valid JSON object from a Gemini response.
+    Handles markdown fences and surrounding prose.
     """
-    # Normalize pydantic models -> dicts
-    json_ready_data = []
-    for item in data:
-        try:
-            # if item is a pydantic model
-            obj = item.model_dump()
-        except Exception:
-            # if item is already a dict
-            obj = dict(item)
-        json_ready_data.append(obj)
+    if not text:
+        return {}
 
-    with open(filename, "w", encoding="utf-8") as f:
-        json.dump(json_ready_data, f, indent=2, ensure_ascii=False)
+    # Strip markdown fences
+    text = re.sub(r"```json|```", "", text, flags=re.IGNORECASE).strip()
 
-    print(f"💾 Saved data to {filename}")
+    # Try direct parse
+    try:
+        return json.loads(text)
+    except json.JSONDecodeError:
+        pass
 
+    # Fallback: extract first {...} block
+    match = re.search(r"\{[\s\S]*\}", text)
+    if not match:
+        return {}
+
+    try:
+        return json.loads(match.group(0))
+    except json.JSONDecodeError:
+        return {}
+
+
+def build_target_to_urls_map(search_report: Dict) -> Dict[str, List[str]]:
+    """
+    Builds a mapping:
+    normalized_target_name -> evidence_urls
+
+    URLs come ONLY from the Gemini-generated search_report.
+    """
+    mapping: Dict[str, set] = {}
+
+    for entry in search_report.get("molecular_targets", []):
+        target = entry.get("target_name", "").strip().lower()
+        urls = entry.get("evidence_urls", [])
+
+        if not target or not urls:
+            continue
+
+        mapping.setdefault(target, set()).update(urls)
+
+    return {k: list(v) for k, v in mapping.items()}
 
 def extract_grounding_urls_from_response(genai_response) -> list:
     """
@@ -50,7 +117,6 @@ def extract_grounding_urls_from_response(genai_response) -> list:
     """
     urls = []
     try:
-        # Many SDKs expose candidates as an iterable attribute
         candidates = getattr(genai_response, "candidates", None) or genai_response.get("candidates", None) or []
     except Exception:
         candidates = []
@@ -128,10 +194,8 @@ def extract_grounding_urls_from_response(genai_response) -> list:
 
 
 async def get_pipeline_data(company: str):
-    print(f"\n🔎 Agent is researching {company}...")
+    print(f"\nAgent is researching {company}...")
 
-
-    # 1. Search Step
     agent_prompt = f"""
 ### PERSONA
 You are an expert Clinical Data Analyst. Your goal is to extract the official clinical trial pipeline for {company}.
@@ -188,20 +252,20 @@ Do not provide an intro or outro. Output **only** the raw JSON list. Begin the s
         )
     )
 
-    search_report = getattr(response, "text", None) or response.get("text", None) or ""
+    search_report = getattr(response, "text", None)
     if not search_report:
-        print(f"⚠️ Agent found nothing for {company}")
+        print(f"Agent found nothing for {company}")
         return
 
     grounding_urls = extract_grounding_urls_from_response(response)
     if grounding_urls:
-        print(f"🔗 Found grounding URLs ({len(grounding_urls)}):")
+        print(f"Found grounding URLs ({len(grounding_urls)}):")
         for u in grounding_urls:
             print("  -", u)
     else:
-        print(f"🔗 No grounding URLs found for {company}")
+        print(f"No grounding URLs found for {company}")
     
-    print(f"🧠 Structuring data for {company}...")
+    print(f"Structuring data for {company}...")
 
     pipeline_data = None
     try:
@@ -210,7 +274,7 @@ Do not provide an intro or outro. Output **only** the raw JSON list. Begin the s
             company=company,
             grounding_urls=grounding_urls  
         )
-        print(f"✅ SUCCESS: b.ExtractPipeline returned {len(pipeline_data)} records (with grounding_urls param).")
+        print(f"SUCCESS: b.ExtractPipeline returned {len(pipeline_data)} records (with grounding_urls param).")
     except TypeError:
         try:
             pipeline_data = b.ExtractPipeline(
@@ -218,16 +282,16 @@ Do not provide an intro or outro. Output **only** the raw JSON list. Begin the s
                 company=company,
                 grounding_urls=grounding_urls
             )
-            print(f"✅ SUCCESS: b.ExtractPipeline returned {len(pipeline_data)} records (without grounding_urls param).")
+            print(f"SUCCESS: b.ExtractPipeline returned {len(pipeline_data)} records (without grounding_urls param).")
         except Exception as e:
-            print(f"❌ BAML Error when calling ExtractPipeline: {e}")
+            print(f"BAML Error when calling ExtractPipeline: {e}")
             return
     except Exception as e:
-        print(f"❌ BAML Error: {e}")
+        print(f"BAML Error: {e}")
         return
 
     if not pipeline_data:
-        print("⚠️ No pipeline data returned by ExtractPipeline.")
+        print("No pipeline data returned by ExtractPipeline.")
         return
 
     enriched = []
@@ -253,7 +317,7 @@ Do not provide an intro or outro. Output **only** the raw JSON list. Begin the s
             if u not in merged_urls:
                 merged_urls.append(u)
 
-        final_source = merged_urls if merged_urls else []
+        final_source = await filter_working_urls(merged_urls)
 
         try:
             if hasattr(item, "source_url"):
@@ -279,18 +343,146 @@ Do not provide an intro or outro. Output **only** the raw JSON list. Begin the s
             }
             enriched.append(minimal)
 
-    try:
-        safe_name = company.replace(" ", "_").lower()
-        filename = f"{safe_name}_pipeline.json"
-        save_to_json(enriched, filename)
-    except Exception as e:
-        print(f"❌ Error saving results: {e}")
+    return enriched
+
+async def get_search_report_for_drug(drug_name: str, run_id: int) -> Dict:
+    print(f"\nRun {run_id + 1}: Generating search report for {drug_name}")
+
+    prompt = f"""
+You are a Senior Drug Discovery Intelligence Analyst.
+
+Objective:
+Your goal is to generate a STRICTLY STRUCTURED JSON report and provide the target name and the corresponding gene symbol for the drug "{drug_name}".Prioritize data from peer-reviewed literature followed by databases search like ChEMBL, DrugBank, and UniProt. If no information is available about the drug's target from literature or any of the sources listed above, explicitly state it to be "Unknown"
+
+Rules:
+- Include ONLY explicitly named molecular targets
+- Restrict results to human (Homo sapiens) targets.
+- Each target MUST include evidence_urls (public sources)
+- Do NOT infer or speculate
+- Return JSON ONLY (no prose)
+
+JSON schema:
+{{
+  "drug_name": "{drug_name}",
+  "molecular_targets": [
+    {{
+      "target_name": "string",
+      "Gene symbol" : "string",
+      "target_type": "SINGLE PROTEIN | PROTEIN COMPLEX | PROTEIN FAMILY | Other",
+      "action": "Agonist | Antagonist | Inhibitor | Modulator | Binder | Other",
+      "evidence_urls": ["string"]
+    }}
+  ]
+}}
+"""
+
+    response = client.models.generate_content(
+        model="gemini-2.5-flash",
+        contents=prompt,
+        config=types.GenerateContentConfig(
+            tools=[types.Tool(google_search=types.GoogleSearch())]
+        ),
+    )
+
+    raw_text = getattr(response, "text", "")
+    parsed = extract_json_object(raw_text)
+
+    if not parsed:
+        print("Failed to extract JSON from Gemini response")
+        return {}
+
+    return parsed
+
+def extract_target_cores(search_report: Dict, drug_name: str):
+    """
+    BAML extracts ONLY:
+    - target_name
+    - target_type
+    - action
+    """
+    return b.ExtractTargetCoresByDrug(
+        search_report=json.dumps(search_report),
+        drug_name=drug_name
+    )
+
+
+
+async def resolve_targets_for_drug(
+    drug_name: str,
+    run_id: int
+) -> List[Dict]:
+
+    search_report = await get_search_report_for_drug(drug_name, run_id)
+    if not search_report:
+        return []
+
+    target_url_map = build_target_to_urls_map(search_report)
+    target_cores = extract_target_cores(search_report, drug_name)
+
+    final_results = []
+
+    for t in target_cores:
+        try:
+            core = t.model_dump()
+        except Exception:
+            core = dict(t)
+
+        key = core["target_name"].lower().strip()
+        urls = await filter_working_urls(target_url_map.get(key, []))
+
+        if not urls:
+            continue
+
+        final_results.append({
+            "drug_name": drug_name,
+            "target_name": core["target_name"],
+            "target_type": core["target_type"],
+            "action": core["action"],
+            "evidence_urls": urls
+        })
+
+    return final_results
+
+async def aggregate_drugs(
+    drugs: List[str],
+    num_runs: int = 3
+) -> List[Dict]:
+
+    all_entries: List[Dict] = []
+    seen = set()
+
+    for drug in drugs:
+        for run_id in range(num_runs):
+            entries = await resolve_targets_for_drug(drug, run_id)
+
+            for e in entries:
+                sig = md5_signature(
+                    e["drug_name"],
+                    e["target_name"],
+                    e["action"]
+                )
+
+                if sig in seen:
+                    continue
+
+                seen.add(sig)
+                all_entries.append(e)
+
+    return all_entries
 
 async def main():
     
-    companies_to_analyze = ["biomarin"] 
+    companies_to_analyze = [""] 
     for company in companies_to_analyze:
-        await get_pipeline_data(company)
+        data = await get_pipeline_data(company)
+        print("====COMPANIES RESULTS====")
+        print(data)
+
+    drugs = ["ACETAMINOPHEN"]
+    for drug in drugs:
+        results = await resolve_targets_for_drug(drug, 0)
+        print("====DRUGS RESULTS====")
+        print(results)
 
 if __name__ == "__main__":
     asyncio.run(main())
