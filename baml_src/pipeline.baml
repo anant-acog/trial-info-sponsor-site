@@ -17,10 +17,15 @@ class PipelineEntry {
 }
 
 class DrugTargetCore {
-  target_name string @description("Explicit molecular target name")
-  gene_symbol string @description("Gene symbol")
-  target_type string @description("SINGLE PROTEIN | PROTEIN COMPLEX | PROTEIN FAMILY | Other")
-  action string @description("Agonist | Antagonist | Inhibitor | Binder | Modulator | Other")
+  target_name string @description("Explicit molecular target name (e.g. 'Epidermal Growth Factor Receptor')")
+  
+  gene_symbol string? @description("HGNC symbol. Use comma-separated string for complexes (e.g. 'CD3D, CD3E'). Null if non-protein.")
+  
+  target_type "Single Protein" | "Protein Complex" | "Protein Family" | "Nucleic Acid" | "Other" @description("Classification of the target")
+  
+  moa string @description("Mechanism of Action (e.g. 'Inhibitor', 'Antagonist', 'Agonist')")
+  
+  approval_status "Approved" | "Not Approved" @description("Regulatory status specifically for the input disease")
 }
 
 function ExtractPipeline(search_report: string, company: string, grounding_urls: string[]) -> PipelineEntry[] {
@@ -55,32 +60,39 @@ function ExtractPipeline(search_report: string, company: string, grounding_urls:
   "#
 }
 
-function ExtractTargetCoresByDrug(
+function ExtractTargetCoresByDrugAndDisease(
   search_report: string,
-  drug_name: string
+  drug_name: string,
+  disease_name: string
 ) -> DrugTargetCore[] {
 
   client CustomGemini
 
   prompt #"
-    ### ROLE
-    You are a Drug Discovery Competitive Intelligence Analyst.
+    Task: Extract structured data from the report below.
 
-    ### OBJECTIVE
-    From the search report below, extract ALL explicit molecular targets of {{ drug_name }}.
-
-    ### INPUT
-    Search Report:
+    Context:
+    Drug Name: {{ drug_name }}
+    Disease/Indication: {{ disease_name }}
+    
+    Report:
     {{ search_report }}
 
-    ### EXTRACTION RULES
-    1. Extract ONLY targets explicitly stated in the report.
-    2. Do NOT infer targets.
-    3. Do NOT add URLs.
-    4. Preserve the target name exactly as written.
-    5. Normalize target_type to: SINGLE PROTEIN | PROTEIN COMPLEX | PROTEIN FAMILY | Other
+    Instructions:
+    1. Extract every target core mentioned.
+    2. Use the EXACT JSON keys defined below.
+    
+    JSON Format Example:
+    [
+      {
+        "target_name": "Epidermal Growth Factor Receptor",
+        "gene_symbol": "EGFR",
+        "target_type": "Single Protein",
+        "moa": "Inhibitor",
+        "approval_status": "Approved",
+      }
+    ]
 
-    ### OUTPUT
-    Return JSON array of DrugTargetCore objects only.
-  "#
+    Output JSON:
+"#
 }

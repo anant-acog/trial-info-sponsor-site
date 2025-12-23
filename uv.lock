@@ -772,14 +772,14 @@ dependencies = [
 
 [package.metadata]
 requires-dist = [
-    { name = "aiohttp", specifier = ">=3.13.2" },
-    { name = "baml-py", specifier = ">=0.214.0" },
-    { name = "beautifulsoup4", specifier = ">=4.14.3" },
-    { name = "cloudscraper", specifier = ">=1.2.71" },
-    { name = "google-genai", specifier = ">=1.53.0" },
-    { name = "playwright", specifier = ">=1.56.0" },
-    { name = "python-dotenv", specifier = ">=1.2.1" },
-    { name = "urllib3", specifier = ">=2.6.0" },
+    { name = "aiohttp", specifier = "==3.13.2" },
+    { name = "baml-py", specifier = "==0.214.0" },
+    { name = "beautifulsoup4", specifier = "==4.14.3" },
+    { name = "cloudscraper", specifier = "==1.2.71" },
+    { name = "google-genai", specifier = "==1.53.0" },
+    { name = "playwright", specifier = "==1.56.0" },
+    { name = "python-dotenv", specifier = "==1.2.1" },
+    { name = "urllib3", specifier = "==2.6.0" },
 ]
 
 [[package]]

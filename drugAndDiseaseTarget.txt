@@ -1,0 +1,137 @@
+[
+  {
+    'drug_name': 'CRD-4730',
+    'disease_name': 'Cardiovascular diseases',
+    'target_name': 'Calcium/Calmodulin-dependent protein kinase type II',
+    'target_type': 'Protein Family',
+    'approval_status': 'Not Approved',
+    'gene_symbol': 'CAMK2A, CAMK2B, CAMK2G, CAMK2D',
+    'moa': 'Inhibitor',
+    'evidence_urls': [
+      'https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEMSyEtVCx84kCzU8bOvDQvwnMd4KBrHjDjbju4eF3SNy-Oq4Yr49ja5TUSxHehb-57ZNAuwLkBaY8GkGNS4YtSiTOaPOSF-GgkGObje8GVss7FKZumBkz3UgCzSr3poFH9Plq8toBcFK-w-0SD3jypSzoHt1bUMZ98UX6FrMNn9zs2q8m3f0LKt8teKMBxpXS2CXvsxId4Uku2K4_4Vy15oqIJMKhO2Iyf',
+      'https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHJ9iCRvRITib-VWNjKE7tO85tsO6T3gQkskGj6eo3eGR8W9zNGSJfeUu8ylIKn4VPdBxmvtvEh4E0SWfinEb-mcVRq9TejQkpV5rZ4RzHI4ZNF11kDbxsxmd4INJhMxGD7U0-2QORKsnDIX2g=',
+      'https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHmg0pC0RKvaP31TOgSyjTjIJEKTSNQmGuPmyAWhj7zNdy_tdqEQ0dd4ufRh0PxFIOeIUJjHGH6y5RVtRCoNGoTkB9f-HaDNvvTlsG5wrSuyimQECUtRE4-krK1TTPHXmagBua_AR7GXqryKO6aLIyuyHREFyYWtEYBkmdL9HTNKGT6Shg1pZ37xbhUYFnv27jaAmpRXFY9vRwM5vDKmlvfFHcmVwQna8Uhc0BjE1FGZqkxpSpjTIx1w2v4BPHu5EQoJB13RHYB9Z0PZwIQZit0fz253JY=',
+      'https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEHWNrgWXb3QpgTjAKefC92hdLiayyve73VpIMEdyMbLMJjNnx0CKgao6zWHeZq6mKvpILJRE6XL12VAGRfqlDW-2bbv8-3M-QhEp2rL5AblSUS1LzEuFv8xYgZqdI9XQEJZkrCNFjfJAhD2G0=',
+      'https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGVX4W9qu8z98TcfgdtRMNFrCzn1sTDlCOUH-H-PNiFgIYoYitLG81D_m8OSlhuhN9rSTTU-1Uf50Kqo1oAN2EtIVO2ih_Kh0-RCtViKqTtxIQA0xAqtWPtwyepkSIiDTK6IMpyRUbw',
+      'https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEUonZ03hVwG8eqdHMFjhAW83RfcZeuGWxNED9HDyfsUt72JESPAS6zkRtA_N4TtmnUqnj7ls-Bs6HjDhhE5oiMO3gg3UzT23Zdn4U5NsZhmpVaRm4oDlG4z2XC0szEwKQd3Ez6lCqOYps7Tz9RkLDxV2ILfnWqOtxFsp9LsKUl1sakKTZ70epBWafWXtck9aZp919fa5OvqKMVOhtNFRYTCQPTFS-EUaeu7ZE368xCZN8z9ZL-a9s1MQ==',
+      'https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFwgAsnVpbr0ExY220YZXnTmBG9GzM1ttyTSiom13EWw--pNe7iqsUFNi0Y30D7OIo3VQS9Op73PiJGwUsz2nwyBqaDHhsDdLDzdSkLni3Kx0zzqLQ9_GC4tKr7TXe41GCcgyDxS_Oj4fFPdXoP0oAYBS0vnutzAd2XtaW8ivuWotj_7XvwKdumIK39aZmyVU-ijwF1HopMq1p3uSIsf1EhltS_vZv6zxzUMLA77oqvvi8Hy2hcJ74Tb9geMdOwP2kCAojhCSh2JR0=',
+      'https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEUxyL-y795hS5zYzFKPpKcxrlqcJMlCqwJIcsR4lP9JF_ta-wGfVB_vHfBY7tnQR4N9fSixa_ljrH0vk7Nkn2kvALnN_CryhWGspNZ-wH6_76Aei8IbPS5mDRH8MkZFgXqbvY=',
+      'https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGevT9bCBVDv-Cu-nCZagLkd5FtgH652ZrEhcCbsUZQFO4UicA-RL4iiT_QrClPy6YW9q388Lr2f7BRn1huSRI_4HeTOrQep5o1WMu4q8S8P5IT7XHVu4Dex8IQ1qU=',
+      'https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHdzH80b4wc0AYxvEJM8XDBjlmHb7hw0j0j4EESIJ3_xhOzYhZVLnDKPe4SeHi-MohLZbzKRvd3SWCWx5zUwmBJ7BvL4RqbAEh9C88Gug9Qvvd5ZAZ-uTg-A6RX-CyZ0KlSl0d63A0kplvUe2eT5GljJ30_5wNUZHrTcJDIA6yz',
+      'https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHVP9F18hb2fyShxkL4go3OY6j0-Y6j9NC4wHPpMAsh2ecSs3m8yqpgVv9MKkaDOa94EtfqS0kzYWUrM9Z9vK5OBBIwfw33VVFS2jVDjxKu4AAIqtVzRNHBqTW-fju_5B8lDh99J0MBK3_uBInGnnrzIPoZiGOEClWoKQ==',
+      'https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFYXM6mzNFOsGzyHm6SI0djqRjCwAcKBQ-CoR14V_bkbb_walTv1Snp9t9iNKi-EcKdbELBsC7JJ4Y6Q0AVicmI6hSHwW65X9Gvf2GGCje5HzHXWsJoLhNp0bV-0VpxbbiY5vje22Z9OvGc'
+    ]
+  },
+  {
+    'drug_name': 'CRD-4730',
+    'disease_name': 'Cardiovascular diseases',
+    'target_name': 'Calcium/Calmodulin-dependent Protein Kinase II',
+    'target_type': 'Protein Family',
+    'approval_status': 'Not Approved',
+    'gene_symbol': 'CAMK2D',
+    'moa': 'Inhibitor',
+    'evidence_urls': [
+      'https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFxoUdpWF53AAfIXowrVV1OwhGxClTur0ZXXyeEMu42XNbQWN21u8vC7i1GQ-ZDBCj6lrMZqLMMixjyR_m4vdggntZt0sypP-gSQFL75lduYmYnNundNQlm8PqGnzztXqdGrd9AG0S51jJE',
+      'https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHOe9xVKzQO5IB1FnUiiuggyAmtK2GpF2WyG9TLdM9scrn7cQgiF34z8gHe1_6uxHJw50gIUhBMJzzV_oh_atrKDu9ClOwAPpvsDNFR5bdnAN93t40l60pncrEdwlfuKh0ojWSG_9e7xBXnUtQZk2friso4h4NWtoLUUMGL9-R45wc9gUW7CusAluodP9ptPMbbzfWe8nDo9C7SGrsy2w1Dumdcojs4ZpQ_w4EaSFg4cH4VoCwh5GoxY3HFohiuXueh6jE4VjBXu84qqUrp__3NbLYLzZ4=',
+      'https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGRLuO3p4_MsjOxkGVTsDYcxpPM9MrtzQvwRRPOFxpVySRB6KA86WAE9nK9EqQJnqJsYOZkvlD323r4ODTTtUayflcU68uqJ71BRr7JPqsQ67fZaX4e48KxYHZAsM1Pz4oylVTLaXBr6MtDm6zUerhDSbmM4CI--OrlJl-a',
+      'https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHrZqrLJFcK75cYXq9idPC4c-caN9uXcIDjKmIQfc1NW3Pk8JUrkKss4XGr5NUqhb3kBGU3-_fjQCA_Y4C3UZlCE0-8ythY4t69tw_NffVWd-HfWCzTEtbTAwejkrzZrfGD0pkj3tJsZpia_55slwgoTh9dHyLTS-1i1PhtefmRjV0z6ebUhW7mrzC2G9YgRsQMdcCtDUYmG7SNtV-IayDdd6PH4aXupJC3ubRjm2sgjRFn1XYGBf2gR8aTNGa7r79axG3obPxVCwI='
+    ]
+  },
+  {
+    'drug_name': 'CRD-4730',
+    'disease_name': 'Cardiovascular diseases',
+    'target_name': 'Calcium/Calmodulin-dependent protein kinase type II',
+    'target_type': 'Protein Family',
+    'approval_status': 'Not Approved',
+    'gene_symbol': 'CAMK2A, CAMK2B, CAMK2D, CAMK2G',
+    'moa': 'Inhibitor',
+    'evidence_urls': [
+      'https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGbYKtHXltXBEkJykH6rw-YSpA_9eg7RSyFnNuJMx3PjDuOQqtJkE8pbS8WIIsihOgH4VPJEHBv9V2Ef2_HASJ_rcnaEophS57gLbpLjZs_Qm1QbBwleFaYS5cOt-sNp0Od4WyLp0pAsQ==',
+      'https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGCp5Ka9N6JiC1QvxNYnB-BwET33nIihnXr0vsgUl22J7N3K2fDtkRQotGv2DYcWSCLQWHtxCGgNYZLjiQJbmAcrOuJxFayWC18U55OjQjajB4kqQUNZifdhYQq29JFaHxL01NFPW5Cp4V6l8k6ZZeKabw3CK2BeEF5r5YiqqYiQHCcJHHULhsLl9Fdi7vfL47qEQ==',
+      'https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEMd_FXXELce9vkeELzJhgKjLvkKzgQAyCcQlnRQuvN72W9jVSyyPPstx-6PTQ-1OVlK675t2RFR2fwOCC4InzCPg_L4oIxA7uZlc2f-aEpXe5W7XQl6Nd0d_x9EveS',
+      'https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGu9R52PwE9_DqanVNiWymcKBTGcsIqEoUZ3xrGaOpZDNL2RMVjt-QEbtC9bIHvAKE70tDvuASaUsmosHdTMBF3DXjLUgrTvFSvh0u5Y8AkrOX1Xo34GyuEw4iQmtMqYU0U_hnqUFdR',
+      'https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGjrNuXnIoqyjuOOJVefeYoOE6Y-oLB47jrmuMEuADBXKizlHB0upOQ8EqMk_cHTCZ6AHmU2NhQ5b_9PHI5QJGgZCdvFljNlrf8BOlR8h8MsvYS6JYYLpCGpoSbOJ4FH07vaq1Td88SULle4mc3q0Y0qGV71h4-_J_jCw==',
+      'https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFFQy1B5WhU0xDuKdUpiuKQcn6CsaXXwUFsq9989H1_-5qcSUja8Ov7HZOfMYLAcMADlSsNrU5L9owwK4-2uFiIYup1l2ahQvu_rGtVT450LXStnF5DT13CB_PAn8gyhtwBlRwuOfe4n4gm',
+      'https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFC5YMnYZ3oMxkxaSKhaAnMWZqUmfMkRol3gE9zd9IWrdH6RijMBGJ6sw92dHvbpgUGr1WCJIi_dIXuz_m-zoEFhRZ5l6iyJ7Aldk7h-7zA1W1IzbBXiqkNzyy5tyDR',
+      'https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH92c7D7B0yc5a7C-iQ3_d0Em2q9oLeArCjEiaGun1FmJTtrjefIVSa6Pdy0O9_NlNBlgRiHN2Q2jE1PgrI3zQ621BEMoFD16j4gXTWgDRpV1NH3lqzUZ5VtM78tpOJM7jb1s207PxC_JcJ3tAOOzTl968vVwt8CSYCqnuk-K9P3lhDAXFrGCCobmqZG9ZTWJA3Twq1ev7uaQiyJAq8fnAQXmsUBJ1MUipu',
+      'https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGFabtufV88NhrvSAzK7mFV4dqWXlo8v7aWYft5h-NirYoE9yK-Pc0xKtx9lnzkRlyv6jVdsQ9SaGoA6rsZsFxNJpt7XyQaets0NXNrh2gFDaUFJBPMHVu_AiyS6vjjpYrJnjJvQuVreB_-HbKN8C61h6W-kKXd4xquhR3XjEfAA_dQSRNBbsuEgRmM7TMaMbA4wWGsgDTAPnuti2zcDXNP1klXiVrC9l2O2FiVppnCutVNi15B695a1v0e48xl-Yf49qtgG9OAfDDgOwqmdfcUOGP7T1o=',
+      'https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG8b1BtwWp_hZDI3_r-jNfr6Qh9ivC1AzurCZNS5xpH5YlYsbYfTtt1emdb0X2KSnmHMLGXSzcDBc5UdO7zavBTgdE83SK378suwFO9YkMG5CzGNPRxuyyaKg8B00PKKZnMhCWU8Y3z1xHJeAXhzc7mRa7-wX4XQCgZQyC3qRyVoQX9Lf01K4fmeYc9',
+      'https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGgbn_gH3l72vZosyijxGtOrjLC9rbzfvIcWknipXm-Ovd9HfKjtrTMxLwhWV_tta5pEtL-CbeCoFV99w430s8jQk58ApnnMskhdDXNs_2HcHM_zEsyay9bhMkuUPRS4Yq1G43LEQ6H82aolgszYfn5NrkxsmFTpZGQPlSfVBcJ6-Jiadd8BQs_MYL-FJoAUJXLBZBmQUVjMSw=',
+      'https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG0TTWdBZyxSlgfhMy21X0ZP2xpLXhHoA0AWgrW5gWX9XhEvj7PnGtfy-1lGBCOEkW1HELUeV795D8cGpqEA8_xf_z_Ao8sg6iXf1ExinpJyZkHi4zBOZdHhT_8tOlz712iFzcwmMKdpwqMhcgs7RpXvQc5LZQDJTFcw4E=',
+      'https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGdE2UvcG9d1xNuWRBY8V5Ap3Qv_wzv1hgEQic0An6k0hba2-yJ3mhaK2Wj2BcU9B5z81bX2sN992Vs84h0a48OIzqU02C1tv7G7bE4GctjtYl5awn5rwQBjGtnVvV1',
+      'https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGjPe8uZcp3tvuRrBOKBF02lkVJMpyL_XU4nlu5ep0fQ5ZA59Bo8p5cHBt4xzYQ1ci3sBneGMdW8CgREZJQrmg5NxrV3_bMnAhlHOs4dmgMnoGdwkUv1OHD_0h09JP7h2B_HbYD6B7boZgr5EgAdUhXDxRAtQUqsR8GuGAl',
+      'https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFEtGOhMYk8LvvxN4eR_mosydQhdsd9hAjtTg9nIZGybtx9Mrdk0hgugjLBOSAL4PPj8jTYnvGy4oDnJcA9dvLqgnhHYXyP8FnLN8dmVl0NN6vch7Bt9wEI-pDHDCAH1MzJWVfIHm52gQ=='
+    ]
+  },
+  {
+    'drug_name': 'RIOCIGUAT',
+    'disease_name': 'pulmonary arterial hypertension',
+    'target_name': 'Soluble guanylate cyclase',
+    'target_type': 'Protein Complex',
+    'approval_status': 'Approved',
+    'gene_symbol': 'GUCY1A1; GUCY1B1',
+    'moa': 'Riociguat is a soluble guanylate cyclase (sGC) stimulator that directly stimulates sGC in a nitric oxide (NO)-independent manner and also sensitizes sGC to endogenous NO, leading to increased cyclic guanosine monophosphate (cGMP) generation, which results in vasorelaxation and antiproliferative effects.',
+    'evidence_urls': [
+      'https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGloIJctGJjaimRQwRpStXkC3V8TxtxJMNibYP5thgUHNpIGtWwOGGGDuDxDs0MvXWdWdlNZraAPL460EojDa4cLUXGOApMy8ZB2rfN-iAVda4BT335kYjgN-cmkAq54amR0WmrlXoDv4o=',
+      'https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQExHc_cJelYFYFqbACVEsV50rFF3Mjr8hKZ70uHoXPtEDCag6IoywC1WZWba-_sj4l8tjqrHQhs2z6hG8mcyua9h7qUUJA7S8F_LfUpJHZUvnfHtz7j0DAWxAEKtLPsRHYwMxdiHvMcKULbGK0oKLV98HR5r68Hb1uifhUzIfipWdfFK0Ia1qeZ3YPL9Gk=',
+      'https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE0n_cPenV3Hm6bS6LpCP-oHqkiL3UThV0GnghNR5FNHxR25SVwq902LNyO_A1vmq9ozoCnua5SPN-q3qSziHi4qzpt1La734tx4jmPhsGkSRcZYk9ezxpUFmv639l0ple-l_3oMyQ=',
+      'https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF5J9AtOx_zVoNyFGBFLS3BTkGJ6KMgudhTGa_lN_jdbl8OZ0aqKkbTY7xgVxrAGHwlmg9X9C_zWdEm0o21I0mrs9fjeJoJMCloQT9QyV4bzV2xlhhm25_YGpImkEfgy92rCCurMNMpw9vTcXxfhBEqlQ==',
+      'https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGDhOVZDIDtYZtuNu1yvbhvS0-U2hvUqRVKMCQHHkWjWrTaFm9zlMAN6zSmYgY1usY3JN58Lmno9LxREws9en_6vSAyvoRfuQe2ZYPWPW-5xAK3nVQRtlTQHxCgNE1UjPgL-W2S5vDDm21_QHlhnM4=',
+      'https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEQYuEMSGRxnDYpBpBqi-VkVj3cid4L0qQiyDt3X2S4W0KIpCtv6Y-T49e17yWBHN8Q0rmhgXa--JBzytXiIUiPweP4bertSKvBnYATEVOeYIBZWsROiaE4s-DESZCPb7E0mJAaSwMJqRc5wPuwjU9EYdFPCZzPZsBdXrqVZ6k4jFPTpfMKVrS4aCipY_mWdAWqAD-n',
+      'https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHqAsivjQsqA44HBekyQvpyEFMBSwkXirfgzHGd4JlxVw8PYcYfqoRIOMjScVl74IuBQbFDmcJ3PUSP0vQGzgPi3JhNJbbn6hMvdIe5f2LA_GPEuSQBaJFS9K7w77K-Z0QmDoBE',
+      'https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH9jNFwvxyih6PguQ2jtL--HLxba2dYqSmtUZW49QyPquqPksLZIX3IENW7vzG6K7tUAErqcaLyiiOs-o_g8E_rSTnELj7LIeWykGYxgTfwbQUKHWc11dw-jtwtg_Z14nEkzysy',
+      'https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHbetNgOAO24OTncKxHqejE5RWpjjveET7jIWvhcM_DFQuo7-CWnkftThvuuCw7rPnUClrtn0B0F9VZVW3_EUduyDNGRfjho07_-hoEPORPHxRkD4mBrntLLmgzDOxBn1v4hXC0-YGF704FImM=',
+      'https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH8--MhADPZkHHtgjVsuhlg_DQien1z8sbsjGaFN9OrZhxg-ZT_NSil03YhbJMd7WOOvJ3AFFDZJocatijjfOR7GuHhhQBWEOzKAuZuzXWVUf1uY7Id_0OCHAL2Hs6wPkohJbSwXMMGzIIiJ_c-55Gj',
+      'https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE0oFoHZ0041rH08JOTFXNRKcewOf-31xooJbILTMfJGbVkKHXjnB--Q5Oyy-7OHhZDHW3SVm_wIq0rFrgdjeWZ8az-NcIKyAftM1u_4Yqn1LqMyIPNhJoiZXMGANwhlz-IzoICSYSK6NoT6OsLTpfKYSXBFO9Cg9apOjkdJL2Ij-_c6rTU7Tyk9E2toZlTxIK4XTLm7lM5AqFoZ-Yd3Slm6RM1JZJxY8pK79PtacZrgP9CCBtmBcMUObK4sUvgnrxHj4mGrDLQTZeIbQQwsadMxmptAWopIdTWz95U5Vp88kAMi4u-d0DVjLYmTH7SHBTTRysgWuUIdjF99HWNC_MAjaDX3Lk6ig8RVE3ZPCxcAPTA6tuMWbwwtYSmlAgESLuDnXfdGfQ=',
+      'https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE04OW8CVAHdIpZKt0Y8oBNv2Ytvnpey_S6xZnLypL-Pz7OXDZKDcreUUz7B1P-szyhfrl0Vey5a3kzDPLbFFaseH3JiFuaqD2FlomtYfh9AUJaW3CJpy_LjJBy6EoEUsC9EW5djo5WYacedVc='
+    ]
+  },
+  {
+    'drug_name': 'RIOCIGUAT',
+    'disease_name': 'pulmonary arterial hypertension',
+    'target_name': 'Soluble guanylate cyclase',
+    'target_type': 'Protein Complex',
+    'approval_status': 'Approved',
+    'gene_symbol': 'GUCY1A1, GUCY1A2, GUCY1B1, GUCY1B3',
+    'moa': 'Riociguat is a soluble guanylate cyclase (sGC) stimulator with a dual mechanism of action. It directly stimulates sGC independently of nitric oxide (NO) and also sensitizes sGC to endogenous NO, leading to increased production of cyclic guanosine monophosphate (cGMP), which results in vasorelaxation and antiproliferative effects.',
+    'evidence_urls': [
+      'https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFbvK1LFiw1eSRSkrjJ0DmqUV7eWW74J-kIK6KFXIm3hMPoMoRZ9z-yN1Nm_B7q4NJHwwwOF6wIJre4V6I_tn1JBu4dHqgr8bhrv6WPmEYP5BQFbOyuamZcunWMXy4N0VPDSCMg',
+      'https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH93BFVjY8h7dnzgPdd2LPjEG_l9LbUdEz-tr1IsUfw7x-IEWLhvx1faZR59LRvK1adRhufwfc9Dr5aPXcff1JTSEexEKcgHVib1TEzndb2WSfFffClmtVyPVKR7LYdMj1D',
+      'https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEPiPHbS1xzbJGFdbUBDa73q6_MA11UUp77OmMToZcx8lgr-2UJrCyRSeSfP1HANvX-YtrrMkLRFfPqgwi25JWxLdC0zZr8DjzxJAvrLnm9ejgum32R6BIvgvD19idHiMHdLmN6vdU=',
+      'https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGaQxOVhNfyUaAamUOKePFnoMdUssFJRXDJZ4MgpDClL4ifg9ZQqCqTqdMFSXIEDP9E2iB1m-xLrO4tVvDOKvnTxZZJSkUhipCL42q3UXBhuvQsWjshOMMCJRbOwbxmUKuWErnRbkvFTeH_Kr8OGDBz0cCG9wYWOk6pU04EuxmYakTiRVmWIa1iR5GIDjcsRL8Zm9k_s17DwrCAXTf4jKLxE1NmAa1hTpwUEKnzzA75JXvSz9ln_msJJXhEHQ==',
+      'https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFiO6NpuFXvq4UQFzqXfyF7jdyvlbqaxDTaRUIMY0bQxxM4ua9ueHIpHRaZFtQsi09Rkq3_324eYYX-sz8qZ0dqeHw31e80WIDcQYk0g6Vt4dAAL8LX08ilCNt-v333gUH9zDmM',
+      'https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHNBKQNC8StmAHpzyKWEzZUeLJWkE515h_GeNYpbRBfy6kkFrrkd-aByW11a8FaujJ6hqyT7JxEYy-0CchN6tUHuUFcz8wKygx3Lt5ox-NTMH2vQ-twWpcri2JyKN1YRyOUPo7b3M4BVf9xsZYuemVzDfd687srg1iAOpyeY4MpNgGeCIt69R1rk9Y_aSXgMXHZwbrBnpmYwgRUbLEkbYENOlxoFcaxt0YD0XNsxvOgrDXnJohD2aBOmujxacXNIpWNZrR_lScak1bGheEVdg==',
+      'https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEA1dBDay_xtYpdBywzogD99v6l3bYBA_Fd6KpL5ol09xaoUjoj9j-6BHt8l4Oc6wlgCEmyGfmvk2IpoX764jMZdTIyeTd7QMGttFq83gs0P6y8NKSS8d0u43SDOf4SAO73kpzT',
+      'https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHgPHxENTpipUzOlkx2J5sD81v5uvtvYwlo5IdssCwz5W-Gvhu6UeYfra7j-A2ykxnMSxMJUAbYeAW7bjPMXj5UKaJUhWGkeqLBefAo7ygyX_LHxmBQ1b4W9gA4kMG3jpFbNEQhD2bnkt5mAXE=',
+      'https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHJySoGq4dgYrQGJTEGPj5RBtSzRr-24Zg6fu0YFirV510i5olHGuvA0YZJ-GXgIGjU-hv71NrR5dqHb7XLaMLdzc0KsVQZg0BguITLnWqrq3Otq4DYA8B1K-6vfvjch5tkxcmh1gnWSbyBoHw=',
+      'https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHLCLleEEXwV6ISlfvfz75oroKJygmYCh10zWhiqaoLCjGM3bmVFJ1NiBnkN9cxBSPgg3tYFod9h8hk2n0UAc2aiKuFTfb6D8ygMX5ovxSRAEuQ8gCJ3C1fgId7ik5kaPzsUdXKDvOOl5fEjImZY7Y-u1bhP7T6o3loJm8W8I0=',
+      'https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEXVhUEOWobeHRXv8fVpy_sa5nOeYjsVvaeK6sbv9g4Km5E92naVl6ln7iWLOu_y0sb6-sYyPfc0t2hg9XHdPMS6rz1TJC4-V3Z9P5Vd5uqCnG6zfp_QBqjDuNqHeI23x7V9_4FCIrjCTDGj-g=',
+      'https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEZHqO9mRHbWDGEEy-9zBbqvFC2mLUO0SzwA4pfQ4pS3gYb9Gnnr6k1uCTXwv4tMYb4BMti8T05jDIH7gP46BzIFXtfnrMRMjhZIgQs2NG9Xd4rFi1El9vkgXmhIKEGgsud8kMTc1L0qMVcIs-7PVKR8YwwqDsJaJReblmnSwmEYrY4HnzwQhuOGslG_Ug=',
+      'https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFazUPOBKwjdzEERmvWy0TaaL2s5WpjAdTlG7CLCs0X_OdaEc2bd3mIdHywwfCq8UbjIClyuEORExKdzPqknqdqsFbLBvBKo-TQE_7-I2b7F_F8uAKRGQyDj8lUFNkGSQ6oNFcf',
+      'https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEwRSInJJdJ4q0NSTii2zjTGZWlK6_DJ2pmPKfQBJjfIa1sTYXL6F7L1svBJGSCgk5_YwQqWL6RaDjGzll3OayBp-DdIwJRzLuq0lQd44wK_Khw0TkVBPlzY5qjhHMjbPkL5oM2BTlZRKXNLu4-7lb0FQ==',
+      'https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGcVAYPsfItg56CzwXBBZyEG4CUj5E3QrkaIZZQlUE3H6nqNVgyQle_w-4VYdahJ0VfwJQED4vbLcfyn8b6T6E67V-yEBOOuHOuQopSMY9FAOJ1jhsBKYN3pR_rKl13jYFT',
+      'https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGBSVsU94AN-tZsN5mRo9WO_Op4Z94JYa14AlbmbbWAulgCIqsSN64349uw-_Ghx--sC0MTjXtjxLBKKXxQQtJ_56HGidu9hAVP7TSQpcLQlheYQQAWIxA1S0oEtBVtW7DvSkIJ9eTPxTyFwKE='
+    ]
+  },
+  {
+    'drug_name': 'RIOCIGUAT',
+    'disease_name': 'pulmonary arterial hypertension',
+    'target_name': 'Soluble guanylate cyclase',
+    'target_type': 'Protein Complex',
+    'approval_status': 'Approved',
+    'gene_symbol': 'GUCY1A1, GUCY1A2, GUCY1B1, GUCY1B2, GUCY1B3',
+    'moa': 'Stimulator, directly stimulates sGC independently of nitric oxide and sensitizes sGC to endogenous nitric oxide',
+    'evidence_urls': [
+      'https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHGzt065Nhs7M1zoWrZyPX9BePWR90Y8EgETc_-1TN5D3b7j3yn5ZnsMkXU6UWOrpiYzFYlOJVvTPoRUqL6awyiMrf6uBkFESayi8VLDDPulpgRD8Mre69hGV1sRazWq9I=',
+      'https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHTBKH3zeiaQ83hNm1ha0lUQKJntGXYwkwSsKfgMTYVEqorfF7_AeVk480gy4oS2r5mkYqN2g-DCck1uqCQ381mKd0re0mfTcosjaCHOvvgHH317LJNjPi-glSUyjKgGb9uLRPTZg==',
+      'https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH6QvmhHTQGDMslG_zBqDzhJ7BxmS0RVr3e6yK4jSD9hSf38z4OK7X14YF2mldx3hX5AyzCk7-4ZVBpUCXhJHA3i-k7Qg9GBRihJekfLlUXKiRAVU3oQroQZRJfJR-1Sd9ZPlUl-iLh-0ru5b8vcos4DvywFENoBiVgrO5CQ2FlpCrkdumL_SWI64Vqgn0yLFpUOq4lP0P50a_4H2wd3mz_jMqELeqBwM11xDiWgf0aAUlWFd_SvneZVGP8kflmsdLFj4pgsjGQxfjrEY-c',
+      'https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG9zCe9vaXcXclXAmZViWJ54LxgoF5ElUWaHk8x3ddltADjkE0BFHcp4C2d3zEY2f4D4SBmvTsZhWktrRFLetBBAXoMEKC8EJKwqfbReQkqYOBGB1oW6LILDlIlXS1t5NPFI216yrDXKVnmTvs3ohuTlac2AJW1gxcCDq6TMmtufA==',
+      'https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGWKw3WVeV43nx2JY89sG5Ifaa8saflSXXnxqqwm-MdCTlzPGGdnIOWRhJ0WrjuJe5FTdRo2dQCfYzVVeohXPiDelR2SKpNkYXe2eB58Bzsei7T7MVuKpTTrDHsY41mtJKYYnJAeLZqHIAYYg==',
+      'https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGEZer6V5nlqYAorgUMDH-2fQEEPSWsEJh2kh_TcLH-GJjsMfJ5t4JIyRiXVG8YtwNzsTE2RvCIlg6FTV53JY2IE_y6mWDgOZf-gBeqvmjtZJHXhN1kTa6q7mD2Tcckv5w=',
+      'https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHF-6A6xnNcfIQNM51rT6Lx-M0WLy_IjHty_mo73OndMajm6H0LnzIsHNf8S9Zl98xdXJKDKaZjZ7a22S-gr9TCoJ4cHT25OjwWhaSVOIxio-yDZC-ElsPB4AuYbnXQSxg3Ihsq2BpNpW-odz4ec4X8n8MBVRsYt45FTjH-LaahM5235sL1Nfpo-0WL5Xv-nL4t_yU=',
+      'https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH8eHvxy6lPgqZ1EmsQYaEeMhz3ouaKa86KGeDQREkbzGsc_aj62cAdeqOznIjlG5w8fXVZmsHq4rIxQK32BoUoV2lrwUERF_lktWIHnlGwcrOSGy04iW4rE00yO2EQjEGFu80GyiY8KuD9Gw==',
+      'https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFj9GvzysceWJppD-LC5afAQk4_vtvyCv8YlTX7zVQS-ZyX2hRSB2DuPHCm0kASvaMie0rLJBeChd34NsgnZwIRvxECFOj9L0tDdh5SHlo2iGtaW5ntm0YOJw5MAyWfzPT1dJx0J0bLuPxl6uXo5RLe',
+      'https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFHyOBMh0cozjO3msXBu9-JRqtgn-7A79vr56EjcFOn9v4-8JRGpE547CiZ5VKVBOgkhMsmmvTnJRk4W0DTHUl_UWWAc6wJleTX5z9AsoieQwcAZNpCEaPk0nz2E5AOqabJ0CUoI8keszCCMUrtyx3uejn8wJoYU23WS8LkBA=='
+    ]
+  }
+]

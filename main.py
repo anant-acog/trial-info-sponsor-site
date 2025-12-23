@@ -19,6 +19,63 @@ client = genai.Client(api_key=os.environ["GOOGLE_API_KEY"])
 
 VALID_STATUS_CODES = set(range(200, 300)) | set(range(300, 400))
 
+
+import dataclasses
+from typing import Any
+
+def to_primitive(obj: Any) -> Any:
+    """
+    Recursively convert objects (Pydantic models, dataclasses, objects with __dict__, lists)
+    into plain Python primitives (dict/list/str/numbers) safe for json.dumps().
+    """
+    # simple primitives
+    if obj is None or isinstance(obj, (str, int, float, bool)):
+        return obj
+
+    # lists / tuples / sets
+    if isinstance(obj, (list, tuple, set)):
+        return [to_primitive(v) for v in obj]
+
+    # dict
+    if isinstance(obj, dict):
+        return {k: to_primitive(v) for k, v in obj.items()}
+
+    # pydantic v2
+    if hasattr(obj, "model_dump") and callable(getattr(obj, "model_dump")):
+        try:
+            dumped = obj.model_dump()
+            return to_primitive(dumped)
+        except Exception:
+            pass
+
+    # pydantic v1 or other objects with dict()
+    if hasattr(obj, "dict") and callable(getattr(obj, "dict")):
+        try:
+            dumped = obj.dict()
+            return to_primitive(dumped)
+        except Exception:
+            pass
+
+    # dataclass
+    try:
+        if dataclasses.is_dataclass(obj):
+            return to_primitive(dataclasses.asdict(obj))
+    except Exception:
+        pass
+
+    # generic object with __dict__
+    if hasattr(obj, "__dict__"):
+        try:
+            return to_primitive(vars(obj))
+        except Exception:
+            pass
+
+    # fallback - convert to string
+    try:
+        return str(obj)
+    except Exception:
+        return None
+
 async def is_url_working(
     session: aiohttp.ClientSession,
     url: str,
@@ -66,11 +123,8 @@ def extract_json_object(text: str) -> dict:
     """
     if not text:
         return {}
-
-    # Strip markdown fences
     text = re.sub(r"```json|```", "", text, flags=re.IGNORECASE).strip()
 
-    # Try direct parse
     try:
         return json.loads(text)
     except json.JSONDecodeError:
@@ -262,8 +316,7 @@ Do not provide an intro or outro. Output **only** the raw JSON list. Begin the s
         print(f"Found grounding URLs ({len(grounding_urls)}):")
         for u in grounding_urls:
             print("  -", u)
-    else:
-        print(f"No grounding URLs found for {company}")
+    
     
     print(f"Structuring data for {company}...")
 
@@ -296,14 +349,10 @@ Do not provide an intro or outro. Output **only** the raw JSON list. Begin the s
 
     enriched = []
     for item in pipeline_data:
-        try:
-            item_dict = item.model_dump()
-        except Exception:
-            try:
-                item_dict = dict(item)
-            except Exception:
-                item_dict = {}
+        # convert model/object to plain primitives
+        item_dict = to_primitive(item)
 
+        # ensure fields exist so we can merge URLs safely
         existing = item_dict.get("source_url", None)
         merged_urls = []
 
@@ -313,63 +362,70 @@ Do not provide an intro or outro. Output **only** the raw JSON list. Begin the s
             elif isinstance(existing, str):
                 merged_urls.append(existing)
 
+        # add grounding urls (they're strings)
         for u in grounding_urls:
             if u not in merged_urls:
                 merged_urls.append(u)
 
+        # validate/keep only working URLs
         final_source = await filter_working_urls(merged_urls)
 
-        try:
-            if hasattr(item, "source_url"):
-                try:
-                    setattr(item, "source_url", final_source)
-                    enriched.append(item)
-                    continue
-                except Exception:
-                    pass
+        # set final source list (always a list)
+        item_dict["source_url"] = final_source
 
-            item_dict["source_url"] = final_source
-            enriched.append(item_dict)
-        except Exception:
-            minimal = {
-                "sponsor_name": item_dict.get("sponsor_name", company),
-                "candidate_name": item_dict.get("candidate_name", None),
-                "disease_indication": item_dict.get("disease_indication", []),
-                "development_phase": item_dict.get("development_phase", None),
-                "moa": item_dict.get("moa", None),
-                "route_of_admin": item_dict.get("route_of_admin", None),
-                "status": item_dict.get("status", "Active"),
-                "source_url": final_source
-            }
-            enriched.append(minimal)
+        # canonicalize other fields if needed (optional)
+        # e.g., ensure development_phase is a string, status default
+        if "status" not in item_dict or item_dict.get("status") is None:
+            item_dict["status"] = "Active"
+
+        enriched.append(item_dict)
 
     return enriched
 
-async def get_search_report_for_drug(drug_name: str, run_id: int) -> Dict:
-    print(f"\nRun {run_id + 1}: Generating search report for {drug_name}")
+async def get_search_report_for_drug(drug_name: str, disease_name: str, run_id: int) -> Dict:
+    print(f"\nRun {run_id + 1}: Generating search report for {drug_name} in the context of {disease_name}")
 
     prompt = f"""
-You are a Senior Drug Discovery Intelligence Analyst.
+Role & Objective
+You are assisting a Senior Drug Discovery Intelligence Analyst. Generate a STRICTLY STRUCTURED JSON report identifying the molecular target(s) of the drug "{drug_name}" in the context of {disease_name}.
+The report must include:
+Target name(s)
+Corresponding human gene symbol(s)
+Mechanism of action (MoA)
+Regulatory approval status of the drug for the specified disease
 
-Objective:
-Your goal is to generate a STRICTLY STRUCTURED JSON report and provide the target name and the corresponding gene symbol for the drug "{drug_name}".Prioritize data from peer-reviewed literature followed by databases search like ChEMBL, DrugBank, and UniProt. If no information is available about the drug's target from literature or any of the sources listed above, explicitly state it to be "Unknown"
+Data Source Hierarchy (in order of priority)
+Peer-reviewed scientific literature
+ChEMBL
+DrugBank/UniProt
+If no explicit molecular target is reported in any of the above sources, the target must be explicitly reported as "Unknown".
 
-Rules:
-- Include ONLY explicitly named molecular targets
-- Restrict results to human (Homo sapiens) targets.
-- Each target MUST include evidence_urls (public sources)
-- Do NOT infer or speculate
-- Return JSON ONLY (no prose)
+Strict Rules
+Include ONLY explicitly named molecular targets
+DO NOT infer, predict, or speculate
+Restrict targets to Homo sapiens
+Each target MUST have at least one publicly accessible evidence URL
+Report only molecular-level targets (no pathways, phenotypes, or biomarkers)
+Return JSON ONLY (no explanations, no markdown, no prose)
+
+Field Definitions
+target_name: Official protein/complex/miRNA name
+gene_symbol: Standard HGNC gene symbol
+target_type: One of SINGLE PROTEIN or PROTEIN COMPLEX or PROTEIN FAMILY or miRNA or Other 
+moa: Mechanism of action (e.g., inhibitor, antagonist, agonist, etc)
+approval_status: Regulatory approval status (FDA/EMA/etc.) of the drug only for the specified disease
 
 JSON schema:
 {{
   "drug_name": "{drug_name}",
+  "disease_name": "{disease_name}"
   "molecular_targets": [
     {{
       "target_name": "string",
-      "Gene symbol" : "string",
-      "target_type": "SINGLE PROTEIN | PROTEIN COMPLEX | PROTEIN FAMILY | Other",
-      "action": "Agonist | Antagonist | Inhibitor | Modulator | Binder | Other",
+      "gene_symbol" : "string",
+      "target_type": "SINGLE PROTEIN | PROTEIN COMPLEX | PROTEIN FAMILY | miRNA | Other",
+      "moa": "string",
+      "approval_status": "Approved" | "Not approved", 
       "evidence_urls": ["string"]
     }}
   ]
@@ -393,31 +449,35 @@ JSON schema:
 
     return parsed
 
-def extract_target_cores(search_report: Dict, drug_name: str):
+def extract_target_cores(search_report: Dict, drug_name: str, disease_name: str):
     """
-    BAML extracts ONLY:
+    BAML Extracts:
     - target_name
     - target_type
-    - action
+    - moa
+    - gene_symbol
+    - approval_status
     """
-    return b.ExtractTargetCoresByDrug(
+    return b.ExtractTargetCoresByDrugAndDisease(
         search_report=json.dumps(search_report),
-        drug_name=drug_name
+        drug_name=drug_name,
+        disease_name=disease_name
     )
 
 
 
 async def resolve_targets_for_drug(
     drug_name: str,
+    disease_name: str,
     run_id: int
 ) -> List[Dict]:
 
-    search_report = await get_search_report_for_drug(drug_name, run_id)
+    search_report = await get_search_report_for_drug(drug_name, disease_name, run_id)
     if not search_report:
         return []
 
     target_url_map = build_target_to_urls_map(search_report)
-    target_cores = extract_target_cores(search_report, drug_name)
+    target_cores = extract_target_cores(search_report, drug_name, disease_name)
 
     final_results = []
 
@@ -435,9 +495,12 @@ async def resolve_targets_for_drug(
 
         final_results.append({
             "drug_name": drug_name,
+            "disease_name": disease_name,
             "target_name": core["target_name"],
             "target_type": core["target_type"],
-            "action": core["action"],
+            "approval_status": core["approval_status"],
+            "gene_symbol": core["gene_symbol"],
+            "moa": core["moa"],
             "evidence_urls": urls
         })
 
@@ -445,21 +508,25 @@ async def resolve_targets_for_drug(
 
 async def aggregate_drugs(
     drugs: List[str],
+    diseases: List[str],
     num_runs: int = 3
 ) -> List[Dict]:
 
     all_entries: List[Dict] = []
     seen = set()
 
-    for drug in drugs:
+    for drug, disease in zip(drugs, diseases):
         for run_id in range(num_runs):
-            entries = await resolve_targets_for_drug(drug, run_id)
+            entries = await resolve_targets_for_drug(drug, disease, run_id)
 
             for e in entries:
                 sig = md5_signature(
                     e["drug_name"],
+                    e["disease_name"],
                     e["target_name"],
-                    e["action"]
+                    e["moa"],
+                    e["approval_status"],
+                    e["gene_symbol"]
                 )
 
                 if sig in seen:
@@ -467,22 +534,23 @@ async def aggregate_drugs(
 
                 seen.add(sig)
                 all_entries.append(e)
-
     return all_entries
 
 async def main():
     
-    companies_to_analyze = [""] 
+    companies_to_analyze = ["Mission Therapeutics"]  #Merck Sharp & Dohme LLC Mission Therapeutics
     for company in companies_to_analyze:
         data = await get_pipeline_data(company)
         print("====COMPANIES RESULTS====")
-        print(data)
+        json_text = json.dumps(data, indent=2)
+        print(json_text)
 
-    drugs = ["ACETAMINOPHEN"]
-    for drug in drugs:
-        results = await resolve_targets_for_drug(drug, 0)
-        print("====DRUGS RESULTS====")
-        print(results)
+    drugs = ["CRD-4730", "RIOCIGUAT"]
+    diseases = ["Cardiovascular diseases","pulmonary arterial hypertension"]
+    print("========DRUG & DISEASE TO TARGET RESULTS========")
+    data = await aggregate_drugs(drugs, diseases)
+    json_text = json.dumps(data, indent=2)
+    print(json_text)
 
 if __name__ == "__main__":
     asyncio.run(main())
