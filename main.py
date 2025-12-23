@@ -28,19 +28,15 @@ def to_primitive(obj: Any) -> Any:
     Recursively convert objects (Pydantic models, dataclasses, objects with __dict__, lists)
     into plain Python primitives (dict/list/str/numbers) safe for json.dumps().
     """
-    # simple primitives
     if obj is None or isinstance(obj, (str, int, float, bool)):
         return obj
 
-    # lists / tuples / sets
     if isinstance(obj, (list, tuple, set)):
         return [to_primitive(v) for v in obj]
 
-    # dict
     if isinstance(obj, dict):
         return {k: to_primitive(v) for k, v in obj.items()}
 
-    # pydantic v2
     if hasattr(obj, "model_dump") and callable(getattr(obj, "model_dump")):
         try:
             dumped = obj.model_dump()
@@ -48,7 +44,6 @@ def to_primitive(obj: Any) -> Any:
         except Exception:
             pass
 
-    # pydantic v1 or other objects with dict()
     if hasattr(obj, "dict") and callable(getattr(obj, "dict")):
         try:
             dumped = obj.dict()
@@ -56,21 +51,18 @@ def to_primitive(obj: Any) -> Any:
         except Exception:
             pass
 
-    # dataclass
     try:
         if dataclasses.is_dataclass(obj):
             return to_primitive(dataclasses.asdict(obj))
     except Exception:
         pass
 
-    # generic object with __dict__
     if hasattr(obj, "__dict__"):
         try:
             return to_primitive(vars(obj))
         except Exception:
             pass
 
-    # fallback - convert to string
     try:
         return str(obj)
     except Exception:
@@ -130,7 +122,6 @@ def extract_json_object(text: str) -> dict:
     except json.JSONDecodeError:
         pass
 
-    # Fallback: extract first {...} block
     match = re.search(r"\{[\s\S]*\}", text)
     if not match:
         return {}
@@ -349,10 +340,8 @@ Do not provide an intro or outro. Output **only** the raw JSON list. Begin the s
 
     enriched = []
     for item in pipeline_data:
-        # convert model/object to plain primitives
         item_dict = to_primitive(item)
 
-        # ensure fields exist so we can merge URLs safely
         existing = item_dict.get("source_url", None)
         merged_urls = []
 
@@ -362,19 +351,14 @@ Do not provide an intro or outro. Output **only** the raw JSON list. Begin the s
             elif isinstance(existing, str):
                 merged_urls.append(existing)
 
-        # add grounding urls (they're strings)
         for u in grounding_urls:
             if u not in merged_urls:
                 merged_urls.append(u)
 
-        # validate/keep only working URLs
         final_source = await filter_working_urls(merged_urls)
 
-        # set final source list (always a list)
         item_dict["source_url"] = final_source
 
-        # canonicalize other fields if needed (optional)
-        # e.g., ensure development_phase is a string, status default
         if "status" not in item_dict or item_dict.get("status") is None:
             item_dict["status"] = "Active"
 
