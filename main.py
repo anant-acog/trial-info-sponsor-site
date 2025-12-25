@@ -104,9 +104,6 @@ async def filter_working_urls(urls: List[str]) -> List[str]:
         if ok is True
     ]
 
-def md5_signature(*parts: str) -> str:
-    joined = "||".join(p.lower().strip() for p in parts if p)
-    return hashlib.md5(joined.encode()).hexdigest()
 
 def extract_json_object(text: str) -> dict:
     """
@@ -130,6 +127,32 @@ def extract_json_object(text: str) -> dict:
         return json.loads(match.group(0))
     except json.JSONDecodeError:
         return {}
+
+def canonical_target_key(e: Dict) -> Tuple:
+    return (
+        e["drug_name"].lower().strip(),
+        e["disease_name"].lower().strip(),
+        e["target_type"],
+        e["approval_status"],
+    )
+
+def normalize_gene_symbols(gene_symbol: str) -> set[str]:
+    if not gene_symbol:
+        return set()
+    return {
+        g.strip().upper()
+        for g in gene_symbol.split(",")
+        if g.strip()
+    }
+
+def gene_overlap(a: set[str], b: set[str]) -> bool:
+    return bool(a & b)
+
+
+def choose_canonical_target_name(names: set[str]) -> str:
+    # heuristic: shorter name = more general
+    return min(names, key=len)
+
 
 
 def build_target_to_urls_map(search_report: Dict) -> Dict[str, List[str]]:
@@ -393,7 +416,7 @@ Report only molecular-level targets (no pathways, phenotypes, or biomarkers)
 Return JSON ONLY (no explanations, no markdown, no prose)
 
 Field Definitions
-target_name: Official protein/complex/miRNA name
+target_name: Official protein/complex/miRNA standard HGNC gene name
 gene_symbol: Standard HGNC gene symbol
 target_type: One of SINGLE PROTEIN or PROTEIN COMPLEX or PROTEIN FAMILY or miRNA or Other 
 moa: Mechanism of action (e.g., inhibitor, antagonist, agonist, etc)
@@ -496,41 +519,78 @@ async def aggregate_drugs(
     num_runs: int = 3
 ) -> List[Dict]:
 
-    all_entries: List[Dict] = []
-    seen = set()
+    # bucket_key -> list of target records
+    merged: Dict[Tuple, List[Dict]] = {}
 
     for drug, disease in zip(drugs, diseases):
         for run_id in range(num_runs):
             entries = await resolve_targets_for_drug(drug, disease, run_id)
 
             for e in entries:
-                sig = md5_signature(
-                    e["drug_name"],
-                    e["disease_name"],
-                    e["target_name"],
-                    e["moa"],
-                    e["approval_status"],
-                    e["gene_symbol"]
-                )
+                bucket_key = canonical_target_key(e)
+                incoming_genes = normalize_gene_symbols(e["gene_symbol"])
 
-                if sig in seen:
-                    continue
+                if bucket_key not in merged:
+                    merged[bucket_key] = []
 
-                seen.add(sig)
-                all_entries.append(e)
-    return all_entries
+                placed = False
+
+                # 🔑 gene-aware merge
+                for record in merged[bucket_key]:
+                    if gene_overlap(record["gene_symbols"], incoming_genes):
+                        record["gene_symbols"].update(incoming_genes)
+                        record["evidence_urls"].update(e["evidence_urls"])
+                        record["specific_target_names"].add(e["target_name"])
+                        record["specific_moas"].add(e["moa"])
+                        placed = True
+                        break
+
+                # ➕ new biological target
+                if not placed:
+                    merged[bucket_key].append({
+                        "drug_name": e["drug_name"],
+                        "disease_name": e["disease_name"],
+                        "target_type": e["target_type"],
+                        "approval_status": e["approval_status"],
+                        "gene_symbols": incoming_genes,
+                        "evidence_urls": set(e["evidence_urls"]),
+                        "specific_target_names": {e["target_name"]},
+                        "specific_moas": {e["moa"]},
+                    })
+
+    # ---------- FINALIZATION ----------
+    final_results = []
+
+    for bucket in merged.values():
+        for record in bucket:
+            final_results.append({
+                "drug_name": record["drug_name"],
+                "disease_name": record["disease_name"],
+                "target_name": choose_canonical_target_name(
+                    record["specific_target_names"]
+                ),
+                "target_type": record["target_type"],
+                "approval_status": record["approval_status"],
+                "gene_symbol": ", ".join(sorted(record["gene_symbols"])),
+                "moa": "; ".join(sorted(record["specific_moas"])),
+                "evidence_urls": sorted(record["evidence_urls"]),
+            })
+
+    return final_results
+
+
 
 async def main():
     
-    companies_to_analyze = ["Mission Therapeutics"]  #Merck Sharp & Dohme LLC Mission Therapeutics
+    companies_to_analyze = [""]  #Merck Sharp & Dohme LLC Mission Therapeutics
     for company in companies_to_analyze:
         data = await get_pipeline_data(company)
         print("====COMPANIES RESULTS====")
         json_text = json.dumps(data, indent=2)
         print(json_text)
 
-    drugs = ["CRD-4730", "RIOCIGUAT"]
-    diseases = ["Cardiovascular diseases","pulmonary arterial hypertension"]
+    drugs = ["CRD-4730", "RIOCIGUAT"] # "RIOCIGUAT"
+    diseases = ["Cardiovascular diseases", "pulmonary arterial hypertension"] # "pulmonary arterial hypertension"
     print("========DRUG & DISEASE TO TARGET RESULTS========")
     data = await aggregate_drugs(drugs, diseases)
     json_text = json.dumps(data, indent=2)
