@@ -150,7 +150,6 @@ def gene_overlap(a: set[str], b: set[str]) -> bool:
 
 
 def choose_canonical_target_name(names: set[str]) -> str:
-    # heuristic: shorter name = more general
     return min(names, key=len)
 
 
@@ -519,7 +518,6 @@ async def aggregate_drugs(
     num_runs: int = 3
 ) -> List[Dict]:
 
-    # bucket_key -> list of target records
     merged: Dict[Tuple, List[Dict]] = {}
 
     for drug, disease in zip(drugs, diseases):
@@ -535,7 +533,6 @@ async def aggregate_drugs(
 
                 placed = False
 
-                # 🔑 gene-aware merge
                 for record in merged[bucket_key]:
                     if gene_overlap(record["gene_symbols"], incoming_genes):
                         record["gene_symbols"].update(incoming_genes)
@@ -545,7 +542,6 @@ async def aggregate_drugs(
                         placed = True
                         break
 
-                # ➕ new biological target
                 if not placed:
                     merged[bucket_key].append({
                         "drug_name": e["drug_name"],
@@ -589,8 +585,8 @@ async def main():
         json_text = json.dumps(data, indent=2)
         print(json_text)
 
-    drugs = ["CRD-4730", "RIOCIGUAT"] # "RIOCIGUAT"
-    diseases = ["Cardiovascular diseases", "pulmonary arterial hypertension"] # "pulmonary arterial hypertension"
+    drugs = ["Exenatide", "Lixisenatide"] # "RIOCIGUAT" "CRD-4730"
+    diseases = ["Type 2 Diabetes Mellitus", "Type 2 Diabetes Mellitus"] # "pulmonary arterial hypertension" "Cardiovascular diseases"
     print("========DRUG & DISEASE TO TARGET RESULTS========")
     data = await aggregate_drugs(drugs, diseases)
     json_text = json.dumps(data, indent=2)
